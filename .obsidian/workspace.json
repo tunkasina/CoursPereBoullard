@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test654654/zkkazehga.md",
+                "file": "Cours Apache/A faire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zkkazehga"
+              "title": "A faire"
             }
           }
         ]
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,9 +180,12 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
-    "README.md",
     "test654654/zkkazehga.md",
-    "test654654",
-    "test test.md"
+    "Cours Apache/A faire.md",
+    "Cours Apache/index.md",
+    "Cours Apache",
+    "README.md",
+    "test test.md",
+    "test654654"
   ]
 }
