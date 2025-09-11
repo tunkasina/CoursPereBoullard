@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Obsidian and Git.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian and Git"
+              "title": "README"
             }
           }
         ]
@@ -180,11 +180,12 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
-    "README.md",
-    "Obsidian/Obsidian and Git.md",
-    "test test.md",
     "Cours Apache/A faire.md",
+    "test test.md",
     "Cours Apache/index.md",
+    "Obsidian/Obsidian and Git.md",
+    "Git",
+    "README.md",
     "Cours Apache",
     "Obsidian"
   ]
