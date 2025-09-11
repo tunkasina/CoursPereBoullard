@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours Apache/A faire.md",
+                "file": "Obsidian/Obsidian and Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A faire"
+              "title": "Obsidian and Git"
             }
           }
         ]
@@ -180,12 +180,12 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
-    "test654654/zkkazehga.md",
+    "README.md",
+    "Obsidian/Obsidian and Git.md",
+    "test test.md",
     "Cours Apache/A faire.md",
     "Cours Apache/index.md",
     "Cours Apache",
-    "README.md",
-    "test test.md",
-    "test654654"
+    "Obsidian"
   ]
 }
