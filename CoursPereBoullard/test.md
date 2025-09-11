@@ -1,16 +1,6 @@
 qsdqsdq
 qsdqzdqzd
-qzd
-qz
-qz
-qzd
-qzd
-qzdqz
-dqzd
-qz
-dqzd
-qzd
-qsd
+qzdqsd
 qsqsqs
 qs
 qs
