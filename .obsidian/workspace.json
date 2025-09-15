@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Clé SSH"
             }
+          },
+          {
+            "id": "072b8e186db7165a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6012ae2b3ab11045",
+  "active": "072b8e186db7165a",
   "lastOpenFiles": [
-    "Git/GitHub SSH Auth.md",
+    "Cours Apache/Deroule.md",
     "SSH/Clé SSH.md",
+    "Git/GitHub SSH Auth.md",
     "SSH",
     "Obsidian/Obsidian and Git.md",
     "Cours Apache/A faire.md",
