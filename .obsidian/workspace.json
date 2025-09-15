@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Clé SSH"
             }
-          },
-          {
-            "id": "072b8e186db7165a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_sidebar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_sidebar"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,23 +178,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "072b8e186db7165a",
+  "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
+    "CoursApache/index.md",
+    "_sidebar.md",
+    "CoursApache/Deroule.md",
+    "CoursApache/A faire.md",
     "Nouveau document texte.txt",
     "Monde.md",
-    "_sidebar.md",
     "Git/GitHub SSH Auth.md",
-    "Cours Apache/Windows Terminal.md",
-    "Cours Apache/A faire.md",
-    "Cours Apache/Deroule.md",
-    "Cours Apache/index.md",
+    "CoursApache/Windows Terminal.md",
     "README.md",
     "SSH/Clé SSH.md",
     "SSH",
     "Obsidian/Obsidian and Git.md",
     "test test.md",
     "Git",
-    "Cours Apache",
+    "CoursApache",
     "Obsidian"
   ]
 }
