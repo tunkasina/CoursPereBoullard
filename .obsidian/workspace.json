@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Obsidian and Git.md",
+                "file": "Cours Apache/Windows Terminal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian and Git"
+              "title": "Windows Terminal"
             }
           }
         ]
@@ -178,13 +178,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cce27ac6e90c21e9",
+  "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
+    "Obsidian/Obsidian and Git.md",
+    "Cours Apache/Windows Terminal.md",
     "Cours Apache/index.md",
     "Cours Apache/A faire.md",
     "README.md",
     "test test.md",
-    "Obsidian/Obsidian and Git.md",
     "Git",
     "Cours Apache",
     "Obsidian"
