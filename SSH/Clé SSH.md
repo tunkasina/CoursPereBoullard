@@ -8,6 +8,6 @@
 		 - `Get-Service ssh-agent | Set-Service -StartupType Automatic`
 		 - `Start-Service ssh-agent`
 ##### Ajouter la clé au serveur
- - 
+ - sous .ssh `authorized_keys`
 #### Sous Linux
 Lisez la doc windows, si vous êtes malin, c'est encore plus facile sous linux.
