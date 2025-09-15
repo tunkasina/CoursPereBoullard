@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian/Obsidian and Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Obsidian and Git"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a1023ebed92cc469",
@@ -179,14 +178,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6012ae2b3ab11045",
+  "active": "cce27ac6e90c21e9",
   "lastOpenFiles": [
-    "Cours Apache/A faire.md",
-    "test test.md",
     "Cours Apache/index.md",
+    "Cours Apache/A faire.md",
+    "README.md",
+    "test test.md",
     "Obsidian/Obsidian and Git.md",
     "Git",
-    "README.md",
     "Cours Apache",
     "Obsidian"
   ]
