@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSH/Clé SSH.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clé SSH"
+              "title": "README"
             }
           }
         ]
@@ -180,20 +180,22 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
-    "Git/GitHub SSH Auth.md",
-    "CoursApache/Windows Terminal.md",
+    "CoursApache/Apache.md",
+    "Divers/Windows Terminal.md",
+    "Divers/Obsidian and Git.md",
+    "Divers/GitHub SSH Auth.md",
+    "Divers",
+    "CoursApache/Deroule.md",
+    "CoursApache/A faire.md",
+    "CoursApache/Partie 1",
     "_sidebar.md",
+    "README.md",
+    "SSH/Clé SSH.md",
     "index.md",
     "index.html",
-    "README.md",
-    "CoursApache/index.md",
-    "CoursApache/Deroule.md",
-    "SSH/Clé SSH.md",
-    "CoursApache/A faire.md",
     "Nouveau document texte.txt",
     "Monde.md",
     "SSH",
-    "Obsidian/Obsidian and Git.md",
     "test test.md",
     "Git",
     "CoursApache",
