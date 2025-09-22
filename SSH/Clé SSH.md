@@ -1,3 +1,6 @@
+
+- le **client possède la clé privée** → il signe un challenge
+- le **serveur connaît la clé publique** → il vérifie la signature
 ##### Créer la clé
  - Aller dans `C:\Users\[NOM]\.ssh`
  - Créer une clé `ssh-keygen -t ed25519 -C "[Nom qui précise qui utilise la clé]"`

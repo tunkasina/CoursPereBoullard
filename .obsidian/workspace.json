@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Divers/Obsidian and Git.md",
+                "file": "SSH/Clé SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian and Git"
+              "title": "Clé SSH"
             }
           }
         ]
@@ -180,11 +180,11 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
+    "Divers/GitHub SSH Auth.md",
+    "Divers/Obsidian and Git.md",
     "README.md",
     "CoursApache/Apache.md",
     "Divers/Windows Terminal.md",
-    "Divers/Obsidian and Git.md",
-    "Divers/GitHub SSH Auth.md",
     "Divers",
     "CoursApache/Deroule.md",
     "CoursApache/A faire.md",
