@@ -37,3 +37,39 @@ Chaque rangée est reliée à un DHCP logiciel qui distribue les adresses.
  - [[Routage Statique]]
  - [[Routage Dynamique]]
  - [[ICMP Redirect]]
+
+``` mermaid
+graph TD
+
+subgraph Réseau_A["192.168.192.224/27 (Rangée A)"]
+  PC_A1["PC A (DHCP)"]
+end
+
+subgraph Réseau_B["192.168.10.0/24 (Rangée B)"]
+  PC_B1["PC B (DHCP)"]
+end
+
+subgraph Réseau_C["192.168.11.0/24 (Rangée C)"]
+  PC_C1["PC C (DHCP)"]
+end
+
+subgraph Réseau_D["192.168.192.64/27 (Rangée D)"]
+  PC_D1["PC D (DHCP)"]
+end
+
+R1["R1 (192.168.192.225 / 192.168.10.1)"]
+R2["R2 (192.168.10.2 / 192.168.11.1)"]
+R3["R3 (192.168.11.2 / 192.168.192.65)"]
+R4["R4 (192.168.192.226 / 192.168.192.66)"]
+
+PC_A1 --- R1
+PC_B1 --- R2
+PC_C1 --- R3
+PC_D1 --- R4
+
+R1 --- R2
+R2 --- R3
+R3 --- R4
+R4 --- R1
+
+```
