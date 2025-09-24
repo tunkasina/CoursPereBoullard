@@ -39,44 +39,46 @@ Chaque rangée est reliée à un DHCP logiciel qui distribue les adresses.
  - [[ICMP Redirect]]
 
 ``` mermaid
-graph TD
-
-subgraph Réseau_A["192.168.192.224/27 (Rangée A)"]
-  PC_A1["PCs rangée A (DHCP)"]
-  R1
-  R4
-end
-
-subgraph Réseau_B["192.168.10.0/24 (Rangée B)"]
-  PC_B1["PCs rangée B (DHCP)"]
-  R1
-  R2
-end
-
-subgraph Réseau_C["192.168.11.0/24 (Rangée C)"]
-  PC_C1["PCs rangée C (DHCP)"]
-  R2
-  R3
-end
-
-subgraph Réseau_D["192.168.192.64/27 (Rangée D)"]
-  PC_D1["PCs rangée D (DHCP)"]
-  R3
-  R4
-end
+graph TB
 
 R1["R1"]
 R2["R2"]
 R3["R3"]
 R4["R4"]
 
-PC_A1 --- R1
-PC_A1 --- R4
-PC_B1 --- R1
-PC_B1 --- R2
-PC_C1 --- R2
-PC_C1 --- R3
-PC_D1 --- R3
-PC_D1 --- R4
+subgraph Réseau_A["192.168.192.224/27 (Rangée A)"]
+  PC_A1["PCs rangée A (DHCP)"]
+end
+
+subgraph Réseau_B["192.168.10.0/24 (Rangée B)"]
+  PC_B1["PCs rangée B (DHCP)"]
+end
+
+subgraph Réseau_C["192.168.11.0/24 (Rangée C)"]
+  PC_C1["PCs rangée C (DHCP)"]
+end
+
+subgraph Réseau_D["192.168.192.64/27 (Rangée D)"]
+  PC_D1["PCs rangée D (DHCP)"]
+end
+
+%% Liaisons Routeurs ↔ Réseaux
+R1 --- Réseau_A
+R4 --- Réseau_A
+
+R1 --- Réseau_B
+R2 --- Réseau_B
+
+R2 --- Réseau_C
+R3 --- Réseau_C
+
+R3 --- Réseau_D
+R4 --- Réseau_D
+
+%% Liaisons PC ↔ Réseaux
+PC_A1 --- Réseau_A
+PC_B1 --- Réseau_B
+PC_C1 --- Réseau_C
+PC_D1 --- Réseau_D
 
 ```
