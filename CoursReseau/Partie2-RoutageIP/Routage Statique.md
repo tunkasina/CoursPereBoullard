@@ -1,6 +1,8 @@
 ___
 ## Consignes
  - Reproduisez le plan dans la salle.
+ - Configurer les routeurs pour qu'ils soient en mesure de router les paquets
+ - Mettre en place les routes statiques sur les routeurs pour les différents réseaux
 ![[Pasted image 20250924150309.png]]
 
 ## Etape 1 : Compléter le plan d'adressage
@@ -56,3 +58,16 @@ write memory
 - Valider avec `show ip interface brief` et `show ip route` sur les postes que les chemins existent.
 
 Dans Wireshark (PC) : filtre `icmp`. On observe les échos traverser les routeurs.
+
+> [!soluce]- Résultats
+> Par exemple, pour R1 :
+> ``` cisco
+R1> enable
+R1# show ip route
+Codes: C - connected, S - static, R - RIP, etc.
+C    192.168.192.224/27 is directly connected, FastEthernet0/0
+C    192.168.10.0/24 is directly connected, FastEthernet0/1
+S    192.168.11.0/24 [1/0] via 192.168.10.2
+S    192.168.192.64/27 [1/0] via 192.168.10.2
+> ```
+> *Répéter pour R2, R3, R4 avec les IP correspondantes.*
