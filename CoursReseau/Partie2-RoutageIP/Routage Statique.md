@@ -35,18 +35,15 @@ show ip route
 ```
 
 #### Etape 3 : Ajouter les routes statiques
-
-### Étape 3 — Ajout des routes statiques
- - Exemple R1 :
-``` cisco
+> [!soluce]- Commandes
+> ``` cisco
 configure terminal
 ip route 192.168.11.0 255.255.255.0 192.168.10.2
 ip route 192.168.192.64 255.255.255.224 192.168.10.2
 end
 write memory
-
-```
-*Répéter pour R2, R3, R4 avec les IP correspondantes.*
+> ```
+> *Répéter pour R2, R3, R4 avec les IP correspondantes.*
 
  - Vérification :
  ``` bash
