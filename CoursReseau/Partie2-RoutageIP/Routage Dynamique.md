@@ -37,8 +37,21 @@ write memory
 ## Etape 3 : Vérifications
 - Ping entre PC de différentes rangées pour vérifier que RIP a correctement propagé les routes.
 - Sur chaque routeur, vérifier que les routes distantes sont automatiquement ajoutées sans configuration statique.
-- Valider avec `show ip route` sur les postes que les chemins existent.
-- Les réseaux locaux apparaissent `C` (Connected).
-- Les réseaux distants appris via RIP apparaissent `R`.
 
 Dans Wireshark (PC) : filtre `udp.port == 520` pour observer les échanges RIP périodiques entre routeurs.
+
+ > [!soluce]- Résultats
+>  - `show ip route` pour R1 :
+> ``` cisco
+R1> enable
+R1# show ip route
+Codes: C - connected, R - RIP
+C    192.168.192.224/27 is directly connected, FastEthernet0/0
+C    192.168.10.0/24 is directly connected, FastEthernet0/1
+R    192.168.11.0/24 [120/1] via 192.168.10.2, 00:00:12, FastEthernet0/1
+R    192.168.192.64/27 [120/1] via 192.168.10.2, 00:00:12, FastEthernet0/1
+> ```
+> - Les routes statiques ont disparu.
+> - Les réseaux distants sont maintenant **appris via RIP** (`R`).
+> - `120` = administrative distance RIP par défaut, `1` = métrique.
+

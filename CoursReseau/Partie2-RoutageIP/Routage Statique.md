@@ -78,5 +78,4 @@ Interface              IP-Address      OK? Method Status       Protocol
 FastEthernet0/0        192.168.192.225 YES manual up           up
 FastEthernet0/1        192.168.10.1    YES manual up           up
 > ```
->  
-> *Répéter pour R2, R3, R4 avec les IP correspondantes.*
+
