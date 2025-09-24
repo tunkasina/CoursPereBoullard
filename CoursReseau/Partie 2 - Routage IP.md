@@ -46,36 +46,36 @@ R2["R2"]
 R3["R3"]
 R4["R4"]
 
-subgraph Réseau_A["192.168.192.224/27 (Rangée A)"]
-  PC_A1["PCs rangée A (DHCP)"]
+subgraph Network_A["192.168.192.224/27"]
+  PC_A1["PCs row A (DHCP)"]
 end
 
-subgraph Réseau_B["192.168.10.0/24 (Rangée B)"]
-  PC_B1["PCs rangée B (DHCP)"]
+subgraph Network_B["192.168.10.0/24"]
+  PC_B1["PCs row B (DHCP)"]
 end
 
-subgraph Réseau_C["192.168.11.0/24 (Rangée C)"]
-  PC_C1["PCs rangée C (DHCP)"]
+subgraph Network_C["192.168.11.0/24"]
+  PC_C1["PCs row C (DHCP)"]
 end
 
-subgraph Réseau_D["192.168.192.64/27 (Rangée D)"]
-  PC_D1["PCs rangée D (DHCP)"]
+subgraph Network_D["192.168.192.64/27"]
+  PC_D1["PCs row D (DHCP)"]
 end
 
-%% Liaisons Routeurs ↔ Réseaux
-R1 --- Réseau_A
-R4 --- Réseau_A
+%% Liaisons Routeurs ↔ Networks
+R1 --- Network_A
+R4 --- Network_A
 
-R1 --- Réseau_B
-R2 --- Réseau_B
+R1 --- Network_B
+R2 --- Network_B
 
-R2 --- Réseau_C
+R2 --- Network_C
 R3 --- Réseau_C
 
 R3 --- Réseau_D
 R4 --- Réseau_D
 
-%% Liaisons PC ↔ Réseaux
+%% Liaisons PC ↔ Networks
 PC_A1 --- Réseau_A
 PC_B1 --- Réseau_B
 PC_C1 --- Réseau_C
