@@ -70,15 +70,15 @@ R1 --- Network_B
 R2 --- Network_B
 
 R2 --- Network_C
-R3 --- Réseau_C
+R3 --- Network_C
 
-R3 --- Réseau_D
-R4 --- Réseau_D
+R3 --- Network_D
+R4 --- Network_D
 
 %% Liaisons PC ↔ Networks
-PC_A1 --- Réseau_A
-PC_B1 --- Réseau_B
-PC_C1 --- Réseau_C
-PC_D1 --- Réseau_D
+PC_A1 --- Network_A
+PC_B1 --- Network_B
+PC_C1 --- Network_C
+PC_D1 --- Network_D
 
 ```
