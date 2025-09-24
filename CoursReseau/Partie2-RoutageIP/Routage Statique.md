@@ -1,16 +1,16 @@
 ___
-#### Consignes
+## Consignes
  - Reproduisez le plan dans la salle.
 ![[Pasted image 20250924150309.png]]
 
-#### Etape 1 : Compléter le plan d'adressage
+## Etape 1 : Compléter le plan d'adressage
 > [!soluce]- Plan complet
 > 192.168.192.224/27 : R1 = .225, R4 = .226
 > 192.168.10.0/24 : R1 = .1, R2 = .2
 > 192.168.11.0/24 : R2 = .1, R3 = .2
 > 192.168.192.64/27 : R3 = .65, R4 = .66
 
-#### Etape 2 : Configurer les interfaces
+## Etape 2 : Configurer les interfaces
 > [!soluce]- Commandes
 > ``` cisco
 enable
@@ -34,7 +34,7 @@ show ip interface brief
 show ip route
 ```
 
-#### Etape 3 : Ajouter les routes statiques
+## Etape 3 : Ajouter les routes statiques
 > [!soluce]- Commandes
 > ``` cisco
 configure terminal
