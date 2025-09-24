@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
+                "file": "CoursReseau/Partie 2 - Routage IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routage Statique"
+              "title": "Partie 2 - Routage IP"
             }
           }
         ]
@@ -180,10 +180,10 @@
   },
   "active": "6012ae2b3ab11045",
   "lastOpenFiles": [
-    "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
-    "CoursReseau/Partie2-RoutageIP/Pasted image 20250924150309.png",
+    "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+    "CoursReseau/Partie2-RoutageIP/Pasted image 20250924150309.png",
     "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie2-RoutageIP",
     "Divers/GitHub SSH Auth.md",
