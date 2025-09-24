@@ -16,3 +16,16 @@ ____
 > - Faire un ping vers une IP d'un réseau distant concerné
 > - Observer dans Wireshark (filtre `icmp && ip.src == <IP_PC>`) et voir les messages des routeurs intermédiaires. 
 > - Vérifier la table de routage du PC après les échanges
+
+> [!soluce]- Résultats
+> Par exemple, pour R1 :
+> ``` cisco
+R1> enable
+R1# show ip route
+Codes: C - connected, S - static, R - RIP, etc.
+C    192.168.192.224/27 is directly connected, FastEthernet0/0
+C    192.168.10.0/24 is directly connected, FastEthernet0/1
+S    192.168.11.0/24 [1/0] via 192.168.10.2
+S    192.168.192.64/27 [1/0] via 192.168.10.2
+> ```
+> *Répéter pour R2, R3, R4 avec les IP correspondantes.

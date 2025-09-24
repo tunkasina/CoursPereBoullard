@@ -60,7 +60,7 @@ write memory
 Dans Wireshark (PC) : filtre `icmp`. On observe les échos traverser les routeurs.
 
 > [!soluce]- Résultats
-> Par exemple, pour R1 :
+>  - `show ip route` pour R1 :
 > ``` cisco
 R1> enable
 R1# show ip route
@@ -70,4 +70,13 @@ C    192.168.10.0/24 is directly connected, FastEthernet0/1
 S    192.168.11.0/24 [1/0] via 192.168.10.2
 S    192.168.192.64/27 [1/0] via 192.168.10.2
 > ```
+>  - `show ip interface brief` pour R1 :
+> ``` cisco
+R1> enable
+R1# show ip interface brief
+Interface              IP-Address      OK? Method Status       Protocol
+FastEthernet0/0        192.168.192.225 YES manual up           up
+FastEthernet0/1        192.168.10.1    YES manual up           up
+> ```
+>  
 > *Répéter pour R2, R3, R4 avec les IP correspondantes.*
