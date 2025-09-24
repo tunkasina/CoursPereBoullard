@@ -42,34 +42,41 @@ Chaque rangée est reliée à un DHCP logiciel qui distribue les adresses.
 graph TD
 
 subgraph Réseau_A["192.168.192.224/27 (Rangée A)"]
-  PC_A1["PC A (DHCP)"]
+  PC_A1["PCs rangée A (DHCP)"]
+  R1
+  R4
 end
 
 subgraph Réseau_B["192.168.10.0/24 (Rangée B)"]
-  PC_B1["PC B (DHCP)"]
+  PC_B1["PCs rangée B (DHCP)"]
+  R1
+  R2
 end
 
 subgraph Réseau_C["192.168.11.0/24 (Rangée C)"]
-  PC_C1["PC C (DHCP)"]
+  PC_C1["PCs rangée C (DHCP)"]
+  R2
+  R3
 end
 
 subgraph Réseau_D["192.168.192.64/27 (Rangée D)"]
-  PC_D1["PC D (DHCP)"]
+  PC_D1["PCs rangée D (DHCP)"]
+  R3
+  R4
 end
 
-R1["R1 (192.168.192.225 / 192.168.10.1)"]
-R2["R2 (192.168.10.2 / 192.168.11.1)"]
-R3["R3 (192.168.11.2 / 192.168.192.65)"]
-R4["R4 (192.168.192.226 / 192.168.192.66)"]
+R1["R1"]
+R2["R2"]
+R3["R3"]
+R4["R4"]
 
 PC_A1 --- R1
+PC_A1 --- R4
+PC_B1 --- R1
 PC_B1 --- R2
+PC_C1 --- R2
 PC_C1 --- R3
+PC_D1 --- R3
 PC_D1 --- R4
-
-R1 --- R2
-R2 --- R3
-R3 --- R4
-R4 --- R1
 
 ```
