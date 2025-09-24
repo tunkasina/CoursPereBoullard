@@ -24,9 +24,12 @@ interface FastEthernet0/1
  no shutdown
 exit
 end
-write memory ```
+write memory 
+> ```
+> *Répéter pour R2, R3, R4 avec les IP correspondantes.*
+> 
 
-
+#### Etape 3 : 
 ```
 
 ### Étape 1 — Plan d’adressage
