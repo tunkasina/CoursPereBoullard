@@ -10,6 +10,24 @@ ___
 > 192.168.11.0/24 : R2 = .1, R3 = .2
 > 192.168.192.64/27 : R3 = .65, R4 = .66
 
+#### Etape 2 : Configurer les interfaces
+> [!soluce]- Commandes
+> ``` cisco
+enable
+configure terminal
+interface FastEthernet0/0
+ ip address 192.168.192.225 255.255.255.224
+ no shutdown
+exit
+interface FastEthernet0/1
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+end
+write memory ```
+
+
+```
 
 ### Étape 1 — Plan d’adressage
 - 192.168.192.224/27 : R1 = .225, R4 = .226
