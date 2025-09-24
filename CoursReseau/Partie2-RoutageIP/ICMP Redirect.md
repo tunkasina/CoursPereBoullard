@@ -15,4 +15,4 @@ ____
 > [!soluce]- Procédure
 > - Faire un ping vers une IP d'un réseau distant concerné
 > - Observer dans Wireshark (filtre `icmp && ip.src == <IP_PC>`) et voir les messages des routeurs intermédiaires. 
-> - Vérifier la table de routage du PC après les échanges
+> - Vérifier la table de routage du PC après les échanges `ip route`
