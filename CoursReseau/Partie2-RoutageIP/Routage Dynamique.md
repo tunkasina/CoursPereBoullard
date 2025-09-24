@@ -6,6 +6,7 @@ ___
 ## Etape 1 : Suppression des routes statiques
  - Sur chaque routeur, supprimer toutes les routes statiques configurées.
 > [!soluce]- Commandes
+> Par exemple, pour R1 :
 > ``` cisco
 enable
 configure terminal
@@ -19,6 +20,7 @@ write memory
 ## Etape 2 : Activation de RIP
  - Sur chaque routeur, activer RIP version 2 et inclure les réseaux locaux connectés :
 > [!soluce]- Commandes
+> Par exemple, pour R1 :
 > ``` cisco
 enable
 configure terminal
@@ -32,4 +34,11 @@ write memory
 > ```
 > *Répéter pour R2, R3, R4 avec les IP correspondantes.*
 
+## Etape 3 : Vérifications
+- Ping entre PC de différentes rangées pour vérifier que RIP a correctement propagé les routes.
+- Sur chaque routeur, vérifier que les routes distantes sont automatiquement ajoutées sans configuration statique.
+- Valider avec `show ip route` sur les postes que les chemins existent.
+- Les réseaux locaux apparaissent `C` (Connected).
+- Les réseaux distants appris via RIP apparaissent `R`.
 
+Dans Wireshark (PC) : filtre `udp.port == 520` pour observer les échanges RIP périodiques entre routeurs.

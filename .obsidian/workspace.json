@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6012ae2b3ab11045",
+            "id": "821479bedc05dc80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+                "file": "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routage Dynamique"
+              "title": "ICMP Redirect"
             }
           }
         ]
@@ -40,8 +40,23 @@
               "icon": "lucide-file",
               "title": "Routage Statique"
             }
+          },
+          {
+            "id": "6012ae2b3ab11045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Routage Dynamique"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,12 +213,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5b59f0045517fa1",
+  "active": "821479bedc05dc80",
   "lastOpenFiles": [
     "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
     "CoursReseau/Partie 2 - Routage IP.md",
-    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie2-RoutageIP/Pasted image 20250924150309.png",
     "CoursReseau/Partie2-RoutageIP",
     "Divers/GitHub SSH Auth.md",

@@ -14,6 +14,7 @@ ___
 
 ## Etape 2 : Configurer les interfaces
 > [!soluce]- Commandes
+> Par exemple, pour R1:
 > ``` cisco
 enable
 configure terminal
@@ -40,6 +41,7 @@ show ip route
 
 ## Etape 3 : Ajouter les routes statiques
 > [!soluce]- Commandes
+> Par exemple, pour R1 :
 > ``` cisco
 configure terminal
 ip route 192.168.11.0 255.255.255.0 192.168.10.2
@@ -49,10 +51,8 @@ write memory
 > ```
 > *Répéter pour R2, R3, R4 avec les IP correspondantes.*
 
- - Vérification :
- ``` bash
-ping <IP_d_un_autre_réseau>
-show ip route
-```
+## Etape 4 : Vérifications
+- Ping entre PC de différentes rangées pour vérifier que tout communique
+- Valider avec `show ip interface brief` et `show ip route` sur les postes que les chemins existent.
 
 Dans Wireshark (PC) : filtre `icmp`. On observe les échos traverser les routeurs.
