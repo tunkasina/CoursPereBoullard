@@ -6,7 +6,7 @@ ____
 ## Etape 1 : Mettre au point l'expérimentation
  - Les étudiants doivent trouver une manipulation qui illustre le redirect avec RIP
 > [!soluce]- Par exemple ...
->  - Entrer une route statique fausse sur un PC (mauvaise passerelle)
+>  - Entrer une route statique fausse sur un PC (mauvaise passerelle) `ip route add 192.168.192.64/27 via 192.168.192.225`
 >  - 
 > 
 
