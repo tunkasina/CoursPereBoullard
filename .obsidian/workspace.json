@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 377.5
   },
   "right": {
     "id": "a1023ebed92cc469",
@@ -178,12 +178,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6012ae2b3ab11045",
+  "active": "cce27ac6e90c21e9",
   "lastOpenFiles": [
+    "CoursReseau/Partie2-RoutageIP/Pasted image 20250924150309.png",
+    "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
-    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
-    "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
     "CoursReseau/Partie2-RoutageIP",
     "Divers/GitHub SSH Auth.md",
     "README.md",

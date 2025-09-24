@@ -1,49 +1,10 @@
 ___
-Reproduisez le plan dans la salle.
-``` mermaid
-graph TB
+#### Consignes
+ - Reproduisez le plan dans la salle.
+![[Pasted image 20250924150309.png]]
 
-R1["R1"]
-R2["R2"]
-R3["R3"]
-R4["R4"]
+#### Etape 1 : Compléter le plan d'adressage
 
-subgraph Network_A["192.168.192.224/0xFFFFFFE0"]
-  PC_A1["PCs row A (DHCP)"]
-end
-
-subgraph Network_B["192.168.10.0"]
-  PC_B1["PCs row B (DHCP)"]
-end
-
-subgraph Network_C["192.168.11.0"]
-  PC_C1["PCs row C (DHCP)"]
-end
-
-subgraph Network_D["192.168.192.64/0xFFFFFFE0"]
-  PC_D1["PCs row D (DHCP)"]
-end
-
-%% Liaisons Routeurs ↔ Networks
-R1 --- Network_A
-R4 --- Network_A
-
-R1 --- Network_B
-R2 --- Network_B
-
-R2 --- Network_C
-R3 --- Network_C
-
-R3 --- Network_D
-R4 --- Network_D
-
-%% Liaisons PC ↔ Networks
-PC_A1 --- Network_A
-PC_B1 --- Network_B
-PC_C1 --- Network_C
-PC_D1 --- Network_D
-
-```
 ### Étape 1 — Plan d’adressage
 - 192.168.192.224/27 : R1 = .225, R4 = .226
 - 192.168.10.0/24 : R1 = .1, R2 = .2
