@@ -6,6 +6,7 @@ ___
 ![[Pasted image 20250924150309.png]]
 
 ## Etape 1 : Compléter le plan d'adressage
+ - Donner les bonnes adresses aux bonnes interfaces des routers
 > [!soluce]- Plan complet
 > |Réseau|R1|R2|R3|R4|
 > |---|---|---|---|---|
@@ -15,6 +16,7 @@ ___
 > |192.168.192.64/27 (D)|–|–|.65|.66|
 
 ## Etape 2 : Configurer les interfaces
+ - Sur chaque routeur, donner les bonnes adresses aux bonnes interfaces
 > [!soluce]- Commandes
 > Par exemple, pour R1:
 > ``` cisco
@@ -42,6 +44,7 @@ show ip route
 ```
 
 ## Etape 3 : Ajouter les routes statiques
+ - définir quelles passerelle pour quelles sous-réseaux
 > [!soluce]- Commandes
 > Par exemple, pour R1 :
 > ``` cisco
@@ -78,4 +81,3 @@ Interface              IP-Address      OK? Method Status       Protocol
 FastEthernet0/0        192.168.192.225 YES manual up           up
 FastEthernet0/1        192.168.10.1    YES manual up           up
 > ```
-

@@ -32,6 +32,9 @@ router rip
 end
 write memory
 > ```
+> 
+> (`no auto-summary` garantit que RIP annonce chaque sous-réseau avec son masque exact au lieu de résumer par classe, ce qui évite les erreurs de routage dans les réseaux subnettés.)
+> 
 > *Répéter pour R2, R3, R4 avec les IP correspondantes.*
 
 ## Etape 3 : Vérifications
@@ -54,4 +57,3 @@ R    192.168.192.64/27 [120/1] via 192.168.10.2, 00:00:12, FastEthernet0/1
 > - Les routes statiques ont disparu.
 > - Les réseaux distants sont maintenant **appris via RIP** (`R`).
 > - `120` = administrative distance RIP par défaut, `1` = métrique.
-
