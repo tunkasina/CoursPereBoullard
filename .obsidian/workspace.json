@@ -6,7 +6,7 @@
       {
         "id": "3ac671a92d54c7c7",
         "type": "tabs",
-        "dimension": 30.03565062388592,
+        "dimension": 46.53937947494033,
         "children": [
           {
             "id": "6012ae2b3ab11045",
@@ -14,40 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Partie 2 - Routage IP.md",
+                "file": "CoursReseau/Partie3-NAT/NAT Dynamique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Partie 2 - Routage IP"
-            }
-          },
-          {
-            "id": "bf1fb9003be5ccde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ICMP Redirect"
-            }
-          },
-          {
-            "id": "93802168d6ea65e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Routage Dynamique"
+              "title": "NAT Dynamique"
             }
           }
         ]
@@ -55,20 +27,20 @@
       {
         "id": "fb8d9daa6fd21244",
         "type": "tabs",
-        "dimension": 69.96434937611407,
+        "dimension": 53.46062052505967,
         "children": [
           {
-            "id": "a5b59f0045517fa1",
+            "id": "ef76d596d502e102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Partie 3 - NAT.md",
+                "file": "CoursReseau/Divers - Classe d'adresse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Partie 3 - NAT"
+              "title": "Divers - Classe d'adresse"
             }
           }
         ]
@@ -228,13 +200,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5b59f0045517fa1",
+  "active": "ef76d596d502e102",
   "lastOpenFiles": [
-    "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
+    "NAT Statique.md",
+    "CoursReseau/Divers - Classe d'adresse.md",
     "CoursReseau/Partie 3 - NAT.md",
+    "CoursReseau/Partie 2 - Routage IP.md",
+    "CoursReseau/Partie3-NAT/NAT Dynamique.md",
+    "Medias/Pasted image 20250929154541.png",
+    "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
     "CoursReseau/Partie3-NAT",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
-    "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "Medias",
     "Medias/Pasted image 20250924150309.png",
