@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Partie3-NAT/NAT Statique.md",
+                "file": "CoursApache/Apache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NAT Statique"
+              "title": "Apache"
             }
           }
         ]
@@ -202,9 +202,9 @@
   },
   "active": "cce27ac6e90c21e9",
   "lastOpenFiles": [
+    "CoursReseau/Partie3-NAT/NAT Statique.md",
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/Partie3-NAT/NAT Dynamique.md",
-    "CoursReseau/Partie3-NAT/NAT Statique.md",
     "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie2-RoutageIP/Routage Dynamique.md",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
