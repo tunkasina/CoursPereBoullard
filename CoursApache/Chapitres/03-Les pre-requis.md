@@ -3,6 +3,9 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 (_Spoiler Alert?_) Ce sera forcément Apache, MariaDB, PHP...  Mais quelles versions ? Quelles modules ? Quels sont les modules obligatoires, ou non ?
 ## Consignes
 ### Trouver les pré-requis
+ - L'OS
+ - Les logiciels
+ - les modules
  - 
 
 ## Recherche des requisites
