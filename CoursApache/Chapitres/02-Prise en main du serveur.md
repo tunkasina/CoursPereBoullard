@@ -16,3 +16,7 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
  - Mettez en œuvre votre clé publique sur le serveur et configurez SSH pour
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
+
+## Final
+Prenez vos notes. Si vous n'êtes pas en mesure de comprendre ou de refaire ce que vous venez de terminer, recommencez.
+
