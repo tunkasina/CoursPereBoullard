@@ -214,11 +214,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22ed004bc426e739",
+  "active": "ef76d596d502e102",
   "lastOpenFiles": [
+    "README.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/04-Installation de la stack.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/05-Mise en œuvre des sources.md",
@@ -239,7 +240,6 @@
     "Medias/Pasted image 20250924150309.png",
     "CoursReseau/Partie2-RoutageIP",
     "Divers/GitHub SSH Auth.md",
-    "README.md",
     "SSH/Clé SSH.md",
     "CoursReseau",
     "Divers/Obsidian and Git.md",
