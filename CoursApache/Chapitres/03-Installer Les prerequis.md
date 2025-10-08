@@ -7,3 +7,6 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
  - Les logiciels et leurs versions
  - les modules et leurs versions
 ### Installer les prérequis
+ - Apache
+ - MariaDB
+ - 

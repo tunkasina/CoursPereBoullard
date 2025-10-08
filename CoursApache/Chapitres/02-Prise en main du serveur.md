@@ -18,5 +18,5 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
  - Validez votre capacité à prendre la main
 
 ## Final
-Prenez vos notes. Si vous n'êtes pas en mesure de comprendre ou de refaire ce que vous venez de terminer, recommencez.
+Prenez vos notes. Si juste avec elles, vous n'êtes pas en mesure de comprendre ou de refaire ce que vous venez de terminer, recommencez (sorry not sorry).
 
