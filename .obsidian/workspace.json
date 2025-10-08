@@ -4,67 +4,85 @@
     "type": "split",
     "children": [
       {
-        "id": "5f6fe2ad66c64afb",
+        "id": "3ac671a92d54c7c7",
         "type": "tabs",
+        "dimension": 46.53937947494033,
         "children": [
           {
-            "id": "0b3a03c5677d007e",
+            "id": "22ed004bc426e739",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiseEnOeuvreMantis/Installer Mantis.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Installer Mantis"
+              "title": "02-Prise en main du serveur"
             }
           },
           {
-            "id": "1c8eff7e0e87f78f",
+            "id": "83ff001b2c7bbc6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Mise en oeuvre des sources.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 - Mise en oeuvre des sources"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "4254dfd9ad1533a8",
+            "id": "0071f62a614f482a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Les prérequis.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Les prérequis"
+              "title": "conflict-files-obsidian-git"
             }
           },
           {
-            "id": "b92ebfbf256c2983",
+            "id": "2685fa7e55cd4563",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MiseEnOeuvreMantis/01 - Mise en œuvre du serveur.md",
+                "file": "CoursApache/Chapitres/04-Installation de la stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Mise en œuvre du serveur"
+              "title": "04-Installation de la stack"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "fb8d9daa6fd21244",
+        "type": "tabs",
+        "dimension": 53.46062052505967,
+        "children": [
+          {
+            "id": "ef76d596d502e102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-Prise en main du serveur"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 499.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,21 +238,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b92ebfbf256c2983",
+  "active": "cce27ac6e90c21e9",
   "lastOpenFiles": [
-    "03 - Mise en oeuvre des sources.md",
-    "MiseEnOeuvreMantis/Installer Mantis.md",
-    "02 - Les prérequis.md",
     "MiseEnOeuvreMantis/01 - Mise en œuvre du serveur.md",
-    "MiseEnOeuvreMantis",
-    "CoursApache/SommaireApache.md",
+    "MiseEnOeuvreMantis/02 - Les prérequis.md",
+    "MiseEnOeuvreMantis/03 - Mise en oeuvre des sources.md",
+    "MiseEnOeuvreMantis/Installer Mantis.md",
+    "conflict-files-obsidian-git.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
-    "CoursApache/Chapitres/04-Installation de la stack.md",
+    "MiseEnOeuvreMantis",
     "CoursApache/Chapitres/01-Introduction.md",
+    "CoursApache/SommaireApache.md",
+    "_sidebar.md",
+    "CoursApache/Chapitres/04-Installation de la stack.md",
+    "README.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/05-Mise en œuvre des sources.md",
     "CoursApache/Chapitres/05-Mise en oeuvre des sources.md",
-    "CoursApache/Sommaire Apache.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursReseau/Partie3-NAT/NAT Statique.md",
     "CoursReseau/Partie 3 - NAT.md",
@@ -251,11 +270,9 @@
     "Medias/Pasted image 20250924150309.png",
     "CoursReseau/Partie2-RoutageIP",
     "Divers/GitHub SSH Auth.md",
-    "README.md",
     "SSH/Clé SSH.md",
     "CoursReseau",
     "Divers/Obsidian and Git.md",
-    "Divers/Windows Terminal.md",
     "Divers",
     "CoursApache/Chapitres",
     "index.html",
