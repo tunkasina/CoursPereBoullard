@@ -13,3 +13,4 @@ Faire un Snapshot
 	 - install ssh
 		 - 
 	 - connexion par clé
+		
