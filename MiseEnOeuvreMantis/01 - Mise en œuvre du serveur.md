@@ -5,7 +5,9 @@
  
 	 - 
 
- - quel utilisateurs exis
+ - quel utilisateurs existent ?
+	 - root / 
+	 - webadmin
  - 
  - être à jour
  - organiser la prise en main du serveur
