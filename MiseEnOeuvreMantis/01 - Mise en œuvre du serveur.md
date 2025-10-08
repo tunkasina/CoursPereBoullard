@@ -6,6 +6,8 @@
  - quel utilisateurs existent ?
 	 - root / Toor321!
 	 - webadmin / Nimdabew321!
-> Snapshot
+
+Faire un Snapshot
+
  - organiser la prise en main du serveur
 	 - install ssh + conncetion par clé.
