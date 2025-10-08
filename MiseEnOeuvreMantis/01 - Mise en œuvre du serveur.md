@@ -5,7 +5,6 @@
  - quel utilisateurs existent ?
 	 - root / Toor321!
 	 - webadmin / Nimdabew321!
- - 
  - être à jour
  - organiser la prise en main du serveur
- - 
+	 - install ssh + conncetion par clé.
