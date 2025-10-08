@@ -14,3 +14,4 @@ Faire un Snapshot
 		 - 
 	 - connexion par clé
 		
+      .ssh/authorized_keys   
