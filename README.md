@@ -9,4 +9,3 @@ Vous trouverez ici l’ensemble de mes support de cours, notes et aides diverses
 
 Me contacter sur Discord : tunkasina0537
 
-Mettez vous une vraie playlist de ne
