@@ -10,4 +10,4 @@
 Faire un Snapshot
 
  - organiser la prise en main du serveur
-	 - install ssh + conncetion par clé.
+	 - install ssh + connexion par clé.
