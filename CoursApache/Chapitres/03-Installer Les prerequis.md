@@ -6,6 +6,10 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
  - Compatibilité avec Debian
  - Les logiciels et leurs versions
  - les modules et leurs versions
+
+> [!soluce]- Solution
+> `insite:mantisbt.org mantis server requisite`
+
 ### Installer les prérequis
  - Apache
  - MariaDB
