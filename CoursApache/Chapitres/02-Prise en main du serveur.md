@@ -7,7 +7,7 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
  - Modifiez les mots de passe de ces utilisateurs
  
 > [!soluce]- Solution
-> `lsb_release -a` + info à la connection
+> `lsb_release -a` + info à la connexion
 > `apt update && apt upgrade`
 > `cat /etc/passwd` + users avec un `/bin/bash` à la fin
 > `passwd` sur root, et test avec `su - webadmin` puis `su -` et validation du mot de passe défini
