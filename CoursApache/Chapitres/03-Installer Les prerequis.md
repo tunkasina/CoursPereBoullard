@@ -8,9 +8,15 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
  - les modules et leurs versions
 
 > [!soluce]- Solution
-> `insite:mantisbt.org mantis server requisite`
+> `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on peut installer :
+> _apache2_ (>=2.4.13) comme serveur web
+> _mariadb_ (>=5.5.35) comme SGBD
+> _php_ (>=7.4) comme interpréteur de script
+> + les modules php _mbstring_ et _mysql_ 
 
 ### Installer les prérequis
- - Apache
- - MariaDB
- - 
+ - ...
+
+> [!soluce]- Solution
+> `apt install apache2`
+> `apt install amariad`
