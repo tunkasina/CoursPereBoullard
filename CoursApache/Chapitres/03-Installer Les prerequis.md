@@ -15,8 +15,8 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 > + les modules php _mbstring_ et _mysql_ 
 
 ### Installer les prérequis
- - ...
+ - …
 
 > [!soluce]- Solution
 > `apt install apache2`
-> `apt install amariad`
+> `apt install mariadb`
