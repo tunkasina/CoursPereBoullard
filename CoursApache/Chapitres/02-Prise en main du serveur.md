@@ -2,12 +2,6 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 <div class="astuce">Astuce : Faites un snapshot !</div>
 
-<details style="soluce">
-<summary>Cliquez pour voir la solution</summary>
-Voici le contenu caché / spoiler.
-  
-</details>
-
 Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
 ### Prise en main
@@ -15,12 +9,14 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Mettez à jour votre serveur
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
  - Modifiez les mots de passe de ces utilisateurs
- 
-> [!soluce]- Solution
-> `lsb_release -a` + info à la connexion
-> `apt update && apt upgrade`
-> `cat /etc/passwd` + users avec un `/bin/bash` à la fin
-> `passwd` sur root, et test avec `su - webadmin` puis `su -` et validation du mot de passe défini
+
+<details style="soluce">
+<summary>Solution</summary>
+`lsb_release -a` + info à la connexion
+`apt update && apt upgrade`
+`cat /etc/passwd` + users avec un `/bin/bash` à la fin
+`passwd` sur root, et test avec `su - webadmin` puis `su -` et validation du mot de passe défini
+</details>
 
 ### Installer SSH
  - Trouvez l'IP de votre serveur
