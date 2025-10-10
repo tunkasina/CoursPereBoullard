@@ -35,8 +35,7 @@
               "title": "03-Installer Les prerequis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "328f35a10f14c0c3",
@@ -70,8 +69,7 @@
               "title": "04-Configurer les prerequis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,13 +225,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26fd78fa99e2d45c",
+  "active": "713845a6c5683d5a",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "_sidebar.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Sommaire Apache.md",
     "CoursReseau/Sommaire Reseau.md",
     "README.md",
