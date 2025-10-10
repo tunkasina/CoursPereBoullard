@@ -6,9 +6,3 @@ Le sommaire du cours Apache:
  - [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md)
  - [05-Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
  - [06-Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
-
-
-
-
-
-
