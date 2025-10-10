@@ -19,6 +19,6 @@ Enfin ! On va réellement configurer les deux services principaux de notre stack
 > Enfin pour _mariadb_ on va devoir exécuter le script **mysql_secure_installation**, en comprendre le contenu, et répondre aux questions (plus de détails via [ce lien](App.01%20mysql_secure_installation.md)).
 
 ## Final
-Et voilà ! On accède enfin à la page d'installation de _Mantis_ ! Joie, stupeur et émerveillement. Dans la suite, nous allons consolider notre serveur.
+On est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.
 
 Cependant, comme je suis un adepte du _drill_ je vous le dit : si vos notes ne vous permettent pas de refaire cette partie… **restaurez votre snapshot et recommencez** !
