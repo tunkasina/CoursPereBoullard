@@ -2,6 +2,7 @@ Enfin ! On va réellement configurer les deux services principaux de notre stack
 
 <div class="astuce">Faites un snapshot !</div>
 ## Consignes
+Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
  - Créer une base de donnee _mantis_db_, un utilisateur pour cette base de donnée _mantis_db_admin_, et donnez lui tout les droits sur cette base de donnée.
