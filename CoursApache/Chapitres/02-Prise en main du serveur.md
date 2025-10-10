@@ -14,11 +14,17 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
 <summary>Solution</summary>
 <pre><code>
 lsb_release -a  # info à la connexion
+
 apt update && apt upgrade
+
 cat /etc/passwd  # users avec /bin/bash à la fin
+
 passwd root
+
 su - webadmin
+
 su -   # test et validation du mot de passe défini
+
 </code></pre>
 </details>
 

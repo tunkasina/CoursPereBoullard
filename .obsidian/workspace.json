@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "02-Prise en main du serveur"
             }
           },
           {
@@ -225,12 +225,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "713845a6c5683d5a",
+  "active": "2b6b7bab33dd7fd5",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "_sidebar.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Sommaire Apache.md",
     "CoursReseau/Sommaire Reseau.md",
