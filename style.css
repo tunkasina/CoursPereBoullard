@@ -1,18 +1,29 @@
 .astuce {
-    border-left: 4px solid #3af;
-    padding: 0.5em 1em;
-    background: #eef;
-    margin: 0.5em 0;
+    border: 2px solid blue;
+    padding:1em;
+    margin: 0.5em;
+        border-radius: 0.5em;
 }
 .astuce::before {
     content: "🔥 ";  /* l'emoji + un espace */
 }
-.warning {
-    border-left: 4px solid #f33;
-    padding: 0.5em 1em;
-    background: #fee;
-    margin: 0.5em 0;
-}
+
 .soluce {
-    border:2px solid green;padding:0.5em;
+    border:2px solid green;
+    padding:1em;
+    margin: 0.5em;
+        border-radius: 0.5em;
+}
+.soluce::before {
+    content: "🛠️ "; /* emoji outil */
+}
+
+.attention {
+    border:2px solid red;
+    padding:1em;
+    margin: 0.5em;
+        border-radius: 0.5em;
+}
+.attention::before {
+    content: "⚠️ ";
 }
