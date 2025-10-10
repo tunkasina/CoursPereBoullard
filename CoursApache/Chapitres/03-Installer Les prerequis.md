@@ -36,7 +36,7 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 > Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.
 
 ## Final
-Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](Configurer les prerequis) !
+Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./Chapitres/04-Configurer%20les%20prerequis) !
 
 
 Comme la dernière fois, si vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** !
