@@ -4,6 +4,14 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 `> **Tip —** Faites un snapshot !`
 
+<details>
+  <summary>Cliquez pour voir la solution</summary>
+  
+Voici le contenu caché / spoiler.
+  
+</details>
+
+
 Enfin **dernier rappel**: Prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
 ### Prise en main
