@@ -1,4 +1,4 @@
-.tip {
+.astuce {
     border-left: 4px solid #3af;
     padding: 0.5em 1em;
     background: #eef;
@@ -9,4 +9,7 @@
     padding: 0.5em 1em;
     background: #fee;
     margin: 0.5em 0;
+}
+.soluce {
+    border:2px solid green;padding:0.5em;
 }
