@@ -42,15 +42,16 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
 
-```<details class="soluce"><summary>Solution</summary>
-Côté serveur : Basculer sur un prompt en tant que _webadmin_  <br/>
-<code>ssh-keygen -t ed25519 -C "pereBoullard"</code> + donner un nom explicite  <br/>
+[spoiler]
+Côté serveur : Basculer sur un prompt en tant que _webadmin_, et :
+ - `ssh-keygen -t ed25519 -C "pereBoullard"</code> + donner un nom explicite  <br/>
 <code>cat nomExplicite.pub >> .ssh\authorized_keys</code>  <br/>
 Côté client : Pour éviter les soucis d'encodage, on copie le fichier  <br/>
 <code>scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/</code><br/>
 Ensuite on configure le fichier <code>/etc/ssh/shhd_config</code><br/>
 Et on recharge le fichier de conf du démon <code>systemctl reload sshd.service</code><br/>
 </details>```
+[/spoiler]
 
 ## Final
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.

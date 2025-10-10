@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/05-Deployer les sources.md",
+                "file": "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Deployer les sources"
+              "title": "App.01 mysql_secure_installation"
             }
           },
           {
@@ -225,8 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b6b7bab33dd7fd5",
+  "active": "713845a6c5683d5a",
   "lastOpenFiles": [
+    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
+    "CoursApache/Chapitres/06-Consolidation.md",
+    "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
@@ -238,12 +241,9 @@
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Divers - Classe d'adresse.md",
-    "CoursApache/Chapitres/06-Consolidation.md",
     "style.css",
     "_config.yml",
     "Untitled.md",
-    "CoursApache/Chapitres/05-Deployer les sources.md",
-    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "CoursApache/Chapitres/05-Mise en œuvre des sources.md",
     "SSH/Clé SSH.md",
     "Configurer.md",
