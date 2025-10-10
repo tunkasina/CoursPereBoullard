@@ -43,14 +43,15 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - Validez votre capacité à prendre la main
 
 [spoiler]
-Côté serveur : Basculer sur un prompt en tant que _webadmin_, et :
+Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
  - `ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite
  - `cat nomExplicite.pub >> .ssh\authorized_keys`
-Côté client : Pour éviter les soucis d'encodage, on copie le fichier depuis le serveur sur notre poste :
+Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le serveur sur notre poste :
  - `scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/`
-Ensuite on configure le fichier de conf du démo <code>/etc/ssh/shhd_config</code><br/>
-Et on recharge le fichier de conf du démon <code>systemctl reload sshd.service</code><br/>
-</details>```
+Ensuite on configure le fichier de conf du démon :
+ - `/etc/ssh/shhd_config`
+ - `systemctl reload sshd.service`
+Testez, respirez.
 [/spoiler]
 
 ## Final
