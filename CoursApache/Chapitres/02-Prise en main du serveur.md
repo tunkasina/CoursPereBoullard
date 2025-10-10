@@ -2,6 +2,7 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 <div style="border:2px solid red;padding:0.5em;">🔥 Faites un snapshot !</div>
 
+
 <details style="border:2px solid green;padding:0.5em;">
   <summary>Cliquez pour voir la solution</summary>
   
