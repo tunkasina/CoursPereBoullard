@@ -35,6 +35,13 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
 <code>su -</code><br/>
 </details>
 
+[spoiler]
+Ceci est un spoiler caché !
+`Ceci est un spoiler caché !`
+_Ceci est un spoiler caché !_
+Ceci est un **spoiler** caché !
+[/spoiler]
+
 ### Configurer la connexion par clé
  - Générez un jeu de clé SSH
  - Mettez en œuvre votre clé publique sur le serveur et configurez SSH pour
