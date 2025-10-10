@@ -4,6 +4,7 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
+Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solut
 ### Prise en main
  - Trouvez la version et le niveau de mise à jour de votre serveur
  - Mettez à jour votre serveur
@@ -41,7 +42,7 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
 
-`<details class="soluce"><summary>Solution</summary>
+```<details class="soluce"><summary>Solution</summary>
 Côté serveur : Basculer sur un prompt en tant que _webadmin_  <br/>
 <code>ssh-keygen -t ed25519 -C "pereBoullard"</code> + donner un nom explicite  <br/>
 <code>cat nomExplicite.pub >> .ssh\authorized_keys</code>  <br/>
