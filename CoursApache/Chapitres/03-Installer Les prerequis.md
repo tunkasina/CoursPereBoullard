@@ -22,5 +22,7 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 > Pour installer mariadb : `apt install mariadb`
 > Pour installer php et ses modules : `apt install php php-mbstring php-mysql`
 
-### Installer les prérequis
- - 
+### Configurer/Vérifier les prérequis
+ - Vérifier que _apache_ fonctionne
+ - Vérifier que _mariadb_ fonctionne
+ - Vérifier que _php_ fonctionne
