@@ -8,7 +8,7 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
  - les modules et leurs versions
 
 > [!soluce]- Solution
-> `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on peut installer :
+> `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on doit installer :
 > _apache2_ (>=2.4.13) comme serveur web
 > _mariadb_ (>=5.5.35) comme SGBD
 > _php_ (>=7.4) comme interpréteur de script
@@ -18,5 +18,9 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
  - …
 
 > [!soluce]- Solution
-> `apt install apache2`
-> `apt install mariadb`
+> Pour installer apache : `apt install apache2`
+> Pour installer mariadb : `apt install mariadb`
+> Pour installer php et ses modules : `apt install php php-mbstring php-mysql`
+
+### Installer les prérequis
+ - 
