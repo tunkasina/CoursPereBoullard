@@ -7,3 +7,13 @@
 ### fail2ban & iptable
 #### Relation et fonctionnement : jail etc.
 
+<div class="tip">
+💡 Astuce : Faites un snapshot !
+</div>
+
+
+
+
+<div class="tip">
+💡 Astuce : Faites un snapshot !
+</div>

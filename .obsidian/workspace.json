@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "CoursApache/Chapitres/06-Consolidation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "06-Consolidation"
             }
           }
         ]
@@ -199,15 +199,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe92e65f455122d6",
+  "active": "2b6b7bab33dd7fd5",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/01-Introduction.md",
-    "CoursApache/SommaireApache.md",
-    "README.md",
-    "_sidebar.md",
     "CoursApache/Chapitres/06-Consolidation.md",
-    "Untitled.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "README.md",
+    "CoursApache/SommaireApache.md",
+    "CoursApache/Chapitres/01-Introduction.md",
+    "_sidebar.md",
+    "Untitled.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
