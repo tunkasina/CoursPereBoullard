@@ -30,9 +30,9 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 
 > [!soluce]- Solution
 > Dans un premier temps, on vérifie que les différents démons sont fonctionnels : `systemctl status apache2.service`, `systemctl status mariadb.service` - qui affiche le statut et un extrait des logs.
-> Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que Apache vous rend bien une page web
-> Pour vérifier que PHP fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.
-> Enfin pour mariadb
+> Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que _apache_ vous rend bien une page web
+> Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.
+> Enfin pour _mariadb_ on va devoir executer le script **mysql_secure_installation**
 
 
 > Pour installer php et ses modules : `apt install php php-mbstring php-mysql`
