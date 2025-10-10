@@ -6,34 +6,9 @@
       {
         "id": "5f6fe2ad66c64afb",
         "type": "tabs",
-        "dimension": 49.1869918699187,
         "children": [
           {
             "id": "2b6b7bab33dd7fd5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "bf682d37fbe44428",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
-            }
-          },
-          {
-            "id": "adc94b0c258ba396",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,41 +20,40 @@
               "icon": "lucide-file",
               "title": "_sidebar"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "2597accb371c8a22",
-        "type": "tabs",
-        "dimension": 50.81300813008131,
-        "children": [
-          {
-            "id": "a484e441165cc95e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CoursApache/Sommaire Apache.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sommaire Apache"
-            }
           },
           {
-            "id": "c2cfc9a0a8700339",
+            "id": "d6c779d7b7932451",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursReseau/Sommaire Reseau.md",
+                "file": "CoursApache/Chapitres/01-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sommaire Reseau"
+              "title": "01-Introduction"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "328f35a10f14c0c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "713845a6c5683d5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-Prise en main du serveur"
             }
           }
         ]
@@ -238,12 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adc94b0c258ba396",
+  "active": "713845a6c5683d5a",
   "lastOpenFiles": [
-    "CoursApache/Sommaire Apache.md",
-    "_sidebar.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
+    "_sidebar.md",
+    "CoursApache/Sommaire Apache.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursReseau/Sommaire Reseau.md",

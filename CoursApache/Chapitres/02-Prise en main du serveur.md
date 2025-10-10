@@ -2,10 +2,8 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 <div class="tip">Astuce : Faites un snapshot !</div>
 
-
 <details style="border:2px solid green;padding:0.5em;">
-  <summary>Cliquez pour voir la solution</summary>
-  
+<summary>Cliquez pour voir la solution</summary>
 Voici le contenu caché / spoiler.
   
 </details>
