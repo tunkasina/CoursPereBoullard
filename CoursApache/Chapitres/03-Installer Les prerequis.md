@@ -10,12 +10,13 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - Les logiciels et leurs versions
  - les modules et leurs versions
 
-> [!soluce]- Solution
-> `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on doit installer :
-> +  _apache2_ (>=2.4.13) comme serveur web
-> + _mariadb_ (>=5.5.35) comme SGBD
-> + _php_ (>=7.4) comme interpréteur de script
-> + les modules php _mbstring_ et _mysql_ 
+[spoiler]
+Cherchez sur un `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on doit installer :
+ +  _apache2_ (>=2.4.13) comme serveur web
+ + _mariadb_ (>=5.5.35) comme SGBD
+ + _php_ (>=7.4) comme interpréteur de script
+ + les modules php _mbstring_ et _mysql_ 
+[/spoiler]
 
 ### Installer les prérequis
  - Installer les prérequis que vous avez précédemment trouvés
