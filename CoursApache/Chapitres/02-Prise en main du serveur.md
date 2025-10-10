@@ -2,6 +2,8 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 > [!tip] Faites un snapshot !
 
+`> **Tip —** Faites un snapshot !`
+
 Enfin **dernier rappel**: Prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
 ### Prise en main

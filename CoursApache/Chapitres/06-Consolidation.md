@@ -1,4 +1,5 @@
 
+`> **Tip —** Faites un snapshot !`
 
 ## Consolidation
 ### configuration Nginx

@@ -1,6 +1,9 @@
 Enfin ! On va réellement configurer les deux services principaux de notre stack: _apache2_ et _mariadb_. Rien de bien compliqué, mais il faut rester attentif aux différents détails.
 
 > [!tip] Faites un snapshot !
+
+`> **Tip —** Faites un snapshot !`
+
 ## Consignes
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
