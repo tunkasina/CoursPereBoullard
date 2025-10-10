@@ -1,11 +1,11 @@
 ___
 Le sommaire du cours Apache:
- - [01-Introduction](./Chapitres/01-Introduction.md)
- - [[02-Prise en main du serveur]]
- - [[03-Installer Les prerequis]]
- - [[04-Configurer les prerequis]]
- - [[05-Mise en œuvre des sources]]
- - [[06-Consolidation]]
+ - [01-Introduction](./CoursApache/Chapitres/01-Introduction.md)
+ - [02-Prise en main du serveur](./CoursApache/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
+ - [03-Installer Les prerequis](./CoursApache/Chapitres/01-Introduction.md)
+ - [04-Configurer les prerequis](./CoursApache/Chapitres/01-Introduction.md)
+ - [05-Mise en œuvre des sources](./CoursApache/Chapitres/01-Introduction.md)
+ - [06-Consolidation](./CoursApache/Chapitres/01-Introduction.md)
 
 
 

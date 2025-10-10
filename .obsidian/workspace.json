@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "CoursApache/SommaireApache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "SommaireApache"
             }
           }
         ],
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/SommaireApache.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SommaireApache"
+              "title": "02-Prise en main du serveur"
             }
           }
         ],
@@ -243,16 +243,16 @@
   },
   "active": "2b9043f59716c8a5",
   "lastOpenFiles": [
-    "CoursReseau/SommaireReseau.md",
-    "_sidebar.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/SommaireApache.md",
+    "_sidebar.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursReseau/SommaireReseau.md",
     "README.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "SSH/Clé SSH.md",
     "Configurer.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/mysql_secure_installation.md",
     "MiseEnOeuvreMantis/02 - Les prérequis.md",
     "MiseEnOeuvreMantis/03 - Mise en oeuvre des sources.md",
