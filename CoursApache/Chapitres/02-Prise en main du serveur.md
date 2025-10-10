@@ -17,7 +17,6 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
 `cat /etc/passwd` + users avec un `/bin/bash` à la fin
 `passwd` sur root, et test avec `su - webadmin` puis `su -` et validation du mot de passe défini
 </details>
-
 ### Installer SSH
  - Trouvez l'IP de votre serveur
  - Installer SSH
