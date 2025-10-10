@@ -15,7 +15,7 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 > + les modules php _mbstring_ et _mysql_ 
 
 ### Installer les prérequis
- - …
+ - Installer les prérequis que vous avez précemment trouvés
 
 > [!soluce]- Solution
 > Pour installer apache : `apt install apache2`
