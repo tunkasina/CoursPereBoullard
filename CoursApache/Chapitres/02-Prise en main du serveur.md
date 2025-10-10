@@ -11,13 +11,12 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Modifiez les mots de passe de ces utilisateurs
 
 <details class="soluce"><summary>Solution</summary>
-A la connexion, vous avez les infos de la version du noyau, et pour avoir la version de l'OS:<br/>
-<code>lsb_release -a</code><br/>
-<code>apt update && apt upgrade</code><br/>
-<code>cat /etc/passwd</code><br/>
-<code>passwd root</code><br/>
-<code>su - webadmin</code><br/>
-<code>su -</code><br/>
+<code>lsb_release -a</code>+A la connexion, vous avez les infos de la version du noyau affichées<br/>
+<code>apt update && apt upgrade</code> mise à jour<br/>
+<code>cat /etc/passwd</code> les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session <br/>
+<code>passwd</code>connecté en root, vous changerez de mot de passe <br/>
+<code>su - webadmin</code>_switch user_ pour webadmin <br/>
+<code>su -</code>_switch user_ pour root<br/>
 </details>
 
 ### Installer SSH
@@ -28,12 +27,12 @@ A la connexion, vous avez les infos de la version du noyau, et pour avoir la ver
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 <details class="soluce"><summary>Solution</summary>
-`ip a` si vraiment...
-`apt install openssh-server`
-`systemctl status sshd.service`
-`ssh root@172.22.69.238`
-`ssh webadmin@172.22.69.238`
-`su -`
+<code>ip a</code> si vraiment...<br/>
+<code>apt install openssh-server</code><br/>
+<code>systemctl status sshd.service</code><br/>
+<code>ssh root@172.22.69.238</code><br/>
+<code>ssh webadmin@172.22.69.238</code><br/>
+<code>su -</code><br/>
 </details>
 
 ### Configurer la connexion par clé
@@ -43,13 +42,13 @@ A la connexion, vous avez les infos de la version du noyau, et pour avoir la ver
  - Validez votre capacité à prendre la main
 
 <details class="soluce"><summary>Solution</summary>
-Côté serveur : Basculer sur un prompt en tant que _webadmin_  
-`ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite  
-`cat nomExplicite.pub >> .ssh\authorized_keys`  
-Côté client : Pour éviter les soucis d'encodage, on copie le fichier  
-`scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/`  
-Ensuite on configure le fichier `/etc/ssh/shhd_config`  
-Et on recharge le fichier de conf du démon `systemctl reload sshd.service`
+Côté serveur : Basculer sur un prompt en tant que _webadmin_  <br/>
+<code>ssh-keygen -t ed25519 -C "pereBoullard"</code> + donner un nom explicite  <br/>
+<code>cat nomExplicite.pub >> .ssh\authorized_keys</code>  <br/>
+Côté client : Pour éviter les soucis d'encodage, on copie le fichier  <br/>
+<code>scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/</code><br/>
+Ensuite on configure le fichier <code>/etc/ssh/shhd_config</code><br/>
+Et on recharge le fichier de conf du démon <code>systemctl reload sshd.service</code><br/>
 </details>
 
 ## Final
