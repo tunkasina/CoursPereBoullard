@@ -1,0 +1,12 @@
+.tip {
+    border-left: 4px solid #3af;
+    padding: 0.5em 1em;
+    background: #eef;
+    margin: 0.5em 0;
+}
+.warning {
+    border-left: 4px solid #f33;
+    padding: 0.5em 1em;
+    background: #fee;
+    margin: 0.5em 0;
+}
