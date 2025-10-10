@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
+                "file": "CoursApache/Chapitres/01-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Configurer les prerequis"
+              "title": "01-Introduction"
             }
           }
         ],
@@ -228,12 +228,12 @@
   },
   "active": "713845a6c5683d5a",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "README.md",
     "_sidebar.md",
