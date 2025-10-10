@@ -30,9 +30,10 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 `ip a` si vraiment ...
 `apt install openssh-server` (et pas forcément le bundle `ssh`)
 `systemctl status sshd.service` pour vérifier que le service fonctionne
-`ssh root@172.22.69.238`, depuis 
-`ssh webadmin@172.22.69.238`
-`su -` 
+`ssh root@172.22.69.238`, depuis votre _desktop_ pour accéder à votre VM...
+… et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
+`ssh webadmin@172.22.69.238`, pour finalement se connecter à votre VM
+`su -` pour élever vos privilèges et passer root.
 [/spoiler]
 
 ### Configurer la connexion par clé
