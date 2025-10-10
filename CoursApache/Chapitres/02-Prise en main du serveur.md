@@ -10,14 +10,14 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
  - Modifiez les mots de passe de ces utilisateurs
 
-<details class="soluce"><summary>Solution</summary>
-<code>lsb_release -a</code>+A la connexion, vous avez les infos de la version du noyau affichées<br/>
-<code>apt update && apt upgrade</code> mise à jour<br/>
-<code>cat /etc/passwd</code> les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session <br/>
-<code>passwd</code>connecté en root, vous changerez de mot de passe <br/>
-<code>su - webadmin</code>_switch user_ pour webadmin <br/>
-<code>su -</code>_switch user_ pour root<br/>
-</details>
+[spoiler]
+`lsb_release -a`+A la connexion, vous avez les infos de la version du noyau affichées.
+`apt update && apt upgrade` …mise à jour
+`cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
+Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
+Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
+Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
+[/spoiler]
 
 ### Installer SSH
  - Trouvez l'IP de votre serveur
