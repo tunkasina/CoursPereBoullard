@@ -1,6 +1,6 @@
 Dans le cadre de votre mise en production, vous recevrez une machine virtuelle sur une infrastructure distante. Lorsque vous louez un serveur "sans option" auprès d'un hébergeur, c'est exactement ce que vous aurez; une machine (Linux le plus souvent) fraîchement installée, mais vide de logiciels. Vous avez dû recevoir un mail avec le nom, et les identifiants nécessaire pour accéder à cette machine. Je n'ai pas encore l'URL au moment où j'écris ces lignes, vous les aurez en cours directement.
 
-<div class="tip">Faites un snapshot !</div>
+<div class="astuce">Faites un snapshot !</div>
 
 Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
@@ -10,25 +10,14 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
  - Modifiez les mots de passe de ces utilisateurs
 
-<div class="blockquote">Test de blcokquote</div>
-
-
-<details class="soluce">
-<summary>Solution</summary>
-<pre><code>
-lsb_release -a  # info à la connexion
-
-apt update && apt upgrade
-
-cat /etc/passwd  # users avec /bin/bash à la fin
-
-passwd root
-
-su - webadmin
-
-su -   # test et validation du mot de passe défini
-
-</code></pre>
+<details class="soluce"><summary>Solution</summary>
+A la connexion, vous avez les infos de la version du noyau, et pour avoir la version de l'OS:<br/>
+<code>lsb_release -a</code><br/>
+<code>apt update && apt upgrade</code><br/>
+<code>cat /etc/passwd</code><br/>
+<code>passwd root</code><br/>
+<code>su - webadmin</code><br/>
+<code>su -</code><br/>
 </details>
 
 ### Installer SSH
@@ -38,8 +27,7 @@ su -   # test et validation du mot de passe défini
  - Tentez une connexion avec chaque utilisateurs de votre système
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
-<details class="soluce">
-<summary>Solution</summary>
+<details class="soluce"><summary>Solution</summary>
 `ip a` si vraiment...
 `apt install openssh-server`
 `systemctl status sshd.service`
@@ -54,8 +42,7 @@ su -   # test et validation du mot de passe défini
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
 
-<details class="soluce">
-<summary>Solution</summary>
+<details class="soluce"><summary>Solution</summary>
 Côté serveur : Basculer sur un prompt en tant que _webadmin_  
 `ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite  
 `cat nomExplicite.pub >> .ssh\authorized_keys`  
