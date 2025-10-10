@@ -11,12 +11,12 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Modifiez les mots de passe de ces utilisateurs
 
 [spoiler]
-`lsb_release -a`+A la connexion, vous avez les infos de la version du noyau affichées.
-`apt update && apt upgrade` …mise à jour
-`cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
-Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
-Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
-Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
+ - `lsb_release -a`+A la connexion, vous avez les infos de la version du noyau affichées.
+ - `apt update && apt upgrade` …mise à jour
+ - `cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
+ - Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
+ - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
+ - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 [/spoiler]
 
 ### Installer SSH
@@ -27,13 +27,12 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 [spoiler]
-`ip a` si vraiment ...
-`apt install openssh-server` (et pas forcément le bundle `ssh`)
-`systemctl status sshd.service` pour vérifier que le service fonctionne
-`ssh root@172.22.69.238`, depuis votre _desktop_ pour accéder à votre VM...
-… et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
-`ssh webadmin@172.22.69.238`, pour finalement se connecter à votre VM
-`su -` pour élever vos privilèges et passer root.
+ - `ip a` si vraiment ...
+ - `apt install openssh-server` (et pas forcément le bundle `ssh`)
+ - `systemctl status sshd.service` pour vérifier que le service fonctionne
+ - `ssh root@172.22.69.238`, depuis votre _desktop_ pour accéder à votre VM - et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
+ - `ssh webadmin@172.22.69.238`, pour finalement se connecter à votre VM
+ - `su -` pour _élever vos privilèges_ et passer root.
 [/spoiler]
 
 ### Configurer la connexion par clé
@@ -42,7 +41,7 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
 
-<details class="soluce"><summary>Solution</summary>
+`<details class="soluce"><summary>Solution</summary>
 Côté serveur : Basculer sur un prompt en tant que _webadmin_  <br/>
 <code>ssh-keygen -t ed25519 -C "pereBoullard"</code> + donner un nom explicite  <br/>
 <code>cat nomExplicite.pub >> .ssh\authorized_keys</code>  <br/>
@@ -50,7 +49,7 @@ Côté client : Pour éviter les soucis d'encodage, on copie le fichier  <br/>
 <code>scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/</code><br/>
 Ensuite on configure le fichier <code>/etc/ssh/shhd_config</code><br/>
 Et on recharge le fichier de conf du démon <code>systemctl reload sshd.service</code><br/>
-</details>
+</details>```
 
 ## Final
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.
