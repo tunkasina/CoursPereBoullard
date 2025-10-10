@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "CoursApache/Chapitres/03-Installer Les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "03-Installer Les prerequis"
             }
           }
         ],
@@ -243,10 +243,10 @@
   },
   "active": "2b9043f59716c8a5",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/SommaireApache.md",
-    "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/SommaireApache.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "_sidebar.md",
     "CoursReseau/SommaireReseau.md",
     "README.md",
     "CoursApache/Chapitres/01-Introduction.md",
