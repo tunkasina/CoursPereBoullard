@@ -3,6 +3,7 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 (_Spoiler Alert?_) Ce sera forcément Apache, MariaDB, PHP…  Mais quelles versions ? Quelles modules ? Quels sont les modules obligatoires, ou non ?
 
 <div class="astuce">Faites un snapshot !</div>
+
 ## Consignes
 Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
 ### Trouver les prérequis
@@ -11,7 +12,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - les modules et leurs versions
 
 [spoiler]
-Cherchez sur un `insite:mantisbt.org mantis server requisite` qui nous permet de savoir que l'on doit installer :
+Cherchez sur le web `insite:mantisbt.org mantis server requisite`. Et cela nous permet de savoir que l'on doit installer :
  +  _apache2_ (>=2.4.13) comme serveur web
  + _mariadb_ (>=5.5.35) comme SGBD
  + _php_ (>=7.4) comme interpréteur de script
