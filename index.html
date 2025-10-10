@@ -50,7 +50,7 @@
         function(match, spoilerContent) {
           // Parse le markdown à l'intérieur du spoiler
           const parsedContent = marked.parse(spoilerContent.trim());
-          return '<details class="spoiler-details"><summary>🔍Solution</summary><div class="spoiler-content">' + parsedContent + '</div></details>';
+          return '<details class="spoiler-details"><summary>🔍 Solution</summary><div class="spoiler-content">' + parsedContent + '</div></details>';
         });
     });
   }, window.$docsify.plugins || []);
