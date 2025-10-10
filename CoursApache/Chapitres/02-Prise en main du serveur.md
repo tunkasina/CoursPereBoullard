@@ -31,8 +31,8 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
 `apt install openssh-server`
 `systemctl status sshd.service`
 `ssh root@172.22.69.238`
-> `ssh webadmin@172.22.69.238`
-> `su -`
+`ssh webadmin@172.22.69.238`
+`su -`
 </details>
 ### Configurer la connexion par clé
  - Générez un jeu de clé SSH
@@ -40,16 +40,16 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
  - Validez votre capacité à prendre la main
 
-
-> [!soluce]- Solution
-> Côté serveur : Basculer sur un prompt en tant que _webadmin_
-> `ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite
-> `cat nomExplicite.pub >> .ssh\authorized_keys`
-> Côté client : Pour éviter les soucis d'encodage, on copie le fichier
-> `scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/`
-> Ensuite on configure le fichier `/etc/ssh/shhd_config`
-> Et on recharge le fichier de conf du démon `systemctl reload sshd.service`
-
+<details style="soluce">
+<summary>Solution</summary>
+Côté serveur : Basculer sur un prompt en tant que _webadmin_  
+`ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite  
+`cat nomExplicite.pub >> .ssh\authorized_keys`  
+Côté client : Pour éviter les soucis d'encodage, on copie le fichier  
+`scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/`  
+Ensuite on configure le fichier `/etc/ssh/shhd_config`  
+Et on recharge le fichier de conf du démon `systemctl reload sshd.service`
+</details>
 ## Final
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.
 Si vous n'y arrivez pas, c'est qu'il manque des choses dans vos notes. Il faut alors suivre à nouveau cette page. Obstinez-vous, vous _devez_ être capable de faire tout ça !
