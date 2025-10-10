@@ -35,15 +35,27 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   
-  <!-- VOTRE SCRIPT SPOILER ICI -->
-  <script>
-    // Plugin spoiler pour Docsify
-    window.$docsify.plugins = [].concat(function(hook) {
-      hook.beforeEach(function(content) {
-        return content.replace(/\[spoiler\](.*?)\[\/spoiler\]/gs, 
-          '<details class="spoiler-details"><summary>🔍 Spoiler</summary>$1</details>');
-      });
-    }, window.$docsify.plugins || []);
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+
+<!-- Ajoutez marked pour parser le markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- VOTRE SCRIPT SPOILER CORRIGÉ -->
+<script>
+  // Plugin spoiler avec support du markdown
+  window.$docsify.plugins = [].concat(function(hook) {
+    hook.beforeEach(function(content) {
+      return content.replace(/\[spoiler\](.*?)\[\/spoiler\]/gs, 
+        function(match, spoilerContent) {
+          // Parse le markdown à l'intérieur du spoiler
+          const parsedContent = marked.parse(spoilerContent.trim());
+          return '<details class="spoiler-details"><summary>🔍 Spoiler</summary><div class="spoiler-content">' + parsedContent + '</div></details>';
+        });
+    });
+  }, window.$docsify.plugins || []);
+</script>
+
+  
 </body>
 </html>
