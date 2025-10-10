@@ -27,3 +27,28 @@
 .attention::before {
     content: "⚠️ ";
 }
+
+/* Style pour les spoilers */
+.spoiler-details {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.spoiler-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #495057;
+  padding: 5px;
+}
+
+.spoiler-details summary:hover {
+  color: #0d6efd;
+}
+
+.spoiler-details[open] summary {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 10px;
+}

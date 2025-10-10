@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Cours du pere Boullard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <!-- Thème moderne et lisible -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
   <style>
@@ -34,5 +34,16 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  
+  <!-- VOTRE SCRIPT SPOILER ICI -->
+  <script>
+    // Plugin spoiler pour Docsify
+    window.$docsify.plugins = [].concat(function(hook) {
+      hook.beforeEach(function(content) {
+        return content.replace(/\[spoiler\](.*?)\[\/spoiler\]/gs, 
+          '<details class="spoiler-details"><summary>🔍 Spoiler</summary>$1</details>');
+      });
+    }, window.$docsify.plugins || []);
+  </script>
 </body>
 </html>
