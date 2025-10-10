@@ -46,5 +46,6 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 > Et on recharge le fichier de conf du démon `systemctl reload sshd.service`
 
 ## Final
-Prenez vos notes. Si juste avec elles, vous n'êtes pas en mesure de comprendre ou de refaire ce que vous venez de terminer, **restaurez votre snapshot et recommencez** ! (sorry not sorry).
+Prenez vos notes. **Restaurez votre snapshot**, 
+Si juste avec elles, vous n'êtes pas en mesure de comprendre ou de refaire ce que vous venez de terminer, **restaurez votre snapshot et recommencez** ! (sorry not sorry).
 

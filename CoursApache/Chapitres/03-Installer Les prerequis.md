@@ -38,5 +38,5 @@ L'application Web que nous déployons a besoin de prérequis sur le serveur. C'e
 ## Final
 Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./Chapitres/04-Configurer%20les%20prerequis) !
 
-Comme la dernière fois, si vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** !
+Comme la dernière fois, si avec vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** !
 
