@@ -29,23 +29,10 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 [spoiler]
 `ip a` si vraiment ...
 `apt install openssh-server` (et pas forcément le bundle `ssh`)
-``
-<code>ip a</code> si vraiment...<br/>
-<code>apt install openssh-server</code><br/>
-<code>systemctl status sshd.service</code><br/>
-<code>ssh root@172.22.69.238</code><br/>
-<code>ssh webadmin@172.22.69.238</code><br/>
-<code>su -</code><br/>
-</details>
-
-Ceci est un spoiler caché !
-
-`Ceci est un spoiler caché !`
-
-_Ceci est un spoiler caché !_
-
-Ceci est un **spoiler** caché !
-
+`systemctl status sshd.service` pour vérifier que le service fonctionne
+`ssh root@172.22.69.238`, depuis 
+`ssh webadmin@172.22.69.238`
+`su -` 
 [/spoiler]
 
 ### Configurer la connexion par clé
