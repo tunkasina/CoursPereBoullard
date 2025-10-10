@@ -26,7 +26,10 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
  - Tentez une connexion avec chaque utilisateurs de votre système
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
-<details class="soluce"><summary>Solution</summary>
+[spoiler]
+`ip a` si vraiment ...
+`apt install openssh-server` (et pas forcément le bundle `ssh`)
+``
 <code>ip a</code> si vraiment...<br/>
 <code>apt install openssh-server</code><br/>
 <code>systemctl status sshd.service</code><br/>
@@ -34,8 +37,6 @@ Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 <code>ssh webadmin@172.22.69.238</code><br/>
 <code>su -</code><br/>
 </details>
-
-[spoiler]
 
 Ceci est un spoiler caché !
 
