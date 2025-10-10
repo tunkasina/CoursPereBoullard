@@ -4,6 +4,9 @@
     background: #eef;
     margin: 0.5em 0;
 }
+.astuce::before {
+    content: "🔥 ";  /* l'emoji + un espace */
+}
 .warning {
     border-left: 4px solid #f33;
     padding: 0.5em 1em;
