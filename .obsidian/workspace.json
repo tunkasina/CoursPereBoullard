@@ -199,8 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b6b7bab33dd7fd5",
+  "active": "1fbc3025cac9bdea",
   "lastOpenFiles": [
+    "style.css",
+    "_config.yml",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "README.md",
@@ -227,7 +229,6 @@
     "CoursApache/Sommaire Apache.md",
     "CoursReseau/Partie3-NAT/NAT Statique.md",
     "CoursReseau/Partie 3 - NAT.md",
-    "CoursReseau/Partie3-NAT/NAT Dynamique.md",
     "Medias/Pasted image 20250929154541.png",
     "CoursReseau/Partie3-NAT",
     "Medias",
@@ -237,7 +238,6 @@
     "Divers",
     "CoursApache/Chapitres",
     "index.html",
-    "Nouveau document texte.txt",
-    "SSH"
+    "Nouveau document texte.txt"
   ]
 }
