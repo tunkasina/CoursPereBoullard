@@ -12,14 +12,10 @@
             "id": "2b6b7bab33dd7fd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CoursApache/SommaireApache.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SommaireApache"
+              "title": "New tab"
             }
           },
           {
@@ -51,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "2597accb371c8a22",
@@ -242,16 +238,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a484e441165cc95e",
+  "active": "adc94b0c258ba396",
   "lastOpenFiles": [
+    "CoursApache/Sommaire Apache.md",
+    "_sidebar.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
-    "_sidebar.md",
     "CoursReseau/Sommaire Reseau.md",
     "README.md",
-    "CoursApache/Sommaire Apache.md",
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Divers - Classe d'adresse.md",
