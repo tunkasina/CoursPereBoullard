@@ -28,16 +28,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "_sidebar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "_sidebar"
+            }
+          },
+          {
+            "id": "adc94b0c258ba396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_sidebar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_sidebar"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "2597accb371c8a22",
@@ -200,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,16 +229,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf682d37fbe44428",
+  "active": "adc94b0c258ba396",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/06-Consolidation.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/SommaireApache.md",
+    "_sidebar.md",
+    "CoursApache/Chapitres/01-Introduction.md",
+    "README.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "CoursApache/Chapitres/06-Consolidation.md",
     "style.css",
     "_config.yml",
-    "README.md",
-    "CoursApache/Chapitres/01-Introduction.md",
-    "_sidebar.md",
     "Untitled.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
