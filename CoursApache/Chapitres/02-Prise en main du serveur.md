@@ -10,6 +10,9 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
  - Modifiez les mots de passe de ces utilisateurs
 
+<div class="blockquote">Test de blcokquote</div>
+
+
 <details class="soluce">
 <summary>Solution</summary>
 <pre><code>

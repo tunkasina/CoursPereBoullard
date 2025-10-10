@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "README"
             }
           },
           {
@@ -227,14 +227,14 @@
   },
   "active": "2b6b7bab33dd7fd5",
   "lastOpenFiles": [
-    "_sidebar.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "README.md",
+    "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Sommaire Apache.md",
     "CoursReseau/Sommaire Reseau.md",
-    "README.md",
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/Partie 2 - Routage IP.md",
     "CoursReseau/Divers - Classe d'adresse.md",
