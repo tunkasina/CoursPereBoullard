@@ -25,14 +25,15 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
  - Tentez une connexion avec chaque utilisateurs de votre système
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
-> [!soluce]- Solution
-> `ip a` si vraiment...
-> `apt install openssh-server`
-> `systemctl status sshd.service`
-> `ssh root@172.22.69.238`
+<details style="soluce">
+<summary>Solution</summary>
+`ip a` si vraiment...
+`apt install openssh-server`
+`systemctl status sshd.service`
+`ssh root@172.22.69.238`
 > `ssh webadmin@172.22.69.238`
 > `su -`
-
+</details>
 ### Configurer la connexion par clé
  - Générez un jeu de clé SSH
  - Mettez en œuvre votre clé publique sur le serveur et configurez SSH pour
