@@ -1,8 +1,8 @@
 Dans le cadre de votre mise en production, vous recevrez une machine virtuelle sur une infrastructure distante. Lorsque vous louez un serveur "sans option" auprès d'un hébergeur, c'est exactement ce que vous aurez; une machine (Linux le plus souvent) fraîchement installée, mais vide de logiciels. Vous avez dû recevoir un mail avec le nom, et les identifiants nécessaire pour accéder à cette machine. Je n'ai pas encore l'URL au moment où j'écris ces lignes, vous les aurez en cours directement.
 
-<div class="tip">Astuce : Faites un snapshot !</div>
+<div class="astuce">Astuce : Faites un snapshot !</div>
 
-<details style="border:2px solid green;padding:0.5em;">
+<details style="soluce">
 <summary>Cliquez pour voir la solution</summary>
 Voici le contenu caché / spoiler.
   
