@@ -36,10 +36,15 @@ Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refair
 </details>
 
 [spoiler]
+
 Ceci est un spoiler caché !
+
 `Ceci est un spoiler caché !`
+
 _Ceci est un spoiler caché !_
+
 Ceci est un **spoiler** caché !
+
 [/spoiler]
 
 ### Configurer la connexion par clé
