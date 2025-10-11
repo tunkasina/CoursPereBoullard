@@ -30,3 +30,6 @@ Autre exemple:
 
 Donc `750` = "_Propriétaire_" à tout les droits, "_Groupe_" peut lire et écrire, et "_Reste du monde_" ? Rien.
 
+Je ferais la démonstration au tableau à nouveau, ça fera pas de mal.
+
+#### Et Apache ?
