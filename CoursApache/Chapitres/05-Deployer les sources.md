@@ -32,7 +32,7 @@ La partie plus touchy (en tant que **root** !). Pour faire simple, on va donner 
  - `chmod -R 750 mantis`
  - `find . -type f -print0 | xargs -0 chmod 640`
 
-Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors ces répertoires à **760**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.
+Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors _temporairement_ ces répertoires à **770**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.
 
 [/spoiler]
 
@@ -50,13 +50,17 @@ Remplissez les paramètres d'installation... il vous demande :
  - _Admin Username (to create Database if required)_ : **root**, que vous avez configuré en installant _mariadb_
  - _Admin Password (to create Database if required)_ : ...et le mot de passe que vous avez noté
 
-Et lorsque l'on clique sur continuer, il y a quelques soucis ! Il nous indique :
+Et lorsque l'on clique sur continuer, il y a quelques soucis ! Il nous indique plusieurs erreurs. **Pas de panique**. Restez bien sur la page.
  - _cannot write /var/www/mantis/config/config_inc.php_ : Aïe ! Donnons lui des droits large sur le répertoire en question, nous corrigerons par la suite : `chmod -R 770 mantis/config`
  - _Database user doesn't have access to the database ( Access denied for user 'mantis_user'@'localhost' )_ : Bon sang, il n'a pas été capable de se donner les bons droits sur sa propre BDD ! Connectons nous sur la BDD : `mariadb -u root -p` et changeons les droits sur la base de donnée visible : `GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MOT_DE_PASSE_POUR_CET_USER]';` (attention à la fatigue, mettez bien le **bon** mot de passe !)
 
-
+Maintenant, faites "_précédent_" sur votre navigateur, puis "_Install/Upgrade Database_".... Et il devrait vous indiquer en bas "_MantisBT was installed successfully. Continue to log in._"
 
 Enfin, cliquez sur _Continuez_ et authentifiez vous, comme dans la doc, avec comme login `administrator` et mot de passe `root`.
+
+**Et si ça ne marche pas pour moi?**.
+ - Reprenez le snapshot précédent où tout allait bien
+ - Aidez vous des logs d'apache : `tail -f /var/log/apache2/error.log`
 
 [/spoiler]
 
