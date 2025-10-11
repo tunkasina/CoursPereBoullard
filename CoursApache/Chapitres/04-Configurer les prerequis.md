@@ -33,6 +33,9 @@ Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
 On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
  - `apt install ssl-cert`
 
+Nos fichier de configuration sont désormais prêt et fonctionnels, il manque cependant les modules nécessaire pour qu'Apache fasse le travail, rewrite et ssl :
+
+
 [/spoiler]
 
 ## Final
