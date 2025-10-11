@@ -31,8 +31,8 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - `ip a` si vraiment ...
  - `apt install openssh-server` (et pas forcément le bundle `ssh`)
  - `systemctl status sshd.service` pour vérifier que le service fonctionne
- - `ssh root@172.22.69.238`, depuis votre _desktop_ pour accéder à votre VM - et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
- - `ssh webadmin@172.22.69.238`, pour finalement se connecter à votre VM
+ - `ssh root@[VOTRE_IP]`, depuis votre _desktop_ pour accéder à votre VM - et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
+ - `ssh webadmin@[VOTRE_IP]`, pour finalement se connecter à votre VM
  - `su -` pour _élever vos privilèges_ et passer root.
 [/spoiler]
 
@@ -50,9 +50,14 @@ Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
 Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le serveur sur notre poste :
  - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 Ensuite on configure le fichier de conf du démon :
- - `/etc/ssh/shhd_config`
+ - `/etc/ssh/shhd_config` (il faut dé-commenter `PublickeyAuthentication yes` et `Authorized File .ssh/authorized_keys`)
  - `systemctl reload sshd.service`
-Testez, respirez.
+Testez :
+ - `ssh webadmin@[VOTRE_IP] -i .ssh/[NOM_EXPLICITE]`
+Modifiez une dernière fois le fichier de conf:
+ - Interdisez la connexion par mot de passe: `PasswordAuthentication no` là où le paramètre apparaît commenté. 
+ -  `systemctl reload sshd.service`
+Testez une dernière fois. Respirez.
 [/spoiler]
 
 ## Final
