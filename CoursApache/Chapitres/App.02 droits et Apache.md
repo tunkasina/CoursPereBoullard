@@ -15,10 +15,20 @@ Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_
 Si vous avez oublié comment convertir un nombre binaire à trois chiffres, bon, c'est pas très dur, mais c'est très compliqué à écrire. Donc on le fera au tableau, c'est rapide et ça fait de mal à personne.
 
 ( Si j'étais un tordu, Je pourrais vous dire que chaque bit de la droite vers la gauche double la valeur du précédent en partant de 1, ou encore que c'est `2^n` où `n` est le numéro de la colonne en parant de la droite ... _quoi on rigole ça va._)
+
+<div class="astuce">Il est obligatoire d'avoir les droits d’exécution pour parcourir un répertoire.</div>
+
 #### Et Apache ?
 Sous Debian, _apache_ s’exécute avec l'utilisateur **www-data**, appartenant au groupe **www-data**.
 
-La (fausse) conclusion que tout le monde fait, c'est qu'il faut **www-data** comme ayant les droits sur le répertoire de l'application web que l'on met en ligne. 
+La (fausse) conclusion que tout le monde fait, c'est qu'il faut **www-data** comme ayant les droits sur le répertoire de l'application web que l'on met en ligne. Cela mène à divers possibilité de corruption du serveur, comme :
+ - **RCE via Upload** : Shell PHP uploadé puis exécuté avec les droits www-data
+ - **LFI to RCE** : Inclusion de fichiers menant à l'exécution de code
+ - **Défacement** : Modification des fichiers du site avec droits d'écriture
 
+(Je voulais la joie de googler tout ça et de découvrir les multiples façon que l'on a de se faire bananer en ligne - _sinon, faite du [Root-me](https://www.root-me.org/))
 
+Bref, ce qu'il faut savoir, c'est que généralement on veux les droits minimums. Il y a deux écoles : 
+ - traiter **apache** comme un "other", ignorer **www-data** et configurer les _dossiers_ et _fichiers_ en **775** et **664**.
+ - utiliser le groupe **www-data** fermer au reste du monde, et configurer les _dossiers_ et _fichiers_ en **750** et **640**.
 
