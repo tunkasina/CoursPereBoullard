@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "328f35a10f14c0c3",
@@ -257,9 +257,9 @@
   },
   "active": "0e53c2368bf28698",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/App.02 droits et Apache.md",
-    "CoursApache/Chapitres/05-Deployer les sources.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
+    "CoursApache/Chapitres/05-Deployer les sources.md",
+    "CoursApache/Chapitres/App.02 droits et Apache.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/App.03 Apache.md",

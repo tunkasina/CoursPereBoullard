@@ -4,7 +4,7 @@ Enfin, vous arrivez au bout de votre quête. Vos yeux saignent, vos doigts tremb
 <div class="astuce">Faites un snapshot !</div>
 
 ## Consignes
-Let's fire this crack up ! 🚀🚀🚀
+Let's fire this up ! 🚀🚀🚀
 ### Télécharger les sources
  - Trouver et téléchargez les sources sur votre serveur.
 
@@ -27,16 +27,20 @@ La partie facile :
  - `tar -xvf mantisbt-2.27.1.tar.gz`
  - `mv mantisbt-2.27.1 /var/www/mantis`
 
-La partie plus touchy (en tant que **root** !):
-- qsd
-- qsdqs
-- sqd
-- sq
-- sqd
-- qsd
-- 
-`
+La partie plus touchy (en tant que **root** !). Pour faire simple, on va donner les droits **750** sur les répertoires, et **640** sur les fichiers. On va appliquer `root:www-data` en propriétaire. Allez dans `/var/www` :
+ - `chown -R root:www-data mantis`
+ - `find . -type d -print0 | xargs -0 chmod 750`
+ - `find . -type f -print0 | xargs -0 chmod 640`
+
+Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors ces répertoires à **760**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.
+
 [/spoiler]
+
+<div class="astuce">Faites un snapshot !</div>
+(_bon sang mon grand cœur me perdra_)
+### Lancer l'installation
+ - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
 
 ## Final
 Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **restaurer votre snapshot et recommencer** !
+
