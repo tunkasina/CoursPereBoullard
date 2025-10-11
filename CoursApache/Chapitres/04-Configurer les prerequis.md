@@ -11,13 +11,13 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 
 [spoiler]
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - On ne créé pas compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
+ - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
 ### Configurer apache2
 Plus tard, nous mettrons nos sources sous `/var/www/mantis/`. Vous aller configurer dès à présent votre serveur pour le servir en _https_ !
 
-Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.03%20Apache.md). Une fois lu, vous aller :
+Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.03%20Apache.md). Une fois lu, vous allez :
  - Activer les modules nécessaire
  - Définir le fichier de configuration nécessaire en copiant `default-ssl.conf` sous `mantis-ssl.conf`
  - Ajouter une redirection de _http_ vers _https_.
@@ -32,9 +32,13 @@ Aller dans `/etc/apache2/sites-available` et faites :
 Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
 ```
 <VirtualHost *:80>
+
     ServerName METTEZ_ICI_VOTRE_IP
+    
     Redirect permanent / https://METTEZ_ICI_VOTRE_IP/
+    
 </VirtualHost>
+
 ```
 
 Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
@@ -42,8 +46,11 @@ Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
  - Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :
 ```
 SSLEngine on
+
 SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem
+
 SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
+
 ```
 
 On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.

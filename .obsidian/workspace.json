@@ -39,8 +39,7 @@
                   "title": "03-Installer Les prerequis"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "f18fc8118a6346e8",
@@ -298,15 +297,15 @@
   },
   "active": "22af54a4560755d7",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/05-Deployer les sources.md",
+    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "_sidebar.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
     "CoursApache/Chapitres/App.02 droits unix.md",
     "CoursApache/Chapitres/App.03 Apache.md",
-    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "README.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
