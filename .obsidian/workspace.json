@@ -102,16 +102,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
+                "file": "CoursApache/Chapitres/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Configurer les prerequis"
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,13 +267,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fbcc1e24feb6161",
+  "active": "d4dfb317f8c3d4f0",
   "lastOpenFiles": [
+    "CoursApache/Chapitres/Untitled.md",
+    "CoursApache/Chapitres/App.02 droits unix.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
-    "CoursApache/Chapitres/App.02 droits unix.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "README.md",
     "CoursApache/Chapitres/01-Introduction.md",
@@ -298,7 +299,6 @@
     "03 - Mise en oeuvre des sources.md",
     "02 - Les prérequis.md",
     "MiseEnOeuvreMantis",
-    "CoursApache/Chapitres/05-Mise en oeuvre des sources.md",
     "Medias/Pasted image 20250929154541.png",
     "CoursReseau/Partie3-NAT",
     "Medias",

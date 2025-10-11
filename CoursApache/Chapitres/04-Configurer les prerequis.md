@@ -19,7 +19,8 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  
 
 [spoiler]
-	Les explication de configuration d'Apache méritent leur propre pa
+ - Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](./CoursApache/Chapitres/App.03%20Apache.md).
+ - Une fois que c'est compris, zou :
 [/spoiler]
 
 ## Final
