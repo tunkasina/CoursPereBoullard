@@ -282,8 +282,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa877d48592ab282",
+  "active": "22af54a4560755d7",
   "lastOpenFiles": [
+    "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
@@ -295,7 +296,6 @@
     "CoursApache/Chapitres/01-Introduction.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
     "MiseEnOeuvreMantis/04-install diverses.md",
-    "_sidebar.md",
     "Chapitres",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",

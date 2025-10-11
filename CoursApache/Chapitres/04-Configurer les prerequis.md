@@ -9,8 +9,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  - Créer une base de donnee _mantis_db_, un utilisateur pour cette base de donnée _mantis_db_admin_, et donnez lui tout les droits sur cette base de donnée.
 
 [spoiler]
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md)
+ - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
  - On ne créé pas compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
@@ -20,7 +19,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  
 
 [spoiler]
- - Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](./CoursApache/Chapitres/App.03%20Apache.md).
+ - Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.03%20Apache.md).
  - Une fois que c'est compris, zou :
 [/spoiler]
 
