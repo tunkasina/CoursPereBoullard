@@ -6,5 +6,9 @@
 	4. [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md)
 	5. [05-Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
 	6. [06-Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
-
-2. *More to come …*
+2. Appendices
+	1. [App.01 mysql_secure_installation](./CoursApache/Chapitres/App.01%20mysql_secure_installation.md)
+	2. [App.02 droits et Apache](./CoursApache/Chapitres/App.02%20droits%20et%20Apache.md)
+	3. [App.03 Utilisation d'Apache](./CoursApache/Chapitres/App.03%20Apache.md)
+3. *More to come …*
+ 

@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "328f35a10f14c0c3",
@@ -300,6 +300,10 @@
   },
   "active": "9d3a10d1da92b7ad",
   "lastOpenFiles": [
+    "CoursApache/Chapitres/App.03 Apache.md",
+    "_sidebar.md",
+    "CoursApache/Chapitres/App.02 droits et Apache.md",
+    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",
@@ -307,12 +311,8 @@
     "MiseEnOeuvreMantis/03-Prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
-    "CoursApache/Chapitres/App.03 Apache.md",
-    "CoursApache/Chapitres/App.02 droits et Apache.md",
-    "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "README.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "_sidebar.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
     "Chapitres",
