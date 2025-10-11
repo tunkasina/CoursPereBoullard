@@ -26,7 +26,8 @@ Cherchez sur le web `insite:mantisbt.org mantis server requisite`. Et cela nous 
  - Pour installer apache : `apt install apache2`
  - Pour installer mariadb : `apt install mariadb-server`
  - Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql`
-	(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)
+
+(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)
 [/spoiler]
 
 ### Vérifier les prérequis
