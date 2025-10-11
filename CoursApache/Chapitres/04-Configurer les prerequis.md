@@ -16,11 +16,23 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 ### Configurer apache2
  - Plus tard, nous mettrons les sources accessible sous `/var/www/mantis/`. Configurez dès à présent votre serveur pour servir ce _répertoire_ en _https_.
  - Ajouter une redirection de _http_ vers _https_.
- 
 
 [spoiler]
  - Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.03%20Apache.md).
- - Une fois que c'est compris, zou :
+
+Une fois que c'est lu, on enchaîne sur la configuration du site en _https_ et la redirection. Aller dans `/etc/apache2/sites-available` et faites :
+ - `cp default-ssl.conf mantis-ssl.conf`
+ - `cp 000-default.conf mantis-http.conf`
+
+Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
+ - 
+
+Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
+ - Définissez `DocumentRoot` à `/var/www/mantis`
+
+On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
+ - `apt install ssl-cert`
+
 [/spoiler]
 
 ## Final
