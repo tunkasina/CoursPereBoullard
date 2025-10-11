@@ -45,10 +45,13 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
 
 [spoiler]
 Remplissez les paramètres d'installation... il vous demande :
- - _Username (for Database)_ : inventez un nouvel utilisateur qui servira à se connecter à la BDD
+ - _Username (for Database)_ : inventez un nouvel utilisateur qui servira à se connecter à la BDD (et **pas** root !)
  - _Password (for Database)_ : donner lui un mot de passe
  - _Admin Username (to create Database if required)_ : **root**, que vous avez configuré en installant _mariadb_
  - _Admin Password (to create Database if required)_ : ...et le mot de passe que vous avez noté
+
+Il faudra aussi : mettre les droits sur config
+virer le s de https.
 
 Mantis vous affiche divers soucis. Comment les résoudre ?
 _cannot write /var/www/mantis/config/config_inc.php_
