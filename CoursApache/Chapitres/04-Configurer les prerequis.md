@@ -22,8 +22,7 @@ Les explication de configuration d'Apache méritent leur propre page. Cela se tr
  - Ajouter une redirection de _http_ vers _https_.
 
 [spoiler]
-Déjà on configure les modules que l'on va utiliser :
- - 
+ - `a2enmod ssl` → active le support SSL (pour le _https_)
 
 Aller dans `/etc/apache2/sites-available` et faites :
  - `cp default-ssl.conf mantis-ssl.conf`
@@ -32,18 +31,25 @@ Aller dans `/etc/apache2/sites-available` et faites :
 Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
 ```
 <VirtualHost *:80>
-    ServerName 172.22.69.238
-    Redirect permanent / https://172.22.69.238/
+    ServerName METTEZ_ICI_VOTRE_IP
+    Redirect permanent / https://METTEZ_ICI_VOTRE_IP/
 </VirtualHost>
 ```
 
 Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
  - Définissez `DocumentRoot` à `/var/www/mantis`
+ - Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :
+```
+SSLEngine on
+SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem
+SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
+```
 
 On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
  - `apt install ssl-cert`
 
-Nos fichier de configuration sont désormais prêt et fonctionnels, il manque cependant les modules nécessaire pour qu'Apache fasse le travail, rewrite et ssl :
+Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route...
+
 
 
 [/spoiler]
