@@ -44,6 +44,10 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
  - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
 
 [spoiler]
+Remplissez les paramètres d'installation... il vous demande :
+ - _Username (for Database)_ :
+ - _Password (for Database)_ :
+
 Mantis vous affiche divers soucis. Comment les résoudre ?
 _cannot write /var/www/mantis/config/config_inc.php_
 
