@@ -45,7 +45,8 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 [spoiler]
 Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
  - `ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"` + donner un nom explicite
- - `cat [NOM_EXPLICITE].pub >> .ssh\authorized_keys`
+ - vous devez mettre la clé publique dans `.ssh/authorized_keys`, si le répertoire n'existe pas, créé le avec les droits **700**.
+ - Puis `cat [NOM_EXPLICITE].pub >> .ssh/authorized_keys`
 Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le serveur sur notre poste :
  - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 Ensuite on configure le fichier de conf du démon :
