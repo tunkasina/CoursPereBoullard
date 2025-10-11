@@ -10,7 +10,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 
 [spoiler]
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - On ne créé pas compte particulier,
+ - On ne créé pas compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
 ### Configurer apache2
@@ -18,8 +18,9 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  - Ajouter une redirection de _http_ vers _https_.
  
 
-> [!soluce]- Solution
-> Enfin pour _mariadb_ on va devoir exécuter le script **mysql_secure_installation**, en comprendre le contenu, et répondre aux questions (plus de détails via [ce lien](App.01%20mysql_secure_installation.md)).
+[spoiler]
+	Les explication de configuration d'Apache méritent leur propre pa
+[/spoiler]
 
 ## Final
 On est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.
