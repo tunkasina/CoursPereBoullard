@@ -10,6 +10,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 
 [spoiler]
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
+ - [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md)
  - On ne créé pas compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
