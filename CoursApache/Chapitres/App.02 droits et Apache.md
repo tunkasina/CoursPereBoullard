@@ -33,8 +33,9 @@ Donc `750` = "_Propriétaire_" à tout les droits, "_Groupe_" peut lire et écri
 Je ferais la démonstration au tableau à nouveau, ça fera pas de mal.
 
 #### Et Apache ?
-Sous Debian, _apache_ s'éxecute avec l'utilisateur **www-data**, appartenant au groupe **www-data**.
+Sous Debian, _apache_ s’exécute avec l'utilisateur **www-data**, appartenant au groupe **www-data**.
 
 La (fausse) conclusion que tout le monde fait, c'est qu'il faut **www-data** comme ayant les droits sur le répertoire de l'application web que l'on met en ligne. 
+
 
 
