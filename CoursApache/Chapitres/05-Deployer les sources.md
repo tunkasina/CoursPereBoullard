@@ -36,10 +36,16 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
 
 [/spoiler]
 
+### Lancer l'installation
+
 <div class="astuce">Faites un snapshot !</div>
 (_bon sang mon grand cœur me perdra_)
-### Lancer l'installation
+ 
  - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
+
+[spoiler]
+
+[/spoiler]
 
 ## Final
 Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **restaurer votre snapshot et recommencer** !
