@@ -44,10 +44,10 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 
 [spoiler]
 Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
- - `ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite
- - `cat nomExplicite.pub >> .ssh\authorized_keys`
+ - `ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"` + donner un nom explicite
+ - `cat [NOM_EXPLICITE].pub >> .ssh\authorized_keys`
 Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le serveur sur notre poste :
- - `scp webadmin@172.22.69.238:/home/webadmin/pereBoullard ./.ssh/`
+ - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 Ensuite on configure le fichier de conf du démon :
  - `/etc/ssh/shhd_config`
  - `systemctl reload sshd.service`
