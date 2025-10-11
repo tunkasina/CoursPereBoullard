@@ -14,19 +14,30 @@ Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de 
  - `export http_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
  - `export https_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
 
-Et maintenant, téléchargez l'archive :
+Et maintenant, téléchargez l'archive (je vous conseille de le faire dans votre `~` en tant que **root**):
  - `wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz`
 
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
 ### Déployer les sources
  - Décompressez les et **rangez votre chambre**: on _veux_ un répertoire `/var/www/mantis/` qui contient les sources et pas un sous répertoire supplémentaire !
+ - Mettre les bon droits ?!
 
 [spoiler]
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
+La partie facile :
+ - `tar -xvf mantisbt-2.27.1.tar.gz`
+ - `mv mantisbt-2.27.1 /var/www/mantis`
+
+La partie plus touchy (en tant que **root** !):
+- qsd
+- qsdqs
+- sqd
+- sq
+- sqd
+- qsd
+- 
+`
 [/spoiler]
 
-
+## Final
+Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **restaurer votre snapshot et recommencer** !
