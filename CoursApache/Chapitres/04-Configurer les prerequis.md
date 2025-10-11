@@ -1,3 +1,4 @@
+### Configurer les prérequis
 Enfin ! On va réellement configurer les deux services principaux de notre stack: _apache2_ et _mariadb_. Rien de bien compliqué, mais il faut rester attentif aux différents détails.
 
 <div class="astuce">Faites un snapshot !</div>
@@ -48,13 +49,14 @@ SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
  - `apt install ssl-cert`
 
-Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route...
+Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route... toujours depuis `/etc/apache2/sites-available`:
+ - `a2dissite *`
+ - `a2ensite mantis*`
 
-
-
+Et bien sûr ... `systemctl reload apache2`
 [/spoiler]
 
 ## Final
-On est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.
+Pas mal ! Un gros steak, pas vrai ? Courage, on est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.
 
 Cependant, comme je suis un adepte du _drill_ je vous le dit : si vos notes ne vous permettent pas de refaire cette partie… **restaurez votre snapshot et recommencez** !
