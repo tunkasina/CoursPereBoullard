@@ -27,4 +27,3 @@ Voici quelques exemples :
 | Valeur décimale |   4   |  2  |  1  |   4   |  2  |  1  |   4   |  2  |  1  |
 | Nombre final    |   7   |     |     |   5   |     |     |   0   |     |     |
 Donc `750` = "Propriétaire" à tout les droits, "Groupe" peut lire et écrire, et "Reste du monde" ? Rien.
-
