@@ -4,7 +4,7 @@ Enfin, vous arrivez au bout de votre quête. Vos yeux saignent, vos doigts tremb
 <div class="astuce">Faites un snapshot !</div>
 
 ## Consignes
-🚀🚀🚀
+Let's fire this crack up ! 🚀🚀🚀
 ### Télécharger les sources
  - Trouver et téléchargez les sources sur votre serveur.
 
