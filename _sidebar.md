@@ -6,7 +6,5 @@
 	4. [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md)
 	5. [05-Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
 	6. [06-Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
-2.  ???
-3. [Cours Réseau](./CoursReseau/Sommaire%20Reseau.md)
-4. ???
-5. *More to come …*
+
+2. *More to come …*
