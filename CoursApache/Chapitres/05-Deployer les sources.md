@@ -52,12 +52,8 @@ Remplissez les paramètres d'installation... il vous demande :
 
 Et lorsque l'on clique sur continuer, il y a quelques soucis ! Il nous indique :
  - _cannot write /var/www/mantis/config/config_inc.php_ : Aïe ! Donnons lui des droits large sur le répertoire en question, nous corrigerons par la suite : `chmod -R 770 mantis/config`
+ - _Database user doesn't have access to the database ( Access denied for user 'mantis_user'@'localhost' )_ : Bon sang, il n'a pas été capable de se donner les bons droits sur sa propre BDD ! Connectons nous sur la BDD : `mariadb -u root -p` et changeons les droits sur la base de donnée visible : 
 
-Il faudra aussi : mettre les droits sur config
-virer le s de https.
-
-Mantis vous affiche divers soucis. Comment les résoudre ?
-_cannot write /var/www/mantis/config/config_inc.php_
 
 
 Enfin, cliquez sur _Continuez_ et authentifiez vous, comme dans la doc, avec comme login `administrator` et mot de passe `root`.
