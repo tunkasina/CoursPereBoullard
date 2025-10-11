@@ -4,7 +4,8 @@ Ces compétences sont couramment demandées dans le monde professionnel, dans le
 ### Mise en situation
 Vous venez d’être embauché dans une TPE, et le lead dev (qui est aussi le patron, l'équipe marketing et la RH) vous demande de mettre en place un bug tracker, parce qu'on va pas embaucher un adminsys pour ça quand même nan mais t'est informaticien ou pas ? Vous devrez donc réaliser la mise en production de **"Mantis Bug Tracker"**.  
   
-Vous allez devoir réaliser les opérations suivantes : Configuration et Installation de SSH, Apache, PHP, MariaDB. Déploiement des sources. Durcissement des différents services.
+#### Consignes
+J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis technique**, propre à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
 ### Moyens
 #### à l'IUT
 Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus récente et d’un accès via une interface web, qui est en fait une VM sous ProxMox (miam)  

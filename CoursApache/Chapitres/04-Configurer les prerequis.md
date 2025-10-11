@@ -3,14 +3,15 @@ Enfin ! On va réellement configurer les deux services principaux de notre stack
 <div class="astuce">Faites un snapshot !</div>
 
 ## Consignes
-Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
+Evidemment, vous chercherez par vous même et par tout les moyens nécessaires blablabla... Vous connaissez la chanson non, depuis le temps ?!
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
  - Créer une base de donnee _mantis_db_, un utilisateur pour cette base de donnée _mantis_db_admin_, et donnez lui tout les droits sur cette base de donnée.
 
-> [!soluce]- Solution
-> Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](App.01%20mysql_secure_installation.md).
-> Sinon pour créer et donner les droits qui vont bien, cela se fait comme ceci: 
+[spoiler]
+ - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](App.01%20mysql_secure_installation.md).
+ - Pour créer et donner les droits qui vont bien, cela se fait comme ceci: 
+[/spoiler]
 
 ### Configurer apache2
  - Plus tard, nous mettrons les sources accessible sous `/var/www/mantis/`. Configurez dès à présent votre serveur pour servir ce _répertoire_ en _https_.
