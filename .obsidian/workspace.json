@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "02-Prise en main du serveur"
             }
           }
         ]
@@ -200,11 +200,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2685fa7e55cd4563",
+  "active": "ef76d596d502e102",
   "lastOpenFiles": [
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/01-Introduction.md",
+    "MiseEnOeuvreMantis/02 - Les prérequis.md",
+    "MiseEnOeuvreMantis/01 - Mise en œuvre du serveur.md",
+    "README.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "SommaireApache.md",
     "SommaireReseau.md",
@@ -213,11 +216,8 @@
     "CoursApache/SommaireApache 3.md",
     "CoursApache/SommaireApache 2.md",
     "CoursApache/SommaireApache-old.md",
-    "README.md",
     "CoursReseau/SommaireReseau 1.md",
     "CoursApache/Chapitres/04-Installation de la stack.md",
-    "MiseEnOeuvreMantis/01 - Mise en œuvre du serveur.md",
-    "MiseEnOeuvreMantis/02 - Les prérequis.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",
     "MiseEnOeuvreMantis/03 - Mise en oeuvre des sources.md",
     "CoursReseau/Divers - Classe d'adresse.md",

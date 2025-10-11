@@ -1,4 +1,5 @@
 Dans le cadre de votre mise en production, vous recevrez une machine virtuelle sur une infrastructure distante. Lorsque vous louez un serveur "sans option" auprès d'un hébergeur, c'est exactement ce que vous aurez; une machine (Linux le plus souvent) fraîchement installée, mais vide de logiciels. Vous avez dû recevoir un mail avec le nom, et les identifiants nécessaire pour accéder à cette machine. Je n'ai pas encore l'URL au moment où j'écris ces lignes, vous les aurez en cours directement.
+**Si vous galérez trop avec votre Windows 10, prenez votre VM Linux "desktop", vous serez plus à l'aise**
 ## Consignes
 ### Prise en main
  - Trouvez la version et le niveau de mise à jour de votre serveur
@@ -35,7 +36,7 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 
 > [!soluce]- Solution
-> Côté serveur : Basculer sur un prompt en tant que _webadmin_
+> Côté serveur : Basculer sur un prompt en tant que _webadmin_, puis:
 > `ssh-keygen -t ed25519 -C "pereBoullard"` + donner un nom explicite
 > `cat nomExplicite.pub >> .ssh\authorized_keys`
 > Côté client : Pour éviter les soucis d'encodage, on copie le fichier
