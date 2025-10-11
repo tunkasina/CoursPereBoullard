@@ -15,6 +15,7 @@ Mandatory extensions
 mariadb mysql_secure_installation :
  - on va se créer un user root de la base de donnée
  - 
+		**ssaptoor**
 
 
 CREATE DATABASE mantis_db;
