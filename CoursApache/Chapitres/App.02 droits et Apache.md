@@ -8,22 +8,23 @@ C'est bien plus simple qu'il n'y parait, si vous savez compter de tête en **bin
 
 Les flags **r**, **w**, **x** sont des bits, qui sont soit à **0**, soit à **1**. Ainsi, si vous voyez affiché `rwx` par exemple, c'est comme si vous lisiez le nombre binaire `111`.  Et si vous voyez `rw-`et bien c'est `110`. Et `r--`, c'est `100`, en binaire.
 
-Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "reste du monde".
+Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "_reste du monde_".
 
 Tenez, prenez ce tableau ça devrait faire sens :
 
-|                 | Owner |     |     | Group |     |     | Other |     |     |
-| --------------- | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: | :-: |
-| Bits à 1 ou 0   |   r   |  w  |  x  |   r   |  w  |  x  |   r   |  w  |  x  |
-| Valeur décimale |   4   |  2  |  1  |   4   |  2  |  1  |   4   |  2  |  1  |
+|                 |     | Owner |     |     | Group |     |     | Other |     |
+| --------------- | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
+| Bits à 1 ou 0   |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
+| Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
+
 Donc, si l'on voit `rwx` on voit juste ... 4+2+1, donc 7. 
 
-Voici quelques exemples :
+Autre exemple:
 
-|                 | Owner |     |     | Group |     |     | Other |     |     |
-| --------------- | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: | :-: |
-|                 |   r   |  w  |  x  |   r   |  w  |  x  |   r   |  w  |  x  |
-| Bits            |   1   |  1  |  1  |   1   |  0  |  1  |   0   |  0  |  0  |
-| Valeur décimale |   4   |  2  |  1  |   4   |  2  |  1  |   4   |  2  |  1  |
-| Nombre final    |   7   |     |     |   5   |     |     |   0   |     |     |
+|                 |     | Owner |     |     | Group |     |     | Other |     |
+| --------------- | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
+|                 |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
+| Bits            |  1  |   1   |  1  |  1  |   0   |  1  |  0  |   0   |  0  |
+| Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
+| Nombre final    |     |   7   |     |     |   5   |     |     |   0   |     |
 Donc `750` = "Propriétaire" à tout les droits, "Groupe" peut lire et écrire, et "Reste du monde" ? Rien.
