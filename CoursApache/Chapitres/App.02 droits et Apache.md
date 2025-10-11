@@ -8,30 +8,13 @@ C'est bien plus simple qu'il n'y parait, si vous savez compter de tête en **bin
 
 Les flags **r**, **w**, **x** sont des bits, qui sont soit à **0**, soit à **1**. Ainsi, si vous voyez affiché `rwx` par exemple, c'est comme si vous lisiez le nombre binaire `111`.  Et si vous voyez `rw-`et bien c'est `110`. Et `r--`, c'est `100`, en binaire.
 
-Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "_reste du monde_".
+Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "_reste du monde_". Donc si on voit lorsque l'on fait un `ls -al` :
+ - `rwxr-xr-x` c'est en fait `111`, `101`, et `101`, donc _7_, _5_, et _5_
+ - `rw-r--r--` c'est en fait `110`, `100`, et `100`, donc _6_, _4_, et _4_.
 
-Tenez, prenez ce tableau ça devrait faire sens :
+Si vous avez oublié comment convertir un nombre binaire à trois chiffres, bon, c'est pas très dur, mais c'est très compliqué à écrire. Donc on le fera au tableau, c'est rapide et ça fait de mal à personne.
 
-|                 |     | Owner |     |     | Group |     |     | Other |     |
-| --------------: | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
-|   Bits à 1 ou 0 |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
-| Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
-
-Donc, si l'on voit `rwx` on voit juste ... 4+2+1, donc 7. 
-
-Autre exemple:
-
-|                 |     | Owner |     |     | Group |     |     | Other |     |
-| --------------: | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
-|                 |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
-|            Bits |  1  |   1   |  1  |  1  |   0   |  1  |  0  |   0   |  0  |
-| Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
-|    Nombre final |     |   7   |     |     |   5   |     |     |   0   |     |
-
-Donc `750` = "_Propriétaire_" à tout les droits, "_Groupe_" peut lire et écrire, et "_Reste du monde_" ? Rien.
-
-Je ferais la démonstration au tableau à nouveau, ça fera pas de mal.
-
+( Si j'étais un tordu, Je pourrais vous dire que chaque bit de la droite vers la gauche double la valeur du précédent en partant de 1, ou encore que c'est `2^n` où `n` est le numéro de la colonne en parant de la droite ... _quoi on rigole ça va._)
 #### Et Apache ?
 Sous Debian, _apache_ s’exécute avec l'utilisateur **www-data**, appartenant au groupe **www-data**.
 
