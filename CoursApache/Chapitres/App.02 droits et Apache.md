@@ -13,8 +13,8 @@ Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_
 Tenez, prenez ce tableau ça devrait faire sens :
 
 |                 |     | Owner |     |     | Group |     |     | Other |     |
-| --------------- | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
-| Bits à 1 ou 0   |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
+| --------------: | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
+|   Bits à 1 ou 0 |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
 | Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
 
 Donc, si l'on voit `rwx` on voit juste ... 4+2+1, donc 7. 
@@ -22,9 +22,11 @@ Donc, si l'on voit `rwx` on voit juste ... 4+2+1, donc 7.
 Autre exemple:
 
 |                 |     | Owner |     |     | Group |     |     | Other |     |
-| --------------- | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
+| --------------: | :-: | :---: | :-: | :-: | :---: | :-: | :-: | :---: | :-: |
 |                 |  r  |   w   |  x  |  r  |   w   |  x  |  r  |   w   |  x  |
-| Bits            |  1  |   1   |  1  |  1  |   0   |  1  |  0  |   0   |  0  |
+|            Bits |  1  |   1   |  1  |  1  |   0   |  1  |  0  |   0   |  0  |
 | Valeur décimale |  4  |   2   |  1  |  4  |   2   |  1  |  4  |   2   |  1  |
-| Nombre final    |     |   7   |     |     |   5   |     |     |   0   |     |
-Donc `750` = "Propriétaire" à tout les droits, "Groupe" peut lire et écrire, et "Reste du monde" ? Rien.
+|    Nombre final |     |   7   |     |     |   5   |     |     |   0   |     |
+
+Donc `750` = "_Propriétaire_" à tout les droits, "_Groupe_" peut lire et écrire, et "_Reste du monde_" ? Rien.
+
