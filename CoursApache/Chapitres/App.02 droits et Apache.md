@@ -4,11 +4,11 @@ Je sais que vous vous en souvenez, mais je ne sais pas si on vous l'a expliqué 
 
 Chaque nombre représente un ou plusieurs droits, vous le savez. mais _pourquoi_ ? Qu'est ce qui fait que `rwx`=`7` ?
 
-C'est bien plus simple qu'il n'y parait, si vous savez compter de tête en **binaire** de 1 à 7 vous pouvez faire la conversion de tête sans effort de réflexion. 
+C'est bien plus simple qu'il n'y parait, si vous savez compter de tête en **binaire** de 1 à 7 vous pouvez faire la conversion de tête sans effort.
 
 Les flags **r**, **w**, **x** sont des bits, qui sont soit à **0**, soit à **1**. Ainsi, si vous voyez affiché `rwx` par exemple, c'est comme si vous lisiez le nombre binaire `111`.  Et si vous voyez `rw-`et bien c'est `110`. Et `r--`, c'est `100`, en binaire.
 
-Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "propriétaire", du "groupe", et du "reste du monde".
+Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "reste du monde".
 
 Tenez, prenez ce tableau ça devrait faire sens :
 
