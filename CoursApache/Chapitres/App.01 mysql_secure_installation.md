@@ -8,7 +8,8 @@ Voici toutes les interrogations du script et leur signification:
  - `Disallow root login remotely? [Y/n]` : sincèrement, oui. Cela force une personne qui veut être connecté en tant que **root** sur _mariadb_ à être en local sur le système.
  - `Remove test database and access to it? [Y/n]` : pas besoin de garder ce truc.
  - `Reload privilege tables now? [Y/n]` : ne remet pas à demain ce que tu peux faire aujourd'hui. Donc oui.
- - `Thanks for using MariaDB!` : de rien, c'est un 
+ - `Thanks for using MariaDB!` : de rien, c'est un plaisir.
 
-`
+Bon voilà, c'était un peu bourré de piège. Allez, retournez sur [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md).
+
 `

@@ -10,7 +10,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 
 [spoiler]
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
- - Pour créer et donner les droits qui vont bien, cela se fait comme ceci: 
+ - On ne créé pas compte particulier,
 [/spoiler]
 
 ### Configurer apache2
