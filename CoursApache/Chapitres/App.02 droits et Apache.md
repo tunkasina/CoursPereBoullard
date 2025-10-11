@@ -35,5 +35,5 @@ Je ferais la démonstration au tableau à nouveau, ça fera pas de mal.
 #### Et Apache ?
 Sous Debian, _apache_ s'éxecute avec l'utilisateur **www-data**, appartenant au groupe **www-data**.
 
-La (fausse) conclusion que tout le monde fait, c'est qu'il faut 
+La (fausse) conclusion que tout le monde fait, c'est qu'il faut **www-data** comme ayant les droits sur le répertoire 
 
