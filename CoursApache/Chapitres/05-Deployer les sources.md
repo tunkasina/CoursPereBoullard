@@ -29,7 +29,7 @@ La partie facile :
 
 La partie plus touchy (en tant que **root** !). Pour faire simple, on va donner les droits **750** sur les répertoires, et **640** sur les fichiers. On va appliquer `root:www-data` en propriétaire. Allez dans `/var/www` :
  - `chown -R root:www-data mantis`
- - `find . -type d -print0 | xargs -0 chmod 750`
+ - `chmod -R 750 mantis`
  - `find . -type f -print0 | xargs -0 chmod 640`
 
 Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors ces répertoires à **760**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.
