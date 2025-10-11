@@ -8,7 +8,7 @@ C'est bien plus simple qu'il n'y parait, si vous savez compter de tête en **bin
 
 Les flags **r**, **w**, **x** sont des bits, qui sont soit à **0**, soit à **1**. Ainsi, si vous voyez affiché `rwx` par exemple, c'est comme si vous lisiez le nombre binaire `111`.  Et si vous voyez `rw-`et bien c'est `110`. Et `r--`, c'est `100`, en binaire.
 
-Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "_reste du monde_". Donc si on voit lorsque l'on fait un `ls -al` :
+Et enfin, il y a 3x3 bits, chaque paquets de 3 bits définissant les droit du "_propriétaire_", du "_groupe_", et du "_reste du monde_". Donc lorsque l'on fait un `ls -al` :
  - `rwxr-xr-x` c'est en fait `111`, `101`, et `101`, donc _7_, _5_, et _5_
  - `rw-r--r--` c'est en fait `110`, `100`, et `100`, donc _6_, _4_, et _4_.
 
