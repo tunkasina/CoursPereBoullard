@@ -9,7 +9,7 @@ Enfin, vous arrivez au bout de votre quête. Vos yeux saignent, vos doigts tremb
  - Trouver et téléchargez les sources sur votre serveur.
 
 [spoiler]
-Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de l'IUT c'est pas mon choix, mais c'est ainsi il faut faire avec, IRL ce sera plus facile. Aller configurer moi ce truc :
+Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de l'IUT c'est pas mon choix, mais c'est ainsi il faut faire avec, IRL ce sera plus facile. Aller configurez moi ce truc :
  - `export http_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
  - `export https_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
 
