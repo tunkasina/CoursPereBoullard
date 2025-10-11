@@ -50,11 +50,17 @@ Remplissez les paramètres d'installation... il vous demande :
  - _Admin Username (to create Database if required)_ : **root**, que vous avez configuré en installant _mariadb_
  - _Admin Password (to create Database if required)_ : ...et le mot de passe que vous avez noté
 
+Et lorsque l'on clique sur continuer, il y a quelques soucis ! Il nous indique :
+ - _cannot write /var/www/mantis/config/config_inc.php_ : Aïe ! Donnons lui des droits large sur le répertoire en question, nous corrigerons par la suite : `chmod -R 770 mantis/config`
+
 Il faudra aussi : mettre les droits sur config
 virer le s de https.
 
 Mantis vous affiche divers soucis. Comment les résoudre ?
 _cannot write /var/www/mantis/config/config_inc.php_
+
+
+Enfin, cliquez sur _Continuez_ et authentifiez vous, comme dans la doc, avec comme login `administrator` et mot de passe `root`.
 
 [/spoiler]
 
