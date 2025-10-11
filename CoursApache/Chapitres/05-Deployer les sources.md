@@ -38,12 +38,14 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
 
 ### Lancer l'installation
 
-<div class="astuce">Faites un snapshot !</div>
+<div class="astuce">Faites un snapshot ! Oui maintenant, avant de cliquer quoi que ce soit !</div>
 (_bon sang mon grand cœur me perdra_)
  
  - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
 
 [spoiler]
+Mantis vous affiche divers soucis. Comment les résoudre ?
+_cannot write /var/www/mantis/config/config_inc.php_
 
 [/spoiler]
 
