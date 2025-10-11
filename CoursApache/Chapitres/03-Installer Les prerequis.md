@@ -42,7 +42,7 @@ Cherchez sur le web `insite:mantisbt.org mantis server requisite`. Et cela nous 
 [/spoiler]
 
 ## Final
-Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./CoursApache/Chapitre/04-Configurer%20les%20prerequis.md) !
+Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md) !
 
 Comme la dernière fois, si avec vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** ! (_bon j'avoue là normalement, c'est peanuts_)
 
