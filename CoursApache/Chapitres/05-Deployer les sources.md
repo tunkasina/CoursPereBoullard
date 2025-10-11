@@ -1,7 +1,17 @@
 ### Déployer les sources
-Yopopopopopodum
+Enfin, vous arrivez au bout de votre quête. Vos yeux saignent, vos doigts tremblent, et c'est avec émotions que vous aller mettre en place les sources du logiciel pour enfin le voir fonctionner.
 
 <div class="astuce">Faites un snapshot !</div>
 
 ## Consignes
-Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
+.
+
+### Télécharger les sources
+ - Trouver et téléchargez les sources sur votre serveur.
+
+### Déployer les sources
+
+
+telecharger cette merde
+la decompresser
+mettre les droits

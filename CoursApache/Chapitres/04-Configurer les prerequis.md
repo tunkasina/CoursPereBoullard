@@ -30,28 +30,18 @@ Aller dans `/etc/apache2/sites-available` et faites :
  - `cp 000-default.conf mantis-http.conf`
 
 Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
-```
-<VirtualHost *:80>
-
-    ServerName METTEZ_ICI_VOTRE_IP
-    
-    Redirect permanent / https://METTEZ_ICI_VOTRE_IP/
-    
-</VirtualHost>
-
-```
+	`<VirtualHost *:80>`
+	`ServerName METTEZ_ICI_VOTRE_IP`
+	`Redirect permanent / https://METTEZ_ICI_VOTRE_IP/`
+	`</VirtualHost>`
 
 Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
  - Définissez `DocumentRoot` à `/var/www/mantis`
  - Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :
-```
-SSLEngine on
 
-SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem
-
-SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
-
-```
+	`SSLEngine on`
+	`SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem`
+	`SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key`
 
 On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
  - `apt install ssl-cert`
