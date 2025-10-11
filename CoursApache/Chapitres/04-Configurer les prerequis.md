@@ -22,12 +22,20 @@ Les explication de configuration d'Apache méritent leur propre page. Cela se tr
  - Ajouter une redirection de _http_ vers _https_.
 
 [spoiler]
+Déjà on configure les modules que l'on va utiliser :
+ - 
+
 Aller dans `/etc/apache2/sites-available` et faites :
  - `cp default-ssl.conf mantis-ssl.conf`
  - `cp 000-default.conf mantis-http.conf`
 
 Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
- - 
+```
+<VirtualHost *:80>
+    ServerName 172.22.69.238
+    Redirect permanent / https://172.22.69.238/
+</VirtualHost>
+```
 
 Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
  - Définissez `DocumentRoot` à `/var/www/mantis`
