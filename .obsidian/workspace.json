@@ -39,7 +39,8 @@
                   "title": "App.02 droits unix"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f18fc8118a6346e8",
@@ -102,16 +103,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/Untitled.md",
+                "file": "CoursApache/Chapitres/App.03 Apache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "App.03 Apache"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -267,12 +268,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4dfb317f8c3d4f0",
+  "active": "2fbcc1e24feb6161",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/Untitled.md",
     "CoursApache/Chapitres/App.02 droits unix.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "CoursApache/Chapitres/App.03 Apache.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/App.01 mysql_secure_installation.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
