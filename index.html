@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Cours du pere Boullard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="style.css">
   <!-- Thème moderne et lisible -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
   <style>
@@ -34,5 +34,28 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+
+<!-- Ajoutez marked pour parser le markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- VOTRE SCRIPT SPOILER CORRIGÉ -->
+<script>
+  // Plugin spoiler avec support du markdown
+  window.$docsify.plugins = [].concat(function(hook) {
+    hook.beforeEach(function(content) {
+      return content.replace(/\[spoiler\](.*?)\[\/spoiler\]/gs, 
+        function(match, spoilerContent) {
+          // Parse le markdown à l'intérieur du spoiler
+          const parsedContent = marked.parse(spoilerContent.trim());
+          return '<details class="spoiler-details"><summary>🔍 Solution</summary><div class="spoiler-content">' + parsedContent + '</div></details>';
+        });
+    });
+  }, window.$docsify.plugins || []);
+</script>
+
+  
 </body>
 </html>
