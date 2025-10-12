@@ -11,8 +11,6 @@ Vous n'aurez pas le temps de tout faire. Vous devrez choisir parmi les rubriques
 ### Passif
 Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels agresseurs. Voyez cela comme le fait de ne pas laisser la clé sur la serrure, mais aussi comme le fait d'éviter de mettre une grosse flèche rouge vers votre coffre-fort, ou de laisser la porte du jardin ouverte.
 
-Si vous avez été attentif, vous comprenez qu'ici on agit sur la **reconnaissance** et l'**exploitation** d'un adversaire.
-
 #### Post installation
  - Appliquez les instructions post-installation de **Mantis** 
  - Contrôler les droits utiles et nécessaire sur `/var/www/mantis`
@@ -35,7 +33,7 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
  - Diminuez la signature d'**Apache** et de **PHP**
 
 [spoiler]
-A rédiger
+Une des choses 
 [/spoiler]
 
 #### Seulement l'utile et le nécessaire
@@ -45,7 +43,7 @@ A rédiger
 A rédiger
 [/spoiler]
 
-
+Si vous avez été attentif, vous comprendrez qu'ici nous avons agit sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
 ### Actif
 Cela consiste à mener des actions de protection, afin d'augmenter la résilience de notre système. C'est la maintenance de notre système, et des bonnes pratiques, de bonne santé.
  - Mettre en place un script de sauvegarde de la base de donnée
@@ -58,6 +56,7 @@ Si vous avez été attentif, vous comprenez qu'ici on agit plutôt sur l'**analy
 A rédiger
 [/spoiler]
 
+Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
 ### Proactif
 Ce sont des réactions à mettre en oeuvre face à certains événements. Typiquement, ce sera votre système d'alarme.
  - mettre en place un `fail2ban`, et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
@@ -68,6 +67,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 A rédiger
 [/spoiler]
 
+Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
 ## Final
 Et voilà ! Désolé, cette fois-ci, je ne vous demanderais pas de recommencer plusieurs fois cette partie. Je ne compte pas la mettre dans le **TP évalué** final.
 
