@@ -15,14 +15,24 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
  - Diminuez la signature d'**Apache** et de **PHP**
  - Vérifier vos port ouverts vers l’extérieur
 
+Si vous avez été attentif, vous comprenez qu'ici on agit sur la **reconnaissance** et l'**exploitation** d'un adversaire.
+
 [spoiler]
-A rédiger
+A plusieurs endroits **Mantis** nous indique des choses à faire :
+ - _**Attention :** vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe._
+ - _**Attention :** le répertoire « admin » par défaut devrait être supprimé ou son accès devrait être restreint._
+
+Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez dans votre _shell_ pensez à modifier les droits que l'on avait un peu trop ouvert dans `/var/www/mantis/config`, vous vous souvenez ?
+
 [/spoiler]
 
 ### Actif
 Cela consiste à mener des actions de protection, afin d'augmenter la résilience de notre système. C'est la maintenance de notre système, et des bonnes pratiques, de bonne santé.
  - Mettre en place un script de sauvegarde de la base de donnée
  - Mettre en place un script de vérification de mise à jours dans le `.bashrc` (qui s'affichera donc dès que vous vous connectez sur le serveur)
+ - sauvegarder nos logs sur un site distant
+
+Si vous avez été attentif, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
 
 [spoiler]
 A rédiger

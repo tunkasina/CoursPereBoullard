@@ -1,5 +1,5 @@
 ## Table des matières
-1. Cours Apache
+1. TP Apache
 	1. [01-Introduction](./CoursApache/Chapitres/01-Introduction.md)
 	2. [02-Prise en main du serveur](./CoursApache/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
 	3. [03-Installer Les prerequis](./CoursApache/Chapitres/03-Installer%20Les%20prerequis)
