@@ -7,7 +7,7 @@
 	5. [Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
 	6. [Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
 2. TP Réseau
-	1. [Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
+	1. [Adressage IP](./CoursReseau/Chapitres/01-Adressage%20IP.md)
 3. Appendices
 	1. [mysql_secure_installation](./Appendices/App.01%20mysql_secure_installation.md)
 	2. [Droits et Apache](./Appendices/App.02%20droits%20et%20Apache.md)
