@@ -32,6 +32,7 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 #### Discrétion
  - Obtenez un 404 et trouvez les infos en trop
  - Interrogez votre serveur pour obtenir les **HEADERS** renvoyés
+ - Trouvez une façon d'illustrer la signature de **PHP**
  - Diminuez la signature d'**Apache** et de **PHP**
 
 [spoiler]
@@ -40,8 +41,12 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 
 Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.
 
-Vous pourriez aller plus loin et empêcher les pages 404 directement, en redirigeant sur votre accueil de site web :
+Pour illustrer la signature **PHP** un simple crash suffit :
 
+
+`sudo nano /etc/php/8.2/apache2/php.ini`
+expose_php = Off
+display_errors = Off
 
 
 [/spoiler]
