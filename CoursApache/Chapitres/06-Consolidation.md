@@ -40,6 +40,8 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 
 Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.
 
+Vous pourriez aller plus loin et empêcher les pages 404 directement, en redirigeant sur votre accueil de site web :
+
 
 
 [/spoiler]
