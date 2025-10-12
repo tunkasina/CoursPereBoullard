@@ -124,7 +124,7 @@ Ah oui et pour le petit bricolage sur `/root/.bashrc` :
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
 ## Final
-Alros clairement, dans cette section nous ne faisons qu'effleurer la surface des choses
+Alors clairement, dans cette section nous ne faisons qu'effleurer la surface des choses
 
 Et voilà ! Désolé, cette fois-ci, je ne vous demanderais pas de recommencer plusieurs fois cette partie. Je ne compte pas la mettre dans le **TP évalué** final.
 
