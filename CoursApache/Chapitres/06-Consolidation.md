@@ -22,7 +22,13 @@ A plusieurs endroits **Mantis** nous indique des choses à faire :
  - _**Attention :** vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe._
  - _**Attention :** le répertoire « admin » par défaut devrait être supprimé ou son accès devrait être restreint._
 
-Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez dans votre _shell_ pensez à modifier les droits que l'on avait un peu trop ouvert dans `/var/www/mantis/config`, vous vous souvenez ?
+Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez dans votre _shell_ pensez à modifier les droits que l'on avait un peu trop ouvert dans `/var/www/mantis/config`, vous vous souvenez ? Allez dans `mantis`
+ - `chmod -R 750 config`
+ - `find . -type f -print0 | xargs -0 chmod 640`
+
+Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
+ - `mv admin ~/admin.old`
+
 
 [/spoiler]
 
