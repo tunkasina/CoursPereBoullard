@@ -1,5 +1,5 @@
 ___
-Le sommaire du cours Apache.
+Le sommaire du TP Apache.
 ## [01-Introduction](./CoursApache/Chapitres/01-Introduction.md) 
 ## [02-Prise en main du serveur](./CoursApache/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
 ## [03-Installer Les prerequis](./CoursApache/Chapitres/03-Installer%20Les%20prerequis)
