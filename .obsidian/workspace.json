@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "04-Configurer les prerequis"
             }
           }
         ],
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
+                "file": "CoursApache/Chapitres/03-Installer Les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Configurer les prerequis"
+              "title": "03-Installer Les prerequis"
             }
           },
           {
@@ -271,15 +271,15 @@
   },
   "active": "fa877d48592ab282",
   "lastOpenFiles": [
-    "Appendices/App.04 attaque informatique.md",
-    "_sidebar.md",
-    "Appendices/App.03 Apache.md",
     "Appendices/App.02 droits et Apache.md",
-    "Appendices/App.01 mysql_secure_installation.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "Appendices/App.03 Apache.md",
+    "_sidebar.md",
+    "Appendices/App.04 attaque informatique.md",
+    "Appendices/App.01 mysql_secure_installation.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",

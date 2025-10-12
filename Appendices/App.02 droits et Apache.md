@@ -26,7 +26,7 @@ La (fausse) conclusion que tout le monde fait, c'est qu'il faut **www-data** com
  - **LFI to RCE** : Inclusion de fichiers menant à l'exécution de code
  - **Défacement** : Modification des fichiers du site avec droits d'écriture
 
-(Je voulais la joie de googler tout ça et de découvrir les multiples façons que l'on a de se faire bananer en ligne - _sinon, faites du [Root-me](https://www.root-me.org/))
+(Je vous laisse la joie de googler tout ça et de découvrir les multiples façons que l'on a de se faire bananer en ligne - _sinon, faites du [Root-me](https://www.root-me.org/))
 
 Bref, ce qu'il faut savoir, c'est que généralement on veut les droits minimaux. Il y a deux écoles : 
  - traiter **apache** comme un "other", ignorer **www-data** et configurer les _dossiers_ et _fichiers_ en **775** et **664**.
