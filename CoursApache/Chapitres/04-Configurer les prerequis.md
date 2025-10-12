@@ -10,14 +10,14 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  - Créer une base de donnee _mantis_db_, un utilisateur pour cette base de donnée _mantis_db_admin_, et donnez lui tout les droits sur cette base de donnée.
 
 [spoiler]
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.01%20mysql_secure_installation.md).
+ - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.01%20mysql_secure_installation.md).
  - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 
 ### Configurer apache2
 Plus tard, nous mettrons nos sources sous `/var/www/mantis/`. Vous aller configurer dès à présent votre serveur pour le servir en _https_ !
 
-Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Chapitres/App.03%20Apache.md). Une fois lu, vous allez :
+Les explication de configuration d'Apache méritent leur propre page. Cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.03%20Apache.md). Une fois lu, vous allez :
  - Activer les modules nécessaire
  - Définir le fichier de configuration nécessaire en copiant `default-ssl.conf` sous `mantis-ssl.conf`
  - Ajouter une redirection de _http_ vers _https_.
