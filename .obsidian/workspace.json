@@ -111,7 +111,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,6 +272,8 @@
   "lastOpenFiles": [
     "Appendices/App.04 attaque informatique.md",
     "_sidebar.md",
+    "Appendices/App.01 mysql_secure_installation.md",
+    "Appendices/App.03 Apache.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
@@ -281,10 +284,8 @@
     "CoursApache/Sommaire Apache.md",
     "Appendices/Untitled.md",
     "README.md",
-    "Appendices/App.03 Apache.md",
     "Appendices",
     "Appendices/App.02 droits et Apache.md",
-    "Appendices/App.01 mysql_secure_installation.md",
     "MiseEnOeuvreMantis/04-install diverses.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
