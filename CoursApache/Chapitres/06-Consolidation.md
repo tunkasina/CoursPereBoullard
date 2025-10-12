@@ -124,9 +124,11 @@ Ah oui et pour le petit bricolage sur `/root/.bashrc` :
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
 ## Final
-Alors clairement, dans cette section nous ne faisons qu'effleurer la surface des choses
+Alors clairement, dans cette section nous ne faisons qu'effleurer la surface des choses : il existe une foule d’autres chantiers à creuser — audit continu des logs, durcissement des permissions et des services, contrôles d'intégrité, segmentation réseau, chiffrement des sauvegardes, WAF/IDS, scans de vulnérabilités réguliers, revues de configuration et tests d’intrusion.
 
-Et voilà ! Désolé, cette fois-ci, je ne vous demanderais pas de recommencer plusieurs fois cette partie. Je ne compte pas la mettre dans le **TP évalué** final.
+Mais là il nous faudrait des heures, et ce ne serait plus un cursus de développeur mais d'AdminSys spé Cyber.
+
+Enfin, désolé, cette fois-ci, je ne vous demanderais pas de recommencer plusieurs fois cette partie. Je ne compte pas la mettre dans le **TP évalué** final.
 
 Merci de votre patience, d'avoir apprécié ce cours, n'hésitez pas à le partager en dehors de la formation, ou même à vous le mettre en favori pour plus tard.
 
