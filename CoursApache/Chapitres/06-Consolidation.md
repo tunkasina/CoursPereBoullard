@@ -88,16 +88,24 @@ Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, pa
 Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
 ### Proactif
 Ce sont des réactions à mettre en oeuvre face à certains événements. Typiquement, ce sera votre système d'alarme.
- - mettre en place un `fail2ban`, et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
+ - mettre en place un **fail2ban** (qui repose sur **iptables**), et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
  - en se basant sur les logs d'**Apache**, bannissez également les gens qui échouent à se connecter sur l'interface trois fois.
  - Ajouter dans le `bashrc` de root les 3 dernières connexions en tant que root qui sont advenues sur le système.
 
 [spoiler]
-Installer **fail2ban** et définissez vous une **IP** en "_whitelist_":
+Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whitelist_":
  - `apt install fail2ban`
  - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.conf`. Cherchez le paramètre `ignoreip =` et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.
+ - Enfin, petit bug récent de fail2ban sur Debian, modifier le fichier `/etc/fail2ban/jail.d/defaults-debian.conf` et ajoutez ces lignes derrière `enabled=true`:
 
-Ensuite, sortez le **banhammer** pour les abus sur **SSH** !
+`port     = ssh`
+`backend  = systemd`
+`maxretry = 3`
+`bantime  = 1h`
+ - et un ptit `systemctl restart fail2ban` pour la route
+
+Ensuite, sortez le **banhammer** pour les abus sur **SSH** ! Enfin ... il le fera tout seul. Testez en regardant les logs :
+ - `tail -f /var/log/fail2ban.log`
 
 [/spoiler]
 
