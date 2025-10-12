@@ -113,6 +113,9 @@ Si vous vous êtes enfermée dehors, aller sur le serveur via la console proxmox
 
 Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...
 
+Aller, Bonus : 
+	[Fonctionnement de fail2ban](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.05%20fail2ban.md)
+
 Ah oui et pour le petit bricolage sur `/root/.bashrc` :
  - `echo "Dernières connexions root :"`
  - `last -n 3 root`
