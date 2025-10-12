@@ -95,9 +95,10 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 [spoiler]
 Installer **fail2ban** et définissez vous une **IP** en "_whitelist_":
  - `apt install fail2ban`
- - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.local`:
- - 
- - 
+ - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.conf`. Cherchez le paramètre `ignoreip =` et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.
+
+Ensuite, sortez le **banhammer** pour les abus sur **SSH** !
+
 [/spoiler]
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
