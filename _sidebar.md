@@ -14,7 +14,7 @@
 	5. [fail2ban](./Appendices/App.05%20fail2ban.md)
 3. *More to come …*
  
-Cours et site sous [Licence MIT](https://opensource.org/license/MIT)
+Cours et site sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr)
 
 
 
