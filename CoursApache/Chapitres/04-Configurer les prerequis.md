@@ -7,7 +7,6 @@ Enfin ! On va réellement configurer les deux services principaux de notre stack
 Evidemment, vous chercherez par vous même et par tout les moyens nécessaires blablabla... Vous connaissez la chanson non, depuis le temps ?!
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
- - Créer une base de donnee _mantis_db_, un utilisateur pour cette base de donnée _mantis_db_admin_, et donnez lui tout les droits sur cette base de donnée.
 
 [spoiler]
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.01%20mysql_secure_installation.md).
