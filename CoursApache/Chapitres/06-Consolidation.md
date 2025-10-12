@@ -30,10 +30,15 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 [/spoiler]
 
 #### Discrétion
+ - Obtenez un 404 et trouvez les infos en trop
+ - Interrogez votre serveur pour obtenir les **HEADERS** renvoyés
  - Diminuez la signature d'**Apache** et de **PHP**
 
 [spoiler]
-Une des choses que vous ne _voulez pas_ montrer c'est les infos de votre serveur, par exemple sur un **404**
+ - Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_
+ - 
+Une des choses que vous ne _voulez pas_ montrer c'est les infos de votre serveur, par exemple sur un **404**, ou une simple requête **HTTP**. 
+
 [/spoiler]
 
 #### Seulement l'utile et le nécessaire
