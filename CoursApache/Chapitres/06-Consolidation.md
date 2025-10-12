@@ -70,8 +70,8 @@ mysqldump -u mantis_user -p'MotDePasse!' mantisbt > /var/backups/mantisbt_$DATE.
 EOF
 chmod +x /usr/local/bin/backup_mariadb.sh
 
-Editez votre fichier `bashrc`, et mettez simplement dedans :
- - `"\n# Vérif updates\n apt update -qq && apt list --upgradable"`
+Éditez votre fichier `bashrc`, et mettez simplement dedans :
+ - `apt update -qq && apt list --upgradable`
 
 [/spoiler]
 

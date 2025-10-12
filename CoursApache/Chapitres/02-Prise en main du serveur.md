@@ -15,6 +15,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 [spoiler]
  - `lsb_release -a`+A la connexion, vous avez les infos de la version du noyau affichées.
  - `apt update && apt upgrade` …mise à jour
+ - Si vous avez une erreur du genre `[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)`, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement `date -s "2025-10-12 15:07:00"`.
  - `cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
  - Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
  - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
