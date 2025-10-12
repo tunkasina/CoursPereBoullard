@@ -110,35 +110,34 @@
 /* Style pour les liens dans les paragraphes ET les listes - SANS SOULIGNEMENT */
 p a, li a {
     color: #2e8b57;
-    text-decoration: none !important; /* AUCUN soulignement */
+    text-decoration: none !important;
     font-weight: 600;
-    padding: 3px 8px 4px 8px;
+    padding: 3px 8px;
     border-radius: 4px;
     transition: all 0.3s ease;
-    border: 1px solid #2e8b57;
+    outline: 1px solid #2e8b57; /* REMPLACE border par outline */
     background-color: #f0fff4;
     display: inline;
     margin: 0 1px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 p a:hover, li a:hover {
     color: #ffffff;
     background-color: #2e8b57;
-    border-color: #236b47;
-    text-decoration: none !important; /* AUCUN soulignement au hover */
+    outline: 1px solid #236b47; /* outline au hover aussi */
+    text-decoration: none !important;
     box-shadow: 0 2px 4px rgba(46, 139, 87, 0.3);
 }
 
 p a:active, li a:active {
     transform: translateY(1px);
-    text-decoration: none !important; /* AUCUN soulignement à l'activation */
+    text-decoration: none !important;
     box-shadow: 0 1px 2px rgba(46, 139, 87, 0.3);
 }
 
-p a:focus, li a:focus {
-    outline: 2px solid #2e8b57;
-    outline-offset: 2px;
+p a:focus {
+    outline: 2px solid #2e8b57; /* Garde le focus visible */
+    outline-offset: 1px;
     background-color: #e8f5e8;
-    text-decoration: none !important; /* AUCUN soulignement au focus */
 }
