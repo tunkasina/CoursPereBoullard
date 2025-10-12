@@ -38,8 +38,7 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
 
 ### Lancer l'installation
 
-<div class="astuce">Faites un snapshot ! Oui maintenant, avant de cliquer quoi que ce soit !</div>
-(_bon sang mon grand cœur me perdra_)
+<div class="astuce">Faites un snapshot ! Oui maintenant, avant de cliquer quoi que ce soit ! (<i>bon sang mon grand cœur me perdra</i>)</div>
  
  - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
 
