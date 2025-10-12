@@ -128,11 +128,11 @@ li a:not(.sidebar-nav a):not(.sidebar-nav p a):not(.sidebar-nav li a) {
 /* Tous les états hover sauf sidebar-nav */
 p a:not(.sidebar-nav a):not(.sidebar-nav p a):not(.sidebar-nav li a):hover, 
 li a:not(.sidebar-nav a):not(.sidebar-nav p a):not(.sidebar-nav li a):hover {
-    color: #ffffff;
-    background-color: #2e8b57;
-    outline: 1px solid #236b47;
+    background-color: #e8f5e8; /* Vert un peu plus soutenu */
+    outline: 1px solid #236b47; /* Bordure légèrement plus foncée */
     text-decoration: none !important;
-    box-shadow: 0 2px 4px rgba(46, 139, 87, 0.3);
+    transform: translateY(-1px); /* Léger soulèvement subtil */
+    box-shadow: 0 2px 8px rgba(46, 139, 87, 0.2); /* Ombre plus douce */
 }
 
 /* Tous les états active sauf sidebar-nav */
