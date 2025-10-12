@@ -32,8 +32,7 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 #### Discrétion
  - Obtenez un 404 et trouvez les infos en trop
  - Interrogez votre serveur pour obtenir les **HEADERS** renvoyés
- - Trouvez une façon d'illustrer la signature de **PHP**
- - Diminuez la signature d'**Apache** et de **PHP**
+ - Diminuez la signature d'**Apache**
 
 [spoiler]
  - Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_
@@ -41,13 +40,7 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 
 Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.
 
-Pour illustrer la signature **PHP** un simple crash suffit :
-
-
-`sudo nano /etc/php/8.2/apache2/php.ini`
-expose_php = Off
-display_errors = Off
-
+Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez méfiant, si vous voyez un numéro de version apparaître lors de vos session de code, c'est qu'il y a une option quelque part à désactiver !
 
 [/spoiler]
 
