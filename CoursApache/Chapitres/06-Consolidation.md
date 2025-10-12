@@ -63,12 +63,17 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
  - sauvegarder nos logs sur un site distant
 
 [spoiler]
-cat > /usr/local/bin/backup_mariadb.sh <<'EOF'
+Un simple script de sauvegarde sera déjà un bon début ! Les admins prévoyants en mettent souvent quelques-un à divers étages ...
+
+/usr/local/bin/backup_mariadb.sh
 #!/bin/bash
 DATE=$(date +%F_%H-%M)
 mysqldump -u mantis_user -p'MotDePasse!' mantisbt > /var/backups/mantisbt_$DATE.sql
-EOF
 chmod +x /usr/local/bin/backup_mariadb.sh
+
+Automatisez vos sauvegardes avec **cron** le gestionnaire de tâches planifié de Debian: 
+ - `crontab -e`
+ - `0 2 * * * /usr/local/bin/backup_mariadb.sh` : tout les jours à 2h
 
 Éditez votre fichier `bashrc`, et mettez simplement dedans :
  - `apt update -qq && apt list --upgradable`
