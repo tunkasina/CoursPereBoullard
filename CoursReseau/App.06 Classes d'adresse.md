@@ -1,3 +1,4 @@
+# Appendice 6: Classes dadresse
 
 Petit rappel rapide des **classes d’adresses IPv4** (historiques, utilisées pour comprendre mais plus vraiment appliquées depuis le CIDR (_# Classless Inter-Domain Routing_)) :
 - **Classe A**
@@ -22,7 +23,8 @@ Petit rappel rapide des **classes d’adresses IPv4** (historiques, utilisées p
     - Plage : `240.0.0.0` → `255.255.255.255`
     - Réservée à la recherche
 ---
-Les **adresses privées** (non routables sur Internet) :
+Les **adresses privées** ("_non routables_" sur Internet) :
 - Classe A : `10.0.0.0/8`
 - Classe B : `172.16.0.0/12`
 - Classe C : `192.168.0.0/16`
+
