@@ -55,3 +55,6 @@ Et bien sûr ... `systemctl reload apache2`
 Pas mal ! Un gros steak, pas vrai ? Courage, on est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.
 
 Cependant, comme je suis un adepte du _drill_ je vous le dit : si vos notes ne vous permettent pas de refaire cette partie… **restaurez votre snapshot et recommencez** !
+
+[05-Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
+
