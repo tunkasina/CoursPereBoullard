@@ -95,6 +95,8 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 [spoiler]
 Installer **fail2ban** et définissez vous une **IP** en "_whitelist_":
  - `apt install fail2ban`
+ - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.local`:
+ - 
  - 
 [/spoiler]
 
