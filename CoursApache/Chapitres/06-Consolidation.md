@@ -78,7 +78,7 @@ _dumper le contenu de notre BDD dans un fichier _
  - `crontab -e` : éditez le gestionnaire de tâche planifiées de Debian
  - `0 2 * * * /root/backup_mariadb.sh` : tout les jours à 2h
 
-Enfin, pour avoir un rappel des mise à jour à chaque login sur le serveur, éditez votre fichier `bashrc`, et mettez simplement dedans :
+Enfin, pour avoir un rappel des mise à jour à chaque login sur le serveur, éditez votre fichier `/root/.bashrc`, et mettez simplement dedans :
  - `apt update -qq && apt list --upgradable`
 
 Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, par exemple avec **scp**.
@@ -89,7 +89,6 @@ Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l
 ### Proactif
 Ce sont des réactions à mettre en oeuvre face à certains événements. Typiquement, ce sera votre système d'alarme.
  - mettre en place un **fail2ban** (qui repose sur **iptables**), et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
- - en se basant sur les logs d'**Apache**, bannissez également les gens qui échouent à se connecter sur l'interface trois fois.
  - Ajouter dans le `bashrc` de root les 3 dernières connexions en tant que root qui sont advenues sur le système.
 
 [spoiler]
@@ -112,7 +111,11 @@ Si vous vous êtes enfermée dehors, aller sur le serveur via la console proxmox
  - `fail2ban-client status sshd` : voir les bannis
  - `fail2ban-client set sshd unbanip 172.29.18.249` dé-bannissez vous.
 
-Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`.
+Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...
+
+Ah oui et pour le petit bricolage sur `/root/.bashrc` :
+ - `echo "Dernières connexions root :"`
+ - `last -n 3 root`
 
 [/spoiler]
 
