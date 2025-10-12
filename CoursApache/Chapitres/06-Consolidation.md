@@ -88,7 +88,7 @@ Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, pa
 Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
 ### Proactif
 Ce sont des réactions à mettre en oeuvre face à certains événements. Typiquement, ce sera votre système d'alarme.
- - mettre en place un **fail2ban** (qui repose sur **iptables**), et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
+ - mettre en place un **fail2ban** (qui repose sur **iptables**, le pare-feu par défaut de Debian), et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
  - Ajouter dans le `bashrc` de root les 3 dernières connexions en tant que root qui sont advenues sur le système.
 
 [spoiler]
@@ -124,6 +124,8 @@ Ah oui et pour le petit bricolage sur `/root/.bashrc` :
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
 ## Final
+Alros clairement, dans cette section nous ne faisons qu'effleurer la surface des choses
+
 Et voilà ! Désolé, cette fois-ci, je ne vous demanderais pas de recommencer plusieurs fois cette partie. Je ne compte pas la mettre dans le **TP évalué** final.
 
 Merci de votre patience, d'avoir apprécié ce cours, n'hésitez pas à le partager en dehors de la formation, ou même à vous le mettre en favori pour plus tard.
