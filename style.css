@@ -107,89 +107,124 @@
 }
 
 /* ============= LES LIENS ========================= */
-
-/* Styles harmonisés pour les liens */
+/* Styles harmonisés pour les liens avec encadré et icône */
 a {
     color: #4b6eaf;
     text-decoration: none;
     font-weight: 600;
-    padding: 2px 4px;
-    border-radius: 3px;
-    transition: all 0.2s ease;
-    border-bottom: 1px solid transparent;
+    padding: 4px 8px 4px 28px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 1px solid #4b6eaf;
+    background-color: #f0f7ff;
+    position: relative;
+    display: inline;
+    margin: 0 2px;
+    line-height: 1.6;
+}
+
+/* Icône flèche avec pseudo-élément */
+a::before {
+    content: "→";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: transform 0.2s ease;
 }
 
 a:hover {
-    color: #3a5a8c;
-    background-color: #f0f7ff;
-    border-bottom: 1px solid #4b6eaf;
+    color: #ffffff;
+    background-color: #4b6eaf;
+    border-color: #3a5a8c;
     text-decoration: none;
+    box-shadow: 0 2px 4px rgba(75, 110, 175, 0.3);
+}
+
+a:hover::before {
+    transform: translateY(-50%) translateX(2px);
+    color: #ffffff;
 }
 
 a:active {
-    color: #2c4670;
-    background-color: #e3efff;
     transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(75, 110, 175, 0.3);
 }
 
-/* Liens dans les blocs spéciaux pour un contraste optimal */
+/* Adaptation aux blocs spéciaux */
 .astuce a {
-    color: #3a5a8c;
-    border-bottom: 1px dotted #4b6eaf;
-}
-
-.astuce a:hover {
-    color: #2c4670;
-    background-color: #e3efff;
-    border-bottom: 1px solid #3a5a8c;
+    border-color: #4b6eaf;
+    background-color: #e8f1ff;
 }
 
 .soluce a {
+    border-color: #28a745;
+    background-color: #e8f5e8;
     color: #1e7e34;
-    border-bottom: 1px dotted #28a745;
 }
 
-.soluce a:hover {
-    color: #155724;
-    background-color: #e8f5e8;
-    border-bottom: 1px solid #1e7e34;
+.soluce a::before {
+    color: #1e7e34;
 }
 
 .attention a {
+    border-color: #dc3545;
+    background-color: #ffe6e6;
     color: #c82333;
-    border-bottom: 1px dotted #dc3545;
 }
 
-.attention a:hover {
-    color: #a71e2a;
-    background-color: #ffe6e6;
-    border-bottom: 1px solid #c82333;
+.attention a::before {
+    color: #c82333;
 }
 
 .spoiler-details a {
+    border-color: #6c757d;
+    background-color: #f1f3f4;
     color: #5a6268;
-    border-bottom: 1px dotted #6c757d;
+}
+
+.spoiler-details a::before {
+    color: #5a6268;
+}
+
+/* États hover dans les blocs */
+.astuce a:hover {
+    background-color: #4b6eaf;
+    color: white;
+}
+
+.soluce a:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.attention a:hover {
+    background-color: #dc3545;
+    color: white;
 }
 
 .spoiler-details a:hover {
-    color: #495057;
-    background-color: #e9ecef;
-    border-bottom: 1px solid #5a6268;
+    background-color: #6c757d;
+    color: white;
 }
 
-/* Style pour les liens visités */
+/* Liens visités */
 a:visited {
     color: #6f42c1;
+    border-color: #6f42c1;
+    background-color: #f3f0ff;
 }
 
 a:visited:hover {
-    color: #59359a;
+    background-color: #6f42c1;
+    color: white;
 }
 
 /* Focus pour l'accessibilité */
 a:focus {
     outline: 2px solid #4b6eaf;
     outline-offset: 2px;
-    background-color: #f0f7ff;
+    background-color: #e3efff;
 }
-
