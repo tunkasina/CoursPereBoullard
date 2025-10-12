@@ -48,21 +48,31 @@ Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez 
  - Vérifier vos port ouverts vers l’extérieur
 
 [spoiler]
-Heureusement vous n'avez rien d'ouvert ! Voici comment le vérfier:
- - `ss -tulen`
+Heureusement vous n'avez rien d'ouvert ! Voici comment le vérifier:
+ - `ss -tul`
+
+Vous verrez toutes les écoutes (`l`) tcp (`t`) et udp (`u`). Et dedans on constate que **SSH** écoute sur toutes les interface IPv4 (`0.0.0.0`), **mariadb** seulement la boucle locale (`127.0.0.1`), et **Apache** écoute toutes les interfaces possibles (`*:http`, `*:https`) (_oui Apache est très à l'écoute_ ).
+
 [/spoiler]
 
-Si vous avez été attentif, vous comprendrez qu'ici nous avons agit sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
+Si vous avez été attentif, vous comprendrez qu'en étant soucieux de rester discret, et de n'exposer que l'utile et le nécessaire, nous agissons sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
 ### Actif
 Cela consiste à mener des actions de protection, afin d'augmenter la résilience de notre système. C'est la maintenance de notre système, et des bonnes pratiques, de bonne santé.
  - Mettre en place un script de sauvegarde de la base de donnée
  - Mettre en place un script de vérification de mise à jours dans le `.bashrc` (qui s'affichera donc dès que vous vous connectez sur le serveur)
  - sauvegarder nos logs sur un site distant
 
-Si vous avez été attentif, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
-
 [spoiler]
-A rédiger
+cat > /usr/local/bin/backup_mariadb.sh <<'EOF'
+#!/bin/bash
+DATE=$(date +%F_%H-%M)
+mysqldump -u mantis_user -p'MotDePasse!' mantisbt > /var/backups/mantisbt_$DATE.sql
+EOF
+chmod +x /usr/local/bin/backup_mariadb.sh
+
+Editez votre fichier `bashrc`, et mettez simplement dedans :
+ - `"\n# Vérif updates\n apt update -qq && apt list --upgradable"`
+
 [/spoiler]
 
 Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.

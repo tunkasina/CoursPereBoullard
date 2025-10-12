@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appendices/App.04 attaque informatique.md",
+                "file": "CoursApache/Chapitres/06-Consolidation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "App.04 attaque informatique"
+              "title": "06-Consolidation"
             }
           }
         ]
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92ed7faab6f10e2d",
+  "active": "6cfb236429a71158",
   "lastOpenFiles": [
     "Appendices/App.04 attaque informatique.md",
     "CoursApache/Chapitres/06-Consolidation.md",
