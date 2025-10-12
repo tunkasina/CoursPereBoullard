@@ -1,4 +1,4 @@
-### Introduction
+# Introduction
 Ce TP a pour but de vous faire découvrir la prise en main du système le plus populaire dans l’hébergement Web, GNU/Linux, dans sa distribution la plus courante, Debian. Vous déploierez des services omniprésents sur Internet (Apache, MariaDB, SSH…).
 
 Ces compétences sont couramment demandées dans le monde professionnel, dans le cadre de la mise en production d’application web. Elles vous permettront, soit de faire la mise en œuvre par vous-même, soit d’avoir une bonne communication avec l’administrateur système de votre organisation.

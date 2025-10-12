@@ -62,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/03-Installer Les prerequis.md",
+                "file": "CoursApache/Chapitres/06-Consolidation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Installer Les prerequis"
+              "title": "06-Consolidation"
             }
           },
           {
@@ -112,8 +112,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,8 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,14 +268,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bad922b333eff345",
+  "active": "ec21deb08f8fe067",
   "lastOpenFiles": [
-    "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "CoursApache/Chapitres/01-Introduction.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "Appendices/App.04 attaque informatique.md",
+    "CoursApache/Chapitres/06-Consolidation.md",
     "_sidebar.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
-    "Appendices/App.04 attaque informatique.md",
     "CoursApache/Sommaire Apache.md",
     "Appendices/Untitled.md",
     "README.md",
@@ -287,9 +288,6 @@
     "Appendices/App.01 mysql_secure_installation.md",
     "MiseEnOeuvreMantis/04-install diverses.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
     "Chapitres",
     "CoursReseau/Sommaire Reseau.md",
