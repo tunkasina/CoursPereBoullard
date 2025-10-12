@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/01-Introduction.md",
+                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Introduction"
+              "title": "04-Configurer les prerequis"
             }
           }
         ],
@@ -257,16 +257,16 @@
   },
   "active": "cdf3425173c51b24",
   "lastOpenFiles": [
+    "CoursApache/Chapitres/06-Consolidation.md",
+    "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "Appendices/App.04 attaque informatique.md",
     "Appendices/App.03 Apache.md",
     "Appendices/App.01 mysql_secure_installation.md",
     "README.md",
-    "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "Appendices/App.02 droits et Apache.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",
