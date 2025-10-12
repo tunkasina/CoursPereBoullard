@@ -105,3 +105,91 @@
 .astuce:hover, .soluce:hover, .attention:hover, .spoiler-details:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
+
+/* ============= LES LIENS ========================= */
+
+/* Styles harmonisés pour les liens */
+a {
+    color: #4b6eaf;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    color: #3a5a8c;
+    background-color: #f0f7ff;
+    border-bottom: 1px solid #4b6eaf;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2c4670;
+    background-color: #e3efff;
+    transform: translateY(1px);
+}
+
+/* Liens dans les blocs spéciaux pour un contraste optimal */
+.astuce a {
+    color: #3a5a8c;
+    border-bottom: 1px dotted #4b6eaf;
+}
+
+.astuce a:hover {
+    color: #2c4670;
+    background-color: #e3efff;
+    border-bottom: 1px solid #3a5a8c;
+}
+
+.soluce a {
+    color: #1e7e34;
+    border-bottom: 1px dotted #28a745;
+}
+
+.soluce a:hover {
+    color: #155724;
+    background-color: #e8f5e8;
+    border-bottom: 1px solid #1e7e34;
+}
+
+.attention a {
+    color: #c82333;
+    border-bottom: 1px dotted #dc3545;
+}
+
+.attention a:hover {
+    color: #a71e2a;
+    background-color: #ffe6e6;
+    border-bottom: 1px solid #c82333;
+}
+
+.spoiler-details a {
+    color: #5a6268;
+    border-bottom: 1px dotted #6c757d;
+}
+
+.spoiler-details a:hover {
+    color: #495057;
+    background-color: #e9ecef;
+    border-bottom: 1px solid #5a6268;
+}
+
+/* Style pour les liens visités */
+a:visited {
+    color: #6f42c1;
+}
+
+a:visited:hover {
+    color: #59359a;
+}
+
+/* Focus pour l'accessibilité */
+a:focus {
+    outline: 2px solid #4b6eaf;
+    outline-offset: 2px;
+    background-color: #f0f7ff;
+}
+
