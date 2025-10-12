@@ -7,11 +7,11 @@
 	5. [Mise en œuvre des sources](./CoursApache/Chapitres/05-Deployer%20les%20sources.md)
 	6. [Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
 	7. Appendices
-		1. [mysql_secure_installation](./Appendices/App.01%20mysql_secure_installation.md)
-		2. [Droits et Apache](./Appendices/App.02%20droits%20et%20Apache.md)
-		3. [Utilisation d'Apache](./Appendices/App.03%20Apache.md)
-		4. [Attaque informatique](./Appendices/App.04%20attaque%20informatique.md)
-		5. [fail2ban](./Appendices/App.05%20fail2ban.md)
+		1. [mysql_secure_installation](./CoursApache/Appendices/App.01%20mysql_secure_installation.md)
+		2. [Droits et Apache](./CoursApache/Appendices/App.02%20droits%20et%20Apache.md)
+		3. [Utilisation d'Apache](./CoursApache/Appendices/App.03%20Apache.md)
+		4. [Attaque informatique](./CoursApache/Appendices/App.04%20attaque%20informatique.md)
+		5. [fail2ban](./CoursApache/Appendices/App.05%20fail2ban.md)
 2. TP Réseau
 	1. [Adressage IP](./CoursReseau/Chapitres/01-Adressage%20IP.md)
 3. *More to come …*

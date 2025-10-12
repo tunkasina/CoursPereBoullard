@@ -20,7 +20,7 @@ Et maintenant, téléchargez l'archive (je vous conseille de le faire dans votre
 
 ### Déployer les sources
  - Décompressez les et **rangez votre chambre**: on _veux_ un répertoire `/var/www/mantis/` qui contient les sources et pas un sous répertoire supplémentaire !
- - Mettre les bon droits ?! S'appuyer sur l'appendice : [droits et Apache](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.02%20droits%20et%20Apache.md).
+ - Mettre les bon droits ?! S'appuyer sur l'appendice : [droits et Apache](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.02%20droits%20et%20Apache.md).
 
 [spoiler]
 La partie facile :

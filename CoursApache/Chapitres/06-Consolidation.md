@@ -1,7 +1,7 @@
 # Consolidation
 On appelle **Consolidation** le fait de renforcer notre serveur face aux attaques potentielles.Bien entendu, vous ne savez pas comment s'organise une attaque et heureusement, j'ai pensé à vous.
 
-Allez sur [une attaque informatique](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.04%20attaque%20informatique.md) pour en savoir plus, avant de faire la suite !
+Allez sur [une attaque informatique](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.04%20attaque%20informatique.md) pour en savoir plus, avant de faire la suite !
 
 <div class="astuce">Faites un snapshot !</div>
 
@@ -114,7 +114,7 @@ Si vous vous êtes enfermée dehors, aller sur le serveur via la console proxmox
 Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...
 
 Aller, Bonus : 
-	[Fonctionnement de fail2ban](https://tunkasina.github.io/CoursPereBoullard/#/./Appendices/App.05%20fail2ban.md)
+	[Fonctionnement de fail2ban](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.05%20fail2ban.md)
 
 Ah oui et pour le petit bricolage sur `/root/.bashrc` :
  - `echo "Dernières connexions root :"`
