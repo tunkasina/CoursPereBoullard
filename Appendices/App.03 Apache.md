@@ -1,4 +1,4 @@
-### Appendice 3: fonctionnement d'apache
+# Appendice 3: fonctionnement d'apache
 Rendez-vous dans le répertoire de configuration d’Apache : `/etc/apache2`. Faites un `ls` pour voir ce qui s’y trouve. On va détailler chaque élément important pour bien comprendre le fonctionnement du serveur.  
 #### apache2.conf
 C’est le fichier de configuration principal d’Apache. Il orchestre tout : il va charger des fichiers secondaires en fonction des ports, des modules activés et des sites configurés. C’est le point de départ de toute configuration.  

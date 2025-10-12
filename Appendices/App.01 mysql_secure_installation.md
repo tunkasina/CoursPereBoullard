@@ -1,4 +1,4 @@
-### Appendice 1: mysql_secure_installation
+# Appendice 1: mysql_secure_installation
 Voici toutes les interrogations du script et les réponses _adaptées à notre contexte_ (et que je ne vous prenne pas à recopier bêtement sans réfléchir !):
 
  - `Enter current password for root (enter for none):` : il demande le mot de passe root actuel de _mariadb_.

@@ -1,4 +1,4 @@
-### Appendice 2: droits Apache
+# Appendice 2: droits Apache
 #### Rappel Droits Unix
 Je sais que vous vous en souvenez, mais je ne sais pas si on vous l'a expliqué correctement. Les droits Unix (vous savez, **640**, **777**, etc.) ce ne sont que des bits à **0** ou **1** qui autorisent des choses sur un fichier ou un dossier.
 
