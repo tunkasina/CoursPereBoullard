@@ -34,3 +34,4 @@ Pour lister les éléments disponibles ou activés :
 
 <div class="astuce">Après toute modification, rechargez Apache !</div>
 
+Instructif non ? Allez, retournez sur [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md).

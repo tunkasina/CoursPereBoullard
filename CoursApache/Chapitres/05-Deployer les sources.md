@@ -67,3 +67,7 @@ Enfin, cliquez sur _Continuez_ et authentifiez vous, comme dans la doc, avec com
 ## Final
 Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **restaurer votre snapshot et recommencer** !
 
+Après ça, il ne nous reste plus que la partie "consolidation", où l'on va tenter de renforcer notre machine vis-à-vis du monde hostile qui nous entoure.
+
+[06-Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
+

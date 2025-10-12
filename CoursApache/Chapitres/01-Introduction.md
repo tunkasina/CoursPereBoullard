@@ -18,3 +18,6 @@ En client, vous pouvez utiliser votre VM Linux "Desktop", un PC Windows en salle
 Si vous voulez reproduire ce TP à la maison, vous n'avez pas beaucoup de choix, il faudra passer par une VM, ( par exemple, _virtual box, VMWare workstation, QEMU KVM ..._). Je vais pas vous faire un tuto pour les VM si ?!
 ### Important
 Vous **documenterez** tout. Mot de passe, doc sur internet, commande exotique, chemin de fichiers … Tout est potentiellement pertinent. A la fin du TP, vous devriez être capable de confier ces notes a un tiers, sans le support de cours, et il doit pouvoir se débrouiller avec votre serveur. Vous serez évalué sur cette capacité à réaliser une mise en production, mais aussi à documenter.
+
+[02-Prise en main du serveur](./CoursApache/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
+

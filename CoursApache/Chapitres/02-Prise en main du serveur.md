@@ -69,3 +69,7 @@ Testez une dernière fois. Respirez.
 ## Final
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.
 Si vous n'y arrivez pas, c'est qu'il manque des choses dans vos notes. Il faut alors suivre à nouveau cette page et **mieux documenter** les soucis que vous avez rencontrés. Obstinez-vous, vous _devez_ être capable de faire tout ça !
+
+[03-Installer Les prerequis](./CoursApache/Chapitres/03-Installer%20Les%20prerequis)
+
+
