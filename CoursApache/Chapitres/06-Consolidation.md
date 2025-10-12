@@ -96,7 +96,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whitelist_":
  - `apt install fail2ban`
  - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.conf`. Cherchez le paramètre `ignoreip =` et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.
- - Enfin, petit bug récent de fail2ban sur Debian, modifier le fichier `/etc/fail2ban/jail.d/defaults-debian.conf` et ajoutez ces lignes derrière `enabled=true`:
+ - Enfin, petit bug récent de fail2ban sur Debian, modifier le fichier `/etc/fail2ban/jail.d/defaults-debian.conf` et ajoutez ces lignes derrière `enabled=true` de la catégorie `[sshd]`:
 
 `port     = ssh`
 `backend  = systemd`
@@ -106,6 +106,13 @@ Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whiteli
 
 Ensuite, sortez le **banhammer** pour les abus sur **SSH** ! Enfin ... il le fera tout seul. Testez en regardant les logs :
  - `tail -f /var/log/fail2ban.log`
+ - Tentez plusieurs connexion foireuse à SSH, vous devriez voir apparaître quelque chose comme : `[sshd] Ignore VOTRE_IP_DE_CLIENT by ip`
+
+Si vous vous êtes enfermée dehors, aller sur le serveur via la console proxmox, et faites :
+ - `fail2ban-client status sshd` : voir les bannis
+ - `fail2ban-client set sshd unbanip 172.29.18.249` dé-bannissez vous.
+
+Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`.
 
 [/spoiler]
 
