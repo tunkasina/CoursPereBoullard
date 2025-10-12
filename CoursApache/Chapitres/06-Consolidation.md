@@ -10,12 +10,12 @@ Vous n'aurez pas le temps de tout faire. Vous devrez choisir parmi les rubriques
 
 ### Passif
 Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels agresseurs. Voyez cela comme le fait de ne pas laisser la clé sur la serrure, mais aussi comme le fait d'éviter de mettre une grosse flèche rouge vers votre coffre-fort, ou de laisser la porte du jardin ouverte.
- - Appliquez les instructions post-installation de **Mantis** 
- - Contrôler les droits utiles et nécessaire sur `/var/www/mantis`
- - Diminuez la signature d'**Apache** et de **PHP**
- - Vérifier vos port ouverts vers l’extérieur
 
 Si vous avez été attentif, vous comprenez qu'ici on agit sur la **reconnaissance** et l'**exploitation** d'un adversaire.
+
+#### Post installation
+ - Appliquez les instructions post-installation de **Mantis** 
+ - Contrôler les droits utiles et nécessaire sur `/var/www/mantis`
 
 [spoiler]
 A plusieurs endroits **Mantis** nous indique des choses à faire :
@@ -29,8 +29,22 @@ Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez da
 Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
  - `mv admin ~/admin.old`
 
-
 [/spoiler]
+
+#### Discrétion
+ - Diminuez la signature d'**Apache** et de **PHP**
+
+[spoiler]
+A rédiger
+[/spoiler]
+
+#### Seulement l'utile et le nécessaire
+ - Vérifier vos port ouverts vers l’extérieur
+
+[spoiler]
+A rédiger
+[/spoiler]
+
 
 ### Actif
 Cela consiste à mener des actions de protection, afin d'augmenter la résilience de notre système. C'est la maintenance de notre système, et des bonnes pratiques, de bonne santé.
