@@ -33,7 +33,7 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
  - Diminuez la signature d'**Apache** et de **PHP**
 
 [spoiler]
-Une des choses 
+Une des choses que vous ne _voulez pas_ montrer c'est les infos de votre serveur, par exemple sur un **404**
 [/spoiler]
 
 #### Seulement l'utile et le nécessaire
