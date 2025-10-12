@@ -36,8 +36,11 @@ Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
 
 [spoiler]
  - Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_
- - 
-Une des choses que vous ne _voulez pas_ montrer c'est les infos de votre serveur, par exemple sur un **404**, ou une simple requête **HTTP**. 
+ - Faites **F12** pour avoir vos outils de dev', et cherchez dans **Réseau**. Prenez la première requête **GET** et regardez les **en-têtes**. Vous devriez trouvez quelque chose comme _Server: Apache/2.4.65 (Debian) OpenSSL/3.0.17_
+
+Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.
+
+
 
 [/spoiler]
 
