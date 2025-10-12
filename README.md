@@ -9,4 +9,3 @@ Vous trouverez ici l’ensemble de mes support de cours, notes et aides diverses
 
 Me contacter sur Discord : tunkasina0537
 
-https://www.youtube.com/watch?v=5xNEevgrffM&list=RD5xNEevgrffM&index=2
