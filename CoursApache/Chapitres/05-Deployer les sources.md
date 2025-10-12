@@ -52,7 +52,7 @@ Remplissez les paramètres d'installation... il vous demande :
 
 Et lorsque l'on clique sur continuer, il y a quelques soucis ! Il nous indique plusieurs erreurs. **Pas de panique**. Restez bien sur la page.
  - _cannot write /var/www/mantis/config/config_inc.php_ : Aïe ! Donnons lui des droits large sur le répertoire en question, nous corrigerons par la suite : `chmod -R 770 mantis/config`
- - _Database user doesn't have access to the database ( Access denied for user 'mantis_user'@'localhost' )_ : Bon sang, il n'a pas été capable de se donner les bons droits sur sa propre BDD ! Connectons nous sur la BDD : `mariadb -u root -p` et changeons les droits sur la base de donnée visible : `GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MOT_DE_PASSE_POUR_CET_USER]';` (attention à la fatigue, mettez bien le **bon** mot de passe !)
+ - _Database user doesn't have access to the database ( Access denied for user 'mantis_user'@'localhost' )_ : Bon sang, il n'a pas été capable de se donner les bons droits sur sa propre BDD ! Connectons nous sur la BDD : `mariadb -u root -p` et changeons les droits sur la base de donnée visible : `GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MOT_DE_PASSE_POUR_CET_USER]';` (attention à la fatigue, mettez bien le **bon** user, le **bon** mot de passe !)
 
 Maintenant, faites "_précédent_" sur votre navigateur, puis "_Install/Upgrade Database_".... Et il devrait vous indiquer en bas "_MantisBT was installed successfully. Continue to log in._"
 

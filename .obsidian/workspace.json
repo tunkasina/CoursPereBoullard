@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CoursApache/Chapitres/05-Deployer les sources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "05-Deployer les sources"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "92ed7faab6f10e2d",
   "lastOpenFiles": [
+    "README.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "Appendices/App.04 attaque informatique.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
@@ -209,7 +210,6 @@
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "Appendices/App.03 Apache.md",
     "Appendices/App.01 mysql_secure_installation.md",
-    "README.md",
     "Appendices/App.02 droits et Apache.md",
     "MiseEnOeuvreMantis/Installer Mantis.md",
     "CoursApache/Sommaire Apache.md",
