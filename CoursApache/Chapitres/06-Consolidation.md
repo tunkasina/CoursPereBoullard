@@ -46,10 +46,10 @@ Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez 
 
 #### Seulement l'utile et le nécessaire
  - Vérifier vos port ouverts vers l’extérieur
- - débrouillez vous pour que les gens du dehors n'entrent plus par le port de **mariadb**
 
 [spoiler]
-A rédiger
+Heureusement vous n'avez rien d'ouvert ! Voici comment le vérfier:
+ - ``
 [/spoiler]
 
 Si vous avez été attentif, vous comprendrez qu'ici nous avons agit sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
