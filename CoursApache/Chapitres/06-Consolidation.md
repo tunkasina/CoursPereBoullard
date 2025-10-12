@@ -49,7 +49,7 @@ Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez 
 
 [spoiler]
 Heureusement vous n'avez rien d'ouvert ! Voici comment le vérfier:
- - ``
+ - `ss -tulen`
 [/spoiler]
 
 Si vous avez été attentif, vous comprendrez qu'ici nous avons agit sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
