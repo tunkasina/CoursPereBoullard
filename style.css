@@ -107,124 +107,36 @@
 }
 
 /* ============= LES LIENS ========================= */
-/* Styles harmonisés pour les liens avec encadré et icône */
-a {
-    color: #4b6eaf;
+/* Style uniquement pour les liens dans les paragraphes */
+p a {
+    color: #2e8b57;
     text-decoration: none;
     font-weight: 600;
-    padding: 4px 8px 4px 28px;
+    padding: 3px 8px 4px 8px;
     border-radius: 4px;
     transition: all 0.3s ease;
-    border: 1px solid #4b6eaf;
-    background-color: #f0f7ff;
-    position: relative;
+    border: 1px solid #2e8b57;
+    background-color: #f0fff4;
     display: inline;
-    margin: 0 2px;
-    line-height: 1.6;
+    margin: 0 1px;
+    line-height: 1.8;
 }
 
-/* Icône flèche avec pseudo-élément */
-a::before {
-    content: "→";
-    position: absolute;
-    left: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-weight: bold;
-    font-size: 0.9em;
-    transition: transform 0.2s ease;
-}
-
-a:hover {
+p a:hover {
     color: #ffffff;
-    background-color: #4b6eaf;
-    border-color: #3a5a8c;
+    background-color: #2e8b57;
+    border-color: #236b47;
     text-decoration: none;
-    box-shadow: 0 2px 4px rgba(75, 110, 175, 0.3);
+    box-shadow: 0 2px 4px rgba(46, 139, 87, 0.3);
 }
 
-a:hover::before {
-    transform: translateY(-50%) translateX(2px);
-    color: #ffffff;
-}
-
-a:active {
+p a:active {
     transform: translateY(1px);
-    box-shadow: 0 1px 2px rgba(75, 110, 175, 0.3);
+    box-shadow: 0 1px 2px rgba(46, 139, 87, 0.3);
 }
 
-/* Adaptation aux blocs spéciaux */
-.astuce a {
-    border-color: #4b6eaf;
-    background-color: #e8f1ff;
-}
-
-.soluce a {
-    border-color: #28a745;
-    background-color: #e8f5e8;
-    color: #1e7e34;
-}
-
-.soluce a::before {
-    color: #1e7e34;
-}
-
-.attention a {
-    border-color: #dc3545;
-    background-color: #ffe6e6;
-    color: #c82333;
-}
-
-.attention a::before {
-    color: #c82333;
-}
-
-.spoiler-details a {
-    border-color: #6c757d;
-    background-color: #f1f3f4;
-    color: #5a6268;
-}
-
-.spoiler-details a::before {
-    color: #5a6268;
-}
-
-/* États hover dans les blocs */
-.astuce a:hover {
-    background-color: #4b6eaf;
-    color: white;
-}
-
-.soluce a:hover {
-    background-color: #28a745;
-    color: white;
-}
-
-.attention a:hover {
-    background-color: #dc3545;
-    color: white;
-}
-
-.spoiler-details a:hover {
-    background-color: #6c757d;
-    color: white;
-}
-
-/* Liens visités */
-a:visited {
-    color: #6f42c1;
-    border-color: #6f42c1;
-    background-color: #f3f0ff;
-}
-
-a:visited:hover {
-    background-color: #6f42c1;
-    color: white;
-}
-
-/* Focus pour l'accessibilité */
-a:focus {
-    outline: 2px solid #4b6eaf;
+p a:focus {
+    outline: 2px solid #2e8b57;
     outline-offset: 2px;
-    background-color: #e3efff;
+    background-color: #e8f5e8;
 }
