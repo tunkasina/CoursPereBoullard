@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "CoursApache/Sommaire Apache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "Sommaire Apache"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CoursReseau/Sommaire Reseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Sommaire Reseau"
             }
           }
         ]
@@ -197,10 +197,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "216b274b67729592",
+  "active": "00b591eaf9fb4e4a",
   "lastOpenFiles": [
-    "README.md",
+    "CoursReseau/Divers - Classe d'adresse.md",
+    "CoursApache/Sommaire Apache.md",
+    "CoursReseau/Partie 2 - Routage IP.md",
+    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
+    "CoursReseau/Sommaire Reseau.md",
+    "CoursReseau/Partie 3 - NAT.md",
     "_sidebar.md",
+    "README.md",
     "Appendices/App.04 attaque informatique.md",
     "Appendices/App.03 Apache.md",
     "CoursApache/Chapitres/06-Consolidation.md",
@@ -213,22 +219,16 @@
     "CoursApache/Chapitres/01-Introduction.md",
     "Appendices/App.01 mysql_secure_installation.md",
     "Appendices/App.02 droits et Apache.md",
-    "CoursApache/Sommaire Apache.md",
     "Appendices",
     "MiseEnOeuvreMantis/04-install diverses.md",
     "MiseEnOeuvreMantis/03-Prerequis.md",
     "MiseEnOeuvreMantis/02-Prise en main.md",
     "Chapitres",
-    "CoursReseau/Sommaire Reseau.md",
-    "CoursReseau/Partie 3 - NAT.md",
-    "CoursReseau/Partie 2 - Routage IP.md",
-    "CoursReseau/Divers - Classe d'adresse.md",
     "style.css",
     "_config.yml",
     "Untitled.md",
     "CoursApache/Chapitres/05-Mise en œuvre des sources.md",
     "SSH/Clé SSH.md",
-    "Configurer.md",
     "MiseEnOeuvreMantis",
     "Medias/Pasted image 20250929154541.png",
     "CoursReseau/Partie3-NAT",
