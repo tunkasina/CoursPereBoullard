@@ -51,7 +51,8 @@ Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
  - Puis `cat [NOM_EXPLICITE].pub >> .ssh/authorized_keys` - et si le fichier n'existais pas, donnez lui les droits **600**.
 
 Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le notre poste en le prenant sur le serveur :
- - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
+ - Se mettre dans son **home**. `cd ~`
+ - Copier : `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 
 Ensuite on configure le fichier de conf du démon :
  - `/etc/ssh/shhd_config` (il faut dé-commenter `PublickeyAuthentication yes` et `Authorized File .ssh/authorized_keys`)

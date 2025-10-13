@@ -9,4 +9,4 @@ Décompressez la n'importe où, comme `Z:\windozterm`
 Testez le en double-cliquant sur `WindowsTerminal.exe`.
 
 ### Et pour SSH du coup ?
-Et bien faites la même procédure qu'avec un Linux !
+Et bien faites la même procédure qu'avec un Linux ! Il faut mettre sa clé dans 
