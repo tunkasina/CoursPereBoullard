@@ -9,4 +9,4 @@ Décompressez la n'importe où, comme `Z:\windozterm`
 Testez le en double-cliquant sur `WindowsTerminal.exe`.
 
 ### Et pour SSH du coup ?
-Vous pourrez utiliser `ssh-keygen` !
+Et bien faites la même procédure qu'avec un Linux !
