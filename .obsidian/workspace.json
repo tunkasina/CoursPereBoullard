@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Divers/Windows Terminal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Windows Terminal"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "02-Prise en main du serveur"
             }
           }
         ]
@@ -197,11 +197,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "216b274b67729592",
+  "active": "00b591eaf9fb4e4a",
   "lastOpenFiles": [
     "_sidebar.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "Divers/Windows Terminal.md",
     "README.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
@@ -226,7 +227,6 @@
     "CoursReseau/Chapitres",
     "Medias/Pasted image 20250924150309.png",
     "Divers/Obsidian and Git.md",
-    "Divers/Windows Terminal.md",
     "CoursApache/Sommaire Apache.md",
     "CoursApache/Appendices/App.04 attaque informatique.md",
     "CoursApache/Appendices/App.03 Apache.md",
