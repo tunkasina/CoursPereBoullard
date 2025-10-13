@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
+                "file": "CoursApache/Chapitres/01-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Configurer les prerequis"
+              "title": "01-Introduction"
             }
           }
         ]
@@ -199,11 +199,15 @@
   },
   "active": "216b274b67729592",
   "lastOpenFiles": [
+    "CoursApache/Images/LinuxApache-00-01.png",
+    "CoursApache/Chapitres/01-Introduction.md",
+    "CoursApache/Images",
+    "CoursApache/Nouveau dossier",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "_sidebar.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "CoursReseau/Sommaire Reseau.md",
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/App.06 Classes d'adresse.md",
@@ -213,7 +217,6 @@
     "CoursApache/Appendices/App.02 droits et Apache.md",
     "README.md",
     "CoursApache/Chapitres/06-Consolidation.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursReseau/Chapitres/01-Adressage IP.md",
     "CoursApache/Appendices/App.05 fail2ban.md",
     "CoursReseau/Partie2-RoutageIP/Routage Statique.md",
@@ -227,15 +230,12 @@
     "CoursApache/Sommaire Apache.md",
     "CoursApache/Appendices/App.04 attaque informatique.md",
     "CoursApache/Appendices/App.03 Apache.md",
-    "MiseEnOeuvreMantis/Installer Mantis.md",
     "CoursApache/Appendices",
     "Chapitres",
     "style.css",
     "_config.yml",
     "MiseEnOeuvreMantis",
     "CoursReseau/Partie3-NAT",
-    "Medias",
-    "CoursReseau/Partie2-RoutageIP",
-    "CoursReseau"
+    "Medias"
   ]
 }

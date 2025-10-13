@@ -9,9 +9,12 @@ Vous venez d’être embauché dans une TPE, et le lead dev (qui est aussi le pa
 J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis technique**, propre à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
 ### Moyens
 #### à l'IUT
-Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus récente et d’un accès via une interface web, qui est en fait une VM sous ProxMox (miam)  
+Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus récente et d’un accès via une interface web, qui est en fait une **VM sous ProxMox** (miam)  
 
 Grâce à mon incroyable mansuétude, vous aurez la possibilité de faire des "snapshots" de votre VM. **Servez-vous en**. Faites en un de suite, d'ailleurs, vous risquez d'en avoir besoin plus vite que vous ne l'imaginez …
+
+CoursApache/Images/LinuxApache-00-01.png
+
 
 En client, vous pouvez utiliser votre VM Linux "Desktop", un PC Windows en salle, votre PC Perso, etc. Prenez ce avec lequel vous êtes le plus à l'aise.
 #### à la maison
