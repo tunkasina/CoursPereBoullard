@@ -26,7 +26,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - Trouvez l'IP de votre serveur
  - Installer SSH
  - Vérifiez que le démon fonctionne
- - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.06%20Windows%20Terminal) )
+ - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal) )
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 [spoiler]

@@ -12,6 +12,7 @@
 		3. [Utilisation d'Apache](CoursApache/Appendices/App.03%20Apache.md)
 		4. [Attaque informatique](CoursApache/Appendices/App.04%20attaque%20informatique.md)
 		5. [fail2ban](CoursApache/Appendices/App.05%20fail2ban.md)
+		6. [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal)
 2. TP Réseau
 	1. [Adressage IP](CoursReseau/Chapitres/01-Adressage%20IP.md)
 3. *More to come …*
