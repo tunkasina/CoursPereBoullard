@@ -41,7 +41,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 ### Configurer la connexion par clé
  - Générez un jeu de clé SSH
  - Mettez en œuvre votre clé publique sur le serveur et configurez SSH pour
- - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion (vous pouvez utiliser  )
+ - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion (vous pouvez utiliser [Windows Terminal](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.01%20mysql_secure_installation.md) )
  - Validez votre capacité à prendre la main
 
 [spoiler]
