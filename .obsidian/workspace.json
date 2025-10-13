@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "04-Configurer les prerequis"
             }
           },
           {
@@ -214,14 +214,14 @@
   "active": "656ec13c70dc9905",
   "lastOpenFiles": [
     "_sidebar.md",
+    "CoursApache/Chapitres/04-Configurer les prerequis.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Appendices/App.06 Windows Terminal.md",
     "README.md",
     "CoursApache/Appendices/App.03 Apache.md",
     "CoursApache/Chapitres/01-Introduction.md",
-    "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
-    "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Images/LinuxApache-00-01.png",
     "CoursApache/Images",
     "CoursApache/Nouveau dossier",
