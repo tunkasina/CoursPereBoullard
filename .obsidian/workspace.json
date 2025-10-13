@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Divers/App.06 Windows Terminal.md",
+                "file": "CoursApache/Appendices/App.06 Windows Terminal.md",
                 "mode": "source",
                 "source": false
               },
@@ -211,10 +211,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "216b274b67729592",
+  "active": "00b591eaf9fb4e4a",
   "lastOpenFiles": [
+    "CoursApache/Appendices/App.06 Windows Terminal.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "Divers/App.06 Windows Terminal.md",
     "CoursApache/Appendices/App.03 Apache.md",
     "_sidebar.md",
     "README.md",

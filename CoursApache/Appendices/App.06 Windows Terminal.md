@@ -16,4 +16,8 @@ Pour aller dans son **home** :
  - en PowerShell : `cd $HOME` ou `cd ~`
 
 Copier la clé de votre serveur à votre poste ainsi, depuis votre **home** :
- -: `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
+ - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
+
+
+
+

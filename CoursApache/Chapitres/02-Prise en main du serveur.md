@@ -41,7 +41,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 ### Configurer la connexion par clé
  - Générez un jeu de clé SSH
  - Mettez en œuvre votre clé publique sur le serveur et configurez SSH pour
- - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion
+ - Configurer PuTTy ou n'importe quel autre client SSH pour cette connexion (vous pouvez utiliser )
  - Validez votre capacité à prendre la main
 
 [spoiler]
