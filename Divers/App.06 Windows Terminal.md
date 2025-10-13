@@ -9,4 +9,7 @@ Décompressez la n'importe où, comme `Z:\windozterm`
 Testez le en double-cliquant sur `WindowsTerminal.exe`.
 
 ### Et pour SSH du coup ?
-Et bien faites la même procédure qu'avec un Linux ! Il faut mettre sa clé dans 
+Et bien faites la même procédure qu'avec un Linux ! Il faut mettre sa clé dans son `.ssh` dans son **home**.
+Pour aller dans son **home** :
+ - en DOS : `cd %HOMEPATH%`
+ - en Powershell : `cd `
