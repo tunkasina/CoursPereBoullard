@@ -13,7 +13,7 @@ Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus ré
 
 Grâce à mon incroyable mansuétude, vous aurez la possibilité de faire des "snapshots" de votre VM. **Servez-vous en**. Faites en un de suite, d'ailleurs, vous risquez d'en avoir besoin plus vite que vous ne l'imaginez …
 
-![LinuxApache-00-01.png](CoursApache/Images/LinuxApache-00-01.png)
+![LinuxApache-00-01.png](./CoursApache/Images/LinuxApache-00-01.png)
 
 En client, vous pouvez utiliser votre VM Linux "Desktop", un PC Windows en salle, votre PC Perso, etc. Prenez ce avec lequel vous êtes le plus à l'aise.
 #### à la maison
