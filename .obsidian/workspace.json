@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/05-Deployer les sources.md",
+                "file": "CoursApache/Chapitres/04-Configurer les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Deployer les sources"
+              "title": "04-Configurer les prerequis"
             }
           }
         ]
@@ -199,10 +199,11 @@
   },
   "active": "216b274b67729592",
   "lastOpenFiles": [
-    "_sidebar.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "CoursApache/Chapitres/05-Deployer les sources.md",
+    "_sidebar.md",
+    "CoursApache/Chapitres/01-Introduction.md",
     "CoursReseau/Sommaire Reseau.md",
     "CoursReseau/Partie 3 - NAT.md",
     "CoursReseau/App.06 Classes d'adresse.md",
@@ -212,7 +213,6 @@
     "CoursApache/Appendices/App.02 droits et Apache.md",
     "README.md",
     "CoursApache/Chapitres/06-Consolidation.md",
-    "CoursApache/Chapitres/05-Deployer les sources.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
     "CoursReseau/Chapitres/01-Adressage IP.md",
     "CoursApache/Appendices/App.05 fail2ban.md",

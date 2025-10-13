@@ -18,6 +18,8 @@ Cherchez sur le web `insite:mantisbt.org mantis server requisite`. Et cela nous 
  + _mariadb_ (>=5.5.35) comme SGBD
  + _php_ (>=7.4) comme interpréteur de script
  + les modules php _mbstring_ et _mysql_ 
+
+De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !
 [/spoiler]
 
 ### Installer les prérequis
