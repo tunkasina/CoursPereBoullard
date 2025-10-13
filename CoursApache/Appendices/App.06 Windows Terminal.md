@@ -18,6 +18,8 @@ Pour aller dans son **home** :
 Copier la clé de votre serveur à votre poste ainsi, depuis votre **home** :
  - `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 
+Bref, je vous spoile pas plus.
+
 
 
 
