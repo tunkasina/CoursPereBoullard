@@ -80,3 +80,33 @@ write memory
 
 Les **PC** : passerelle = IP du routeur côté réseau du PC.
 Exemple : PC1 → passerelle 192.168.2.254, PC5 → passerelle 192.168.4.254.
+
+
+``` mermaid
+graph TD
+    SW1["Switch 1"]
+    SW2["Switch 2"]
+
+    PC1["PC1 .2.0"]
+    PC2["PC2 .2.0"]
+    PC3["PC3 .3.0"]
+    PC4["PC4 .3.0"]
+    PC5["PC5 .4.0"]
+    PC6["PC6 .4.0"]
+
+    R1["Routeur 1"]
+    R2["Routeur 2"]
+    R3["Routeur 3"]
+
+    SW1 --- PC1
+    SW1 --- PC2
+    SW1 --- PC3
+    SW1 --- R1
+    SW1 --- R3
+
+    SW2 --- PC4
+    SW2 --- PC5
+    SW2 --- PC6
+    SW2 --- R2
+    SW2 --- R3
+```
