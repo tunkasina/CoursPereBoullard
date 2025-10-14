@@ -1,3 +1,5 @@
+Tout sur un seul SW
+
 ```
 enable
 configure terminal
@@ -23,3 +25,7 @@ exit
 end
 write memory
 ```
+
+
+
+
