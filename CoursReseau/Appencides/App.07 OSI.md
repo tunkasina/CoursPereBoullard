@@ -6,9 +6,9 @@ https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip/72364
 - **6 – Présentation** : format données → SSL/TLS, compression
 - **5 – Session** : gestion des sessions → NetBIOS, RPC (_obsolete_)
 - **4 – Transport** : transport fiable → TCP, UDP
-- **3 – Réseau** : adressage logique → IP, ICMP
-- **2 – Liaison** : transfert sur le lien → Ethernet, VLAN, PPP
-- **1 – Physique** : support physique → RJ45, fibre optique, câble coaxial
+- **3 – Réseau (paquet)** : adressage logique → IP, ICMP
+- **2 – Liaison (trame)** : transfert sur le lien → Ethernet, VLAN, PPP
+- **1 – Physique (Bit)** : support physique → RJ45, fibre optique, câble coaxial
 
 - **Couche 7 – Application** : ce que l’utilisateur voit ou utilise directement. Exemple : ton navigateur web (HTTP), ton client FTP.
 - **Couche 6 – Présentation** : prépare les données pour que l’application comprenne l’autre côté. Exemple : cryptage/décryptage avec SSL/TLS, conversion de texte ou images.
