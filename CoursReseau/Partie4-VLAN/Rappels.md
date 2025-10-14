@@ -6,3 +6,7 @@ Un **VLAN sépare le trafic au niveau de la couche 2** (liaison) : chaque VLAN e
 
 Donc le VLAN sépare les interfaces **physiquement/logiquement**, mais **IP = plan d’adressage**, et chaque VLAN doit avoir son propre plan IP.
 
+Attention donc a ne pas mettre les mêmes plan IP de chaque côté
+
+- Les trames **ne sortent pas du VLAN** : une machine dans VLAN A ne verra jamais directement une machine dans VLAN B, donc la communication échoue.
+- Si tu essayes de forcer le routage avec la même IP sur deux VLANs, le routeur ou switch L3 sera **confus**, car il ne sait pas quelle interface utiliser pour cette IP. Ça peut provoquer des **conflits IP, des paquets perdus ou des boucles**.
