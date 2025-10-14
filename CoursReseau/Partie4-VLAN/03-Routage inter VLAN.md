@@ -22,6 +22,12 @@ write memory
 
 ```
 
+0.10
+0.20
+	> sous interface logique
+	> Le switch en face doit mettre ce port en **trunk** pour transporter tous les VLANs.
+
+
 SW 1 :
 
 ```

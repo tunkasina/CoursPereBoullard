@@ -30,4 +30,9 @@ end
 write memory
 ```
 
+La logique :
+ - mode dynamic : autonégocié
+ - mode access  1 VLAN
+ - mode trunk
+	 - Un trunk standard (802.1Q) est **un port physique taggué pour tous les VLANs**.
 
