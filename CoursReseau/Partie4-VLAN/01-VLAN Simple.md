@@ -26,6 +26,7 @@ end
 write memory
 ```
 
+/!\ Chaque VLAN a sa propre plage IP
 
 
 
