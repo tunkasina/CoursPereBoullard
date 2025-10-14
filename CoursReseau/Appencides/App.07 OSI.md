@@ -2,10 +2,10 @@
 SOURCE 
 https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip/7236472-prenez-du-recul-sur-votre-pratique-grace-au-modele-osi
 
-- **7 – Application** : interface utilisateur → rendu 
-- **6 – Présentation** : format données → SSL/TLS, compression
-- **5 – Session** : gestion des sessions → NetBIOS, RPC (_obsolete_)
-- **4 – Transport** : transport fiable → TCP, UDP
+- **7 – Application (Data)** : interface utilisateur → rendu 
+- **6 – Présentation (Data)** : format données → SSL/TLS, compression
+- **5 – Session (Data)** : gestion des sessions → NetBIOS, RPC (_obsolete_)
+- **4 – Transport (segment)** : transport fiable → TCP, UDP
 - **3 – Réseau (paquet)** : adressage logique → IP, ICMP
 - **2 – Liaison (trame)** : transfert sur le lien → Ethernet, VLAN, PPP
 - **1 – Physique (Bit)** : support physique → RJ45, fibre optique, câble coaxial
