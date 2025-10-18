@@ -1,6 +1,6 @@
 # Les Cours du P&egrave;re Boullard
 
-[Vers le dépôt publique](https://github.com/tunkasina/CoursPereBoullard)
+[Vers le dépôt public](https://github.com/tunkasina/CoursPereBoullard)
 
 [Vers la page Github](https://tunkasina.github.io/CoursPereBoullard/)
 #### Bienvenue !  
@@ -23,10 +23,77 @@ Me contacter sur Discord : tunkasina0537
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##### Se donner le feu avec de l'electro à saveur 16-bit :
 
 https://www.youtube.com/watch?v=UYCSkSwRotw&list=RDUYCSkSwRotw&start_radio=1
 
 _oui finalement, j'ai mis un lien vers de la musique_
 _et non j'aime pas que le son 8-bit, le metal c'est bien aussi mais ça m'aide pas à bosser_
+
+##### Sinon un ptit peu de son reposants ?
+
+https://neal.fun/ambient-chaos/
 
