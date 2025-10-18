@@ -18,3 +18,10 @@ Quand je dis _bientôt_ c'est pas une promesse hein, ce sera en fonction de mon 
 
 Me contacter sur Discord : tunkasina0537
 
+
+
+
+Se donner le feu avec la musique 8-bit :
+https://www.youtube.com/watch?v=RrYqfqSOi2w&list=RDRrYqfqSOi2w&start_radio=1
+( _oui finalement, j'ai mis une playlist_ )
+( _et non j'aime pas que le son 8-bit, le metal c'est bien aussi mais ça m'aide pas à bosser_ )
