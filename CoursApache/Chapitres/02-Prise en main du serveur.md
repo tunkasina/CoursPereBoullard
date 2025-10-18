@@ -49,7 +49,7 @@ Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
  - vous devez mettre la clé publique dans `.ssh/authorized_keys`, si le répertoire n'existe pas, créé le avec les droits **700**.
  - Puis `cat [NOM_EXPLICITE].pub >> .ssh/authorized_keys` - et si le fichier n'existais pas, donnez lui les droits **600**.
 
-Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis le notre poste en le prenant sur le serveur :
+Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis notre poste en le prenant sur le serveur :
  - Se mettre dans son **home**. `cd ~`
  - Copier : `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`
 

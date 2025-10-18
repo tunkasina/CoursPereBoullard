@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "02-Prise en main du serveur"
             }
           }
         ]
@@ -179,6 +179,10 @@
   },
   "active": "656ec13c70dc9905",
   "lastOpenFiles": [
+    "CoursApache/Appendices/App.01 mysql_secure_installation.md",
+    "CoursApache/Appendices/App.02 droits et Apache.md",
+    "CoursApache/Appendices/App.03 Apache.md",
+    "README.md",
     "CoursReseau/Partie4-VLAN/04-Autre routage complexe.md",
     "CoursReseau/Partie4-VLAN/03-Routage inter VLAN.md",
     "CoursReseau/Partie4-VLAN/02-VLAN Double.md",
@@ -204,9 +208,6 @@
     "_sidebar.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
-    "CoursApache/Appendices/App.06 Windows Terminal.md",
-    "README.md",
-    "CoursApache/Appendices/App.03 Apache.md",
     "CoursApache/Images/LinuxApache-00-01.png",
     "CoursApache/Images",
     "CoursApache/Nouveau dossier",
