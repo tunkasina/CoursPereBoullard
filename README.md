@@ -40,6 +40,7 @@ Me contacter sur Discord : tunkasina0537
 
 
 
+???
 
 
 
@@ -85,15 +86,19 @@ Me contacter sur Discord : tunkasina0537
 
 
 
+##### Easter Eggs ?
 
-##### Se donner le feu avec de l'electro à saveur 16-bit :
+T'es tout endormi ? Mais réveille toi bon sang !
 
 https://www.youtube.com/watch?v=UYCSkSwRotw&list=RDUYCSkSwRotw&start_radio=1
 
 _oui finalement, j'ai mis un lien vers de la musique_
 _et non j'aime pas que le son 8-bit, le metal c'est bien aussi mais ça m'aide pas à bosser_
 
-##### Sinon un ptit peu de son reposants ?
+Ou tu viens de te réveiller et tu préfère un truc plus chill ?
 
 https://neal.fun/ambient-chaos/
 
+Tiens sinon écoute de la vraie musique iconique des années 90 au lieu de faire semblant avec de la synthwave pourrie générée par IA 
+
+https://www.youtube.com/watch?v=OP63BRzKmB0
