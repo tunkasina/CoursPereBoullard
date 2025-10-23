@@ -5,8 +5,9 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 
 Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
 ## Consignes
-Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
+Evidemment, vous chercherez **par vous même et par tout les moyens nécessaires**, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
 ### Prise en main
+Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, non ! Internet, les amis, votre prof, cherchez, _cherchez_, **cherchez** !
  - Trouvez la version et le niveau de mise à jour de votre serveur
  - Mettez à jour votre serveur
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
@@ -23,6 +24,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 [/spoiler]
 
 ### Installer SSH
+\[...] cherchez, _cherchez_, **cherchez** !
  - Trouvez l'IP de votre serveur
  - Installer SSH
  - Vérifiez que le démon fonctionne
