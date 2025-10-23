@@ -7,7 +7,8 @@ Vous venez d’être embauché dans une TPE, et le lead dev (qui est aussi le pa
   
 #### Consignes & Philosophie
 J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis technique**, propre à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
-Ma vision, c'est qu'une personne compétente n'est pas quelqu'un **qui sait** mais quelqu'un **qui cherche à savoir**. Oui, en informatique, vos connaissances ont une date de péremption. Courte, genre très courte. Il **faut** que vous ayez ce réflexe de chercher les infos par vous-même, et votre meilleure arme contre les informations erronées sera votre expérience. Donc, plutôt que de vous donner les infos en détail, je 
+Ma vision, c'est qu'une personne compétente n'est pas quelqu'un **qui sait** mais quelqu'un **qui cherche à savoir**. Oui, en informatique, vos connaissances ont une date de péremption. Du genre courte, voir très courte.
+Donc ne pas savoir c'est normal et courant, mais vous devez mettre un point d'honneur à trouver l'information. Et plus tôt vous vous y mettez et mieux vous saurez faire ! 
 ### Moyens
 #### à l'IUT
 Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus récente et d’un accès via une interface web, qui est en fait une **VM sous ProxMox** (miam)  
