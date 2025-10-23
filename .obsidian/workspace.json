@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/01-Introduction.md",
+                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Introduction"
+              "title": "02-Prise en main du serveur"
             }
           }
         ],
@@ -195,13 +195,13 @@
   },
   "active": "c1c93eadde5752d1",
   "lastOpenFiles": [
+    "CoursApache/Chapitres/01-Introduction.md",
     "README.md",
     "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "SSH/Clé SSH.md",
     "Divers/Apache lien symbolique en source.md",
     "conflict-files-obsidian-git.md",
     "CoursApache/Chapitres/06-Consolidation.md",
-    "CoursApache/Chapitres/01-Introduction.md",
     "CoursApache/Appendices/App.01 mysql_secure_installation.md",
     "CoursApache/Appendices/App.06 Windows Terminal.md",
     "CoursApache/Appendices/App.05 fail2ban.md",

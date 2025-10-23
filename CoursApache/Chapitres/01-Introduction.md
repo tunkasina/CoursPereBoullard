@@ -6,7 +6,7 @@ Ces compétences sont couramment demandées dans le monde professionnel, dans le
 Vous venez d’être embauché dans une TPE, et le lead dev (qui est aussi le patron, l'équipe marketing et la RH) vous demande de mettre en place un bug tracker, parce qu'on va pas embaucher un adminsys pour ça quand même nan mais t'est informaticien ou pas ? Vous devrez donc réaliser la mise en production de **"Mantis Bug Tracker"**.  
   
 #### Consignes & Philosophie
-J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis techniques**, propres à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
+La mise en prod' est découpée en étapes logiques, mais c’est à vous de **déterminer ce qu’il est nécessaire de faire**. Vous rencontrerez **des soucis techniques propres à vos choix** : résolvez-les ou posez-moi des questions, mais **documentez toujours**.
 
 Ma vision, c'est qu'une personne compétente n'est pas quelqu'un **qui sait** mais quelqu'un **qui cherche à savoir**. Oui, en informatique, vos connaissances ont une date de péremption. Du genre courte, voir très courte.
 
