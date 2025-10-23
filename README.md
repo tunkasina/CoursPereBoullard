@@ -1,6 +1,6 @@
 # Les Cours du P&egrave;re Boullard
 
-[Vers le dépôt publique](https://github.com/tunkasina/CoursPereBoullard)
+[Vers le dépôt public](https://github.com/tunkasina/CoursPereBoullard)
 
 [Vers la page Github](https://tunkasina.github.io/CoursPereBoullard/)
 #### Bienvenue !  
@@ -18,3 +18,21 @@ Quand je dis _bientôt_ c'est pas une promesse hein, ce sera en fonction de mon 
 
 Me contacter sur Discord : tunkasina0537
 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+#### Easter Egg !
+
+T'es tout endormi ? Mais réveille toi bon sang !
+
+https://www.youtube.com/watch?v=UYCSkSwRotw&list=RDUYCSkSwRotw&start_radio=1
+
+_oui finalement, j'ai mis un lien vers de la musique_
+_et non j'aime pas que le son 8-bit, le metal c'est bien aussi mais ça m'aide pas à bosser_
+
+Ou tu viens de te réveiller et tu préfère un truc plus chill ?
+
+https://neal.fun/ambient-chaos/
+
+Tiens sinon écoute de la vraie musique iconique des années 90 au lieu de faire semblant avec de la synthwave pourrie générée par IA 
+
+https://www.youtube.com/watch?v=OP63BRzKmB0
