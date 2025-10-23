@@ -21,6 +21,8 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
  - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
  - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
+
+Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre mal le fait de ne pas savoir, et vouloir corriger cela par vous même. 
 [/spoiler]
 
 ### Installer SSH
