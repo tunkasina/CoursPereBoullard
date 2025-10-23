@@ -6,9 +6,11 @@ Ces compétences sont couramment demandées dans le monde professionnel, dans le
 Vous venez d’être embauché dans une TPE, et le lead dev (qui est aussi le patron, l'équipe marketing et la RH) vous demande de mettre en place un bug tracker, parce qu'on va pas embaucher un adminsys pour ça quand même nan mais t'est informaticien ou pas ? Vous devrez donc réaliser la mise en production de **"Mantis Bug Tracker"**.  
   
 #### Consignes & Philosophie
-J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis technique**, propre à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
+J'ai découpé la mise en prod' en étapes logiques, mais c'est bien vous qui devrez **trouver ce qu'il est nécessaire de faire**. Votre mémoire vous remerciera. Vous aurez, au fur et à mesure **des soucis techniques**, propre à vos choix. Résolvez-les ou posez moi des questions, mais toujours **documentez**.
+
 Ma vision, c'est qu'une personne compétente n'est pas quelqu'un **qui sait** mais quelqu'un **qui cherche à savoir**. Oui, en informatique, vos connaissances ont une date de péremption. Du genre courte, voir très courte.
-Donc ne pas savoir c'est normal et courant, mais vous devez mettre un point d'honneur à trouver l'information. Et plus tôt vous vous y mettez et mieux vous saurez faire ! 
+
+Donc ne pas savoir c'est _normal et courant_, mais vous devez mettre un point d'honneur à trouver l'information. Et plus tôt vous vous y mettez et mieux vous saurez faire ! 
 ### Moyens
 #### à l'IUT
 Vous disposerez d’un serveur GNU/Linux sous la distribution Debian la plus récente et d’un accès via une interface web, qui est en fait une **VM sous ProxMox** (miam)  
