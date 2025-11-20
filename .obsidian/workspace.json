@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoursApache/Chapitres/02-Prise en main du serveur.md",
+                "file": "Divers/Obsidian and Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Prise en main du serveur"
+              "title": "Obsidian and Git"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ALPHA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,11 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1c93eadde5752d1",
+  "active": "7440bfcfc944ec70",
   "lastOpenFiles": [
+    "Divers/GitHub SSH Auth.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
     "README.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "SSH/Clé SSH.md",
     "Divers/Apache lien symbolique en source.md",
     "conflict-files-obsidian-git.md",
@@ -224,7 +226,6 @@
     "CoursReseau/Partie2-RoutageIP/Partie 2 - Routage IP.md",
     "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
     "CoursReseau/Partie3-NAT/NAT Dynamique.md",
-    "CoursReseau/Partie3-NAT/NAT Statique.md",
     "CoursReseau/Appencides",
     "CoursReseau/Partie4-VLAN",
     "CoursApache/Images/LinuxApache-00-01.png",
