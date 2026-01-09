@@ -18,7 +18,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - `apt update && apt upgrade` …mise à jour
  - Si vous avez une erreur du genre `[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)`, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement `date -s "2025-10-12 15:07:00"`.
  - `cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
- - Se connecter en _root_ ûis faites `passwd` pour changer de mot de passe
+ - Se connecter en _root_ puis faites `passwd` pour changer de mot de passe
  - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
  - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 

@@ -35,8 +35,7 @@
               "title": "Obsidian and Git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ALPHA",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,12 +88,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 411.5
   },
   "right": {
     "id": "a1023ebed92cc469",
@@ -194,11 +192,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7440bfcfc944ec70",
+  "active": "656ec13c70dc9905",
   "lastOpenFiles": [
-    "Divers/GitHub SSH Auth.md",
-    "CoursApache/Chapitres/02-Prise en main du serveur.md",
     "CoursApache/Chapitres/01-Introduction.md",
+    "CoursApache/Chapitres/03-Installer Les prerequis.md",
+    "CoursApache/Chapitres/02-Prise en main du serveur.md",
+    "Divers/Obsidian and Git.md",
+    "Divers/GitHub SSH Auth.md",
     "README.md",
     "SSH/Clé SSH.md",
     "Divers/Apache lien symbolique en source.md",
@@ -224,8 +224,6 @@
     "CoursReseau/Chapitres/01-Adressage IP.md",
     "CoursReseau/Partie4-VLAN/Rappels.md",
     "CoursReseau/Partie2-RoutageIP/Partie 2 - Routage IP.md",
-    "CoursReseau/Partie2-RoutageIP/ICMP Redirect.md",
-    "CoursReseau/Partie3-NAT/NAT Dynamique.md",
     "CoursReseau/Appencides",
     "CoursReseau/Partie4-VLAN",
     "CoursApache/Images/LinuxApache-00-01.png",
