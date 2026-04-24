@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CoursApache/Chapitres/03-Installer Les prerequis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "03-Installer Les prerequis"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 265.5
   },
   "right": {
     "id": "a1023ebed92cc469",
@@ -180,11 +180,19 @@
   },
   "active": "c1c93eadde5752d1",
   "lastOpenFiles": [
+    "CoursNginx/Chapitres/03-Installer Les prerequis.md",
+    "CoursNginx/Chapitres/02-Prise en main du serveur.md",
+    "CoursNginx/Chapitres/01-Introduction.md",
+    "CoursNginx/Sommaire Nginx.md",
+    "CoursNginx/Images",
+    "CoursNginx/Appendices",
+    "CoursNginx/Chapitres",
+    "CoursNginx",
+    "README.md",
     "Cours Stockage/Sans titre.md",
     "CoursApache/Chapitres/05-Deployer les sources.md",
     "Cours Stockage",
     "Divers/Obsidian and Git.md",
-    "README.md",
     "CoursApache/Chapitres/06-Consolidation.md",
     "CoursApache/Chapitres/03-Installer Les prerequis.md",
     "CoursApache/Chapitres/04-Configurer les prerequis.md",
@@ -207,18 +215,10 @@
     "CoursReseau/Sommaire Reseau.md",
     "CoursReseau/Appencides/App.07 OSI.md",
     "CoursReseau/Appencides/App.06 Classes d'adresse.md",
-    "CoursReseau/Partie4-VLAN/03-Routage inter VLAN.md",
-    "CoursReseau/Partie4-VLAN/01-VLAN Simple.md",
-    "CoursReseau/Partie4-VLAN/04-Autre routage complexe.md",
-    "CoursReseau/Partie4-VLAN/02-VLAN Double.md",
     "CoursReseau/Appencides",
     "CoursReseau/Partie4-VLAN",
     "CoursApache/Images/LinuxApache-00-01.png",
     "CoursApache/Images",
-    "CoursApache/Nouveau dossier",
-    "CoursReseau/Chapitres",
-    "CoursApache/Appendices",
-    "Chapitres",
-    "style.css"
+    "CoursApache/Nouveau dossier"
   ]
 }
