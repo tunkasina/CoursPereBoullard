@@ -1,0 +1,14 @@
+
+	su -	> passer root
+	pwd		> ou je suis ?
+	ls -al	> qu'y at'il dans mon répertoire courant
+	cd		> change directory (repertoire)
+	nano 	> editer un fichier (CTRL+O / CTRL+U)
+	cp		> copie de fichier
+	mv		> move (deplacer un fichier) => copie + suppression l'original
+				renommer un fichier
+	history	> voir l'historique des commandes tapées
+	exit 	> s'en aller
+	
+	ATTENTION ! en root on peut tout détruier et il n'y aura aucune barrière.
+	
