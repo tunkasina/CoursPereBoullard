@@ -11,15 +11,24 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - Compatibilité avec Debian ?
  - Les logiciels et leurs versions
  - les modules et leurs versions
+Un bonne recherche sur Internet devrait vous aider !
 
 [spoiler]
-Cherchez sur le web `insite:mantisbt.org mantis server requisite`. Et cela nous permet de savoir que l'on doit installer :
+Cherchez sur le web `insite:mantisbt.org mantis server requisite`. 
+Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`
+Cela nous permet de savoir que l'on doit installer :
  +  _apache2_ (>=2.4.13) comme serveur web
  + _mariadb_ (>=5.5.35) comme SGBD
  + _php_ (>=7.4) comme interpréteur de script
  + les modules php _mbstring_ et _mysql_ 
 
 De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !
+
+Quoi c'est trop vieux jeu pour vous une recherche web ? 
+Bon bah demandez à Gemini ou ChatGPT ou Mistra : 
+"_Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"
+
+En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !
 [/spoiler]
 
 ### Installer les prérequis
