@@ -26,8 +26,6 @@
 		* [Droits et NGinx](CoursNginx/Appendices/App.02%20droits%20et%20NGinx.md)
 		* [Location blocks](CoursNginx/Appendices/App.03%20location%20blocks.md)
 		* [Reverse Proxy](CoursNginx/Appendices/App.04%20Reverse%20Proxy.md)
-* [TP Réseau](CoursReseau/Chapitres/01-Adressage%20IP.md)
-	* [Adressage IP](CoursReseau/Chapitres/01-Adressage%20IP.md)
 * *More to come …*
 
 Cours et site sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr)
