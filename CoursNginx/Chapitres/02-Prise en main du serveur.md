@@ -4,10 +4,8 @@ Dans le cadre de votre mise en production, vous recevrez une machine virtuelle s
 <div class="astuce">Faites un snapshot !</div>
 
 Enfin, prenez des _notes_ de telle façon que _vous soyez capable de tout refaire sans mon support_!
-
 ## Consignes
 Evidemment, vous chercherez **par vous même et par tout les moyens nécessaires**, les commandes à taper pour faire chacune de ces actions ! Ne vous jetez pas sur la solution, vous _savez_ que votre cerveau ne mémorisera rien dans ce cas.
-
 ### Prise en main
 Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, non ! Internet, les amis, votre prof, cherchez, _cherchez_, **cherchez** !
  - Trouvez la version et le niveau de mise à jour de votre serveur
@@ -21,7 +19,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Si vous avez une erreur du genre `[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)`, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement `date -s "2025-10-12 15:07:00"`.
  - `cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.
  - Se connecter en _root_ puis faites `passwd` pour changer de mot de passe.
- - Faites `su - webadmin` pour changer d'utilisateur et changer le mot de passe de _webadmin_.
+ - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
  - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 
 Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre **_mal_** le fait de ne pas savoir, et vouloir corriger cela par vous même.
@@ -32,7 +30,7 @@ Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez !
  - Trouvez l'IP de votre serveur
  - Installer SSH
  - Vérifiez que le démon fonctionne
- - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateur de votre système
+ - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal) )
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 [spoiler]
