@@ -1,3 +1,8 @@
+---
+title: "Configurer les prérequis"
+parent: "TP Apache"
+nav_order: 4
+---
 # Configurer les prérequis
 Enfin ! On va réellement configurer les deux services principaux de notre stack: _apache2_ et _mariadb_. Rien de bien compliqué, mais il faut rester attentif aux différents détails.
 
@@ -9,7 +14,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
 
 [spoiler]
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](https://tunkasina.github.io/CoursPereBoullard/#/./CoursApache/Appendices/App.01%20mysql_secure_installation.md).
+ - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01 mysql_secure_installation.md).
  - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
 [/spoiler]
 

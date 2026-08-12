@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 #### Sous Windows
 ##### Créer la clé
  - cf [[Clé SSH]]

@@ -1,3 +1,8 @@
+---
+title: "Configurer les prérequis"
+parent: "TP Nginx"
+nav_order: 4
+---
 # Configurer les prérequis
 Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour accueillir Mantis en HTTPS.
 

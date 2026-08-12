@@ -1,3 +1,8 @@
+---
+title: "Appendice 2 : Droits et NGinx"
+parent: "TP Nginx"
+nav_order: 22
+---
 # Appendice 2 : Droits et NGinx
 
 NGinx tourne sous l'utilisateur `www-data` (comme Apache). Les fichiers servis par NGinx doivent etre lisibles par cet utilisateur.

@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+parent: "TP Nginx"
+nav_order: 1
+---
 # Introduction
 Ce TP a pour but de vous faire découvrir la mise en production d'une application web sous **GNU/Linux Debian**, en utilisant **Nginx** comme serveur web et reverse proxy.
 

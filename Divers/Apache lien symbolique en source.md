@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 
 un lien symbolique de /var/www/mantis vers /home/webadmin/sources/mantis-2.27.1
 

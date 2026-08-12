@@ -1,3 +1,8 @@
+---
+title: "Appendice 4: une attaque informatique"
+parent: "TP Apache"
+nav_order: 24
+---
 # Appendice 4: une attaque informatique
 Il n'est pas ici sujet de couvrir l'intégralité des attaques informatiques existantes, c'est le sujet de cursus complets de formations. Je vais simplement résumé _en gros_ quelques étapes classiques d'une attaque et détailler ce qui nous concerne le plus
 

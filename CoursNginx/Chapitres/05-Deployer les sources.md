@@ -1,3 +1,8 @@
+---
+title: "Déployer les sources"
+parent: "TP Nginx"
+nav_order: 5
+---
 # Déployer les sources
 Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker Mantis sous Nginx.
 

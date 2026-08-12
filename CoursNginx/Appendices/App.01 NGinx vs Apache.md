@@ -1,3 +1,8 @@
+---
+title: "Appendice 1 : NGinx vs Apache"
+parent: "TP Nginx"
+nav_order: 21
+---
 # Appendice 1 : NGinx vs Apache
 
 Si vous avez fait le TP Apache avant celui-ci, vous avez forcement remarque des différences. Les voici résumées :

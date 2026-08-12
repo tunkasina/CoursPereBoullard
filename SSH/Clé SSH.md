@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 
 - le **client possède la clé privée** → il signe un challenge
 - le **serveur connaît la clé publique** → il vérifie la signature

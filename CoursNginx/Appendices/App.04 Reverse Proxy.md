@@ -1,3 +1,8 @@
+---
+title: "Appendice 4 : Reverse proxy, mode d'emploi"
+parent: "TP Nginx"
+nav_order: 24
+---
 # Appendice 4 : Reverse proxy, mode d'emploi
 
 Un reverse proxy, c'est un serveur qui se place **devant** un ou plusieurs serveurs backend et qui relaie les requetes.

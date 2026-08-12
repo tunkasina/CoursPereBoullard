@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+parent: "TP Apache"
+nav_order: 1
+---
 # Introduction
 Ce TP a pour but de vous faire découvrir la prise en main du système le plus populaire dans l’hébergement Web, GNU/Linux, dans sa distribution la plus courante, Debian. Vous déploierez des services omniprésents sur Internet (Apache, MariaDB, SSH…).
 

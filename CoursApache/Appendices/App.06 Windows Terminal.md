@@ -1,3 +1,8 @@
+---
+title: "Appendice 6: Windows Terminal"
+parent: "TP Apache"
+nav_order: 26
+---
 # Appendice 6: Windows Terminal
 Alors comme ça on décide d'utiliser Windows pour accéder à son serveur, hmmmm ? N'importe quoi.
 

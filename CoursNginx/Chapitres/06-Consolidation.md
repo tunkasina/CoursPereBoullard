@@ -1,3 +1,8 @@
+---
+title: "Consolidation"
+parent: "TP Nginx"
+nav_order: 6
+---
 # Consolidation
 Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux attaques.
 

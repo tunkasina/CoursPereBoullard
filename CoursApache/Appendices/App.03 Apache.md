@@ -1,3 +1,8 @@
+---
+title: "Appendice 3: fonctionnement d'apache"
+parent: "TP Apache"
+nav_order: 23
+---
 # Appendice 3: fonctionnement d'apache
 Rendez-vous dans le répertoire de configuration d’Apache : `/etc/apache2`. Faites un `ls` pour voir ce qui s’y trouve. On va détailler chaque élément important pour bien comprendre le fonctionnement du serveur.  
 #### apache2.conf

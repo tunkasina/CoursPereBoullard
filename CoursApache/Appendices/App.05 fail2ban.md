@@ -1,3 +1,8 @@
+---
+title: "Appendice 5: fail2ban"
+parent: "TP Apache"
+nav_order: 25
+---
 # Appendice 5: fail2ban
 Rendez-vous dans le répertoire de configuration de Fail2Ban : `/etc/fail2ban`. Faites un `ls` pour voir ce qui s’y trouve. On va détailler chaque élément important pour comprendre le fonctionnement de ce service.
 

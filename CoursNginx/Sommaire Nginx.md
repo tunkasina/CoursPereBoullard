@@ -1,3 +1,7 @@
+---
+title: TP Nginx
+nav_order: 2
+---
 ___
 Le sommaire du TP Nginx.
 ## [01-Introduction](./Chapitres/01-Introduction.md)

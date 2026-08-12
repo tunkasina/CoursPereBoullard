@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 ____
 1. Vérfier la clé SSH chargée : `ssh-add -l`. Si elle apparait pas, l'ajouter : `ssh-add /chemin/vers/cle_ssh`
 2. Créer le répertoire qui servira de dépôt _GIT_ **et** de vault _obsidian_

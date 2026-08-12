@@ -1,3 +1,8 @@
+---
+title: "Appendice 3 : Les location blocks"
+parent: "TP Nginx"
+nav_order: 23
+---
 # Appendice 3 : Les location blocks
 
 Les `location` blocks sont l'equivalent des `<Directory>` et `<Location>` d'Apache, mais avec leur propre logique de priorite.

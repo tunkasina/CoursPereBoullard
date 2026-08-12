@@ -1,3 +1,8 @@
+---
+title: "Performances et Monitoring"
+parent: "TP Nginx"
+nav_order: 5.5
+---
 # Performances et Monitoring
 Votre serveur est fonctionnel et sécurisé. Voyons comment optimiser les performances (compression, cache) et mettre en place du monitoring basique.
 

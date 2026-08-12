@@ -1,1 +1,23 @@
-<link rel="stylesheet" href="styles.css">
+remote_theme: just-the-docs/just-the-docs
+title: Cours du Père Boullard
+description: Supports de cours, notes et aides - licence CC BY 4.0
+url: https://tunkasina.github.io
+baseurl: /CoursPereBoullard
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+exclude:
+  - .obsidian
+  - .git
+  - _sidebar.md
+  - README.md
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
