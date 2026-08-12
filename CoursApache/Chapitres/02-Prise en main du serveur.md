@@ -22,7 +22,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.
  - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 
-Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre mal le fait de ne pas savoir, et vouloir corriger cela par vous même. 
+Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre **_mal_** le fait de ne pas savoir, et vouloir corriger cela par vous même. 
 [/spoiler]
 
 ### Installer SSH
@@ -43,6 +43,11 @@ Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez !
 [/spoiler]
 
 ### Configurer la connexion par clé
+Attention ici c'est le moment ou typiquement, on s'enferme dehors. Heureusement vous, vous avez la main directement dans l'interface web de Proxmox, mais dans la vraie vie, c'est rarement le cas... Donc il faut être **ri-gou-reux**. 
+
+_"- Oui mais m'sieur c'est quoi rigoureux?"_
+Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veux dire être sûr d'avoir compris ce que l'on est en train de faire, et donc être certain que l'ordre de nos étapes est juste et pertinent.
+
  - Générez un jeu de clé SSH
  - Mettez en œuvre votre clé publique sur le serveur et votre clé privée sur votre client **SSH**.
  - Validez votre capacité à prendre la main
