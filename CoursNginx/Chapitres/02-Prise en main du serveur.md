@@ -80,4 +80,4 @@ Testez une dernière fois. Respirez.
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.
 Si vos notes ne vous permettent pas de refaire cette partie... restaurez et recommencez !
 
-[03-Installer Les prerequis](./03-Installer%20Les%20prerequis.md)
+[03-Installer les prerequis](99-GitHubPages/CoursNginx/Chapitres/03-Installer%20les%20prerequis.md)
