@@ -13,19 +13,21 @@
 		4. [Attaque informatique](CoursApache/Appendices/App.04%20attaque%20informatique.md)
 		5. [fail2ban](CoursApache/Appendices/App.05%20fail2ban.md)
 		6. [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal)
-2. TP Réseau
+2. TP NGinx
+	1. [Introduction](CoursNginx/Chapitres/01-Introduction.md)
+	2. [Prise en main du serveur](CoursNginx/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
+	3. [Installer les prérequis](CoursNginx/Chapitres/03-Installer%20les%20prerequis.md)
+	4. [Sécurité et HTTPS](CoursNginx/Chapitres/04-Securite%20et%20HTTPS.md)
+	5. [Déployer les sources](CoursNginx/Chapitres/05-Deployer%20les%20sources.md)
+	6. [Performances et Monitoring](CoursNginx/Chapitres/05-Performances%20et%20Monitoring.md)
+	7. [Consolidation](CoursNginx/Chapitres/06-Consolidation.md)
+	8. Appendices
+		1. [NGinx vs Apache](CoursNginx/Appendices/App.01%20NGinx%20vs%20Apache.md)
+		2. [Droits et NGinx](CoursNginx/Appendices/App.02%20droits%20et%20NGinx.md)
+		3. [Location blocks](CoursNginx/Appendices/App.03%20location%20blocks.md)
+		4. [Reverse Proxy](CoursNginx/Appendices/App.04%20Reverse%20Proxy.md)
+3. TP Réseau
 	1. [Adressage IP](CoursReseau/Chapitres/01-Adressage%20IP.md)
-3. TP NGinx
-	1. [01 - Introduction](CoursNginx/Chapitres/01-Introduction.md)
-	2. [02 - Prise en main du serveur](CoursNginx/Chapitres/02-Prise%20en%20main%20du%20serveur.md)
-	3. [03 - Reverse Proxy et Grafana](CoursNginx/Chapitres/03-Reverse%20Proxy%20et%20Grafana.md)
-	4. [04 - Securite et HTTPS](CoursNginx/Chapitres/04-Securite%20et%20HTTPS.md)
-	5. [05 - Performances et Monitoring](CoursNginx/Chapitres/05-Performances%20et%20Monitoring.md)
 4. *More to come …*
  
 Cours et site sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr)
-
-
-
-
-
