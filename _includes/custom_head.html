@@ -1,43 +1,64 @@
 <style>
 details.spoiler {
-  background: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-left: 4px solid #7952b3;
-  border-radius: 4px;
-  padding: 0.75em 1em;
-  margin: 1.25em 0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  background: #fbf8f0;
+  border: 1px solid #e2d8c3;
+  border-left: 5px solid #d97706;
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
 }
 details.spoiler summary {
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  color: #563d7c;
+  color: #b45309;
   outline: none;
-  font-size: 1.05em;
+  font-size: 1.1em;
+  letter-spacing: 0.01em;
 }
 details.spoiler[open] summary {
-  margin-bottom: 0.75em;
-  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 0.85em;
+  border-bottom: 1px solid #fde68a;
   padding-bottom: 0.5em;
 }
 details.spoiler p {
-  margin: 0.5em 0;
-  line-height: 1.6;
+  margin: 0.6em 0;
+  line-height: 1.65;
+  color: #1f2937;
 }
 details.spoiler ul, details.spoiler ol {
-  margin: 0.5em 0 0.5em 1.5em;
-  line-height: 1.6;
+  margin: 0.6em 0 0.6em 1.5em;
+  line-height: 1.65;
+  color: #1f2937;
 }
 details.spoiler li {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.35em;
 }
-details.spoiler code {
-  background: #e9ecef;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-size: 0.9em;
-  color: #d63384;
+
+/* Console style for inline code and code blocks */
+code, pre, pre code {
+  font-family: "Consolas", "Monaco", "Courier New", Courier, monospace !important;
 }
+
+code {
+  background: #111827 !important;
+  color: #22c55e !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  border: 1px solid #374151;
+}
+
+pre, pre code {
+  background: #0b0f19 !important;
+  color: #4ade80 !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 6px !important;
+  padding: 1em !important;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+  overflow-x: auto;
+}
+
 .astuce {
   background: #e7f5ff;
   border-left: 4px solid #339af0;
