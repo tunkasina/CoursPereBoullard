@@ -59,7 +59,7 @@ En formulant ainsi, vous le forcez à vous donner les informations qu'il a utili
 [/spoiler]
 
 ## Final
-Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md) !
+Et maintenant ... ? **STOP** ! On configurera à la prochaine étape !
 
 Comme la dernière fois, si avec vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** ! (_bon j'avoue là normalement, c'est peanuts_)
 

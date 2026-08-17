@@ -75,5 +75,5 @@ Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **
 
 Après ça, il ne nous reste plus que la partie "consolidation", où l'on va tenter de renforcer notre machine vis-à-vis du monde hostile qui nous entoure.
 
-[06-Consolidation](./CoursApache/Chapitres/06-Consolidation.md)
+
 
