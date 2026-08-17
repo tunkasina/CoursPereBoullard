@@ -32,3 +32,5 @@ _et non j'aime pas que le son 8-bit, le metal c'est bien aussi mais ça m'aide p
 Ou tu viens de te réveiller et tu préfère un truc plus chill ?
 
 https://neal.fun/ambient-chaos/
+
+Me contacter sur Discord : tunkasina0537
