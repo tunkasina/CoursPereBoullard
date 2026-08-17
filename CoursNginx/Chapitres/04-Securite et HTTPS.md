@@ -16,7 +16,7 @@ Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour acc
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>`mysql_secure_installation` (référez-vous à l'appendice du cours si besoin).</li>
+<li><code>mysql_secure_installation</code> (référez-vous à l'appendice du cours si besoin).</li>
 </ul>
 </div>
 </details>

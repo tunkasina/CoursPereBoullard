@@ -22,15 +22,15 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>`lsb_release -a`+A la connexion, vous avez les infos de la version du noyau affichées.</li>
-<li>`apt update && apt upgrade` …mise à jour</li>
-<li>Si vous avez une erreur du genre `[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)`, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement `date -s "2025-10-12 15:07:00"`.</li>
-<li>`cat /etc/passwd` les comptes qui finissent par `/bin/bash` ont le droit d'ouvrir une session.</li>
-<li>Se connecter en _root_ puis faites `passwd` pour changer de mot de passe</li>
-<li>Faites `su - webadmin`pour changer d'utilisateur et changer le mot de passe de _webadmin_.</li>
-<li>Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.</li>
+<li><code>lsb_release -a</code>+A la connexion, vous avez les infos de la version du noyau affichées.</li>
+<li><code>apt update && apt upgrade</code> …mise à jour</li>
+<li>Si vous avez une erreur du genre <code>[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)</code>, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement <code>date -s "2025-10-12 15:07:00"</code>.</li>
+<li><code>cat /etc/passwd</code> les comptes qui finissent par <code>/bin/bash</code> ont le droit d'ouvrir une session.</li>
+<li>Se connecter en <em>root</em> puis faites <code>passwd</code> pour changer de mot de passe</li>
+<li>Faites <code>su - webadmin</code>pour changer d'utilisateur et changer le mot de passe de <em>webadmin</em>.</li>
+<li>Eventuellement, faites <code>su -</code> pour passer <em>root</em> depuis <em>webadmin</em>.</li>
 </ul>
-<p>Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre **_mal_** le fait de ne pas savoir, et vouloir corriger cela par vous même. </p>
+<p>Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre <strong><em>mal</em></strong> le fait de ne pas savoir, et vouloir corriger cela par vous même. </p>
 </div>
 </details>
 
@@ -46,12 +46,12 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>`ip a` si vraiment ...</li>
-<li>`apt install openssh-server` (et pas forcément le bundle `ssh`)</li>
-<li>`systemctl status sshd.service` pour vérifier que le service fonctionne</li>
-<li>`ssh root@[VOTRE_IP]`, depuis votre _desktop_ pour accéder à votre VM - et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.</li>
-<li>`ssh webadmin@[VOTRE_IP]`, pour finalement se connecter à votre VM</li>
-<li>`su -` pour _élever vos privilèges_ et passer root.</li>
+<li><code>ip a</code> si vraiment ...</li>
+<li><code>apt install openssh-server</code> (et pas forcément le bundle <code>ssh</code>)</li>
+<li><code>systemctl status sshd.service</code> pour vérifier que le service fonctionne</li>
+<li><code>ssh root@[VOTRE_IP]</code>, depuis votre <em>desktop</em> pour accéder à votre VM - et constater que <em>root</em> n'a pas le droit de se connecter en ssh par défaut.</li>
+<li><code>ssh webadmin@[VOTRE_IP]</code>, pour finalement se connecter à votre VM</li>
+<li><code>su -</code> pour <em>élever vos privilèges</em> et passer root.</li>
 </ul>
 </div>
 </details>
@@ -69,30 +69,30 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veux
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Côté serveur, basculez sur un prompt en tant que _webadmin_, et :</p>
+<p>Côté serveur, basculez sur un prompt en tant que <em>webadmin</em>, et :</p>
 <ul>
-<li>`ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"` + donner un nom explicite</li>
-<li>vous devez mettre la clé publique dans `.ssh/authorized_keys`, si le répertoire n'existe pas, créé le avec les droits **700**.</li>
-<li>Puis `cat [NOM_EXPLICITE].pub >> .ssh/authorized_keys` - et si le fichier n'existais pas, donnez lui les droits **600**.</li>
+<li><code>ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"</code> + donner un nom explicite</li>
+<li>vous devez mettre la clé publique dans <code>.ssh/authorized_keys</code>, si le répertoire n'existe pas, créé le avec les droits <strong>700</strong>.</li>
+<li>Puis <code>cat [NOM_EXPLICITE].pub >> .ssh/authorized_keys</code> - et si le fichier n'existais pas, donnez lui les droits <strong>600</strong>.</li>
 </ul>
 <p>Côté client, pour éviter les soucis d'encodage, on copie le fichier depuis notre poste en le prenant sur le serveur :</p>
 <ul>
-<li>Se mettre dans son **home**. `cd ~`</li>
-<li>Copier : `scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/`</li>
+<li>Se mettre dans son <strong>home</strong>. <code>cd ~</code></li>
+<li>Copier : <code>scp webadmin@172.22.69.238:/home/webadmin/[NOM_EXPLICITE] ./.ssh/</code></li>
 </ul>
 <p>Ensuite on configure le fichier de conf du démon :</p>
 <ul>
-<li>`/etc/ssh/shhd_config` (il faut dé-commenter `PublickeyAuthentication yes` et `Authorized File .ssh/authorized_keys`)</li>
-<li>`systemctl reload sshd.service`</li>
+<li><code>/etc/ssh/shhd_config</code> (il faut dé-commenter <code>PublickeyAuthentication yes</code> et <code>Authorized File .ssh/authorized_keys</code>)</li>
+<li><code>systemctl reload sshd.service</code></li>
 </ul>
 <p>Testez :</p>
 <ul>
-<li>`ssh webadmin@[VOTRE_IP] -i .ssh/[NOM_EXPLICITE]`</li>
+<li><code>ssh webadmin@[VOTRE_IP] -i .ssh/[NOM_EXPLICITE]</code></li>
 </ul>
 <p>Modifiez une dernière fois le fichier de conf:</p>
 <ul>
-<li>Interdisez la connexion par mot de passe: `PasswordAuthentication no` là où le paramètre apparaît commenté.</li>
-<li> `systemctl reload sshd.service`</li>
+<li>Interdisez la connexion par mot de passe: <code>PasswordAuthentication no</code> là où le paramètre apparaît commenté.</li>
+<li> <code>systemctl reload sshd.service</code></li>
 </ul>
 <p>Testez une dernière fois. Respirez.</p>
 </div>

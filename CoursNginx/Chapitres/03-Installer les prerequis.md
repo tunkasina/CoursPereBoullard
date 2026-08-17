@@ -21,20 +21,20 @@ Un bonne recherche sur Internet devrait vous aider !
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
-<p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
+<p>Cherchez sur le web <code>insite:mantisbt.org mantis server requisite</code>. </p>
+<p>Et sur la page des prérequis logiciel, cherchez la <code>Versions compatibility table</code></p>
 <p>Cela nous permet de savoir que l'on doit installer :</p>
 <ul>
-<li>*nginx* (>=1.10.x)comme serveur web</li>
-<li>*mariadb* (>=5.5.35) comme SGBD</li>
-<li>*php* (>=7.4) comme interpréteur de script</li>
-<li>les modules php *mbstring* et *mysql*</li>
-<li>*php-fpm* (car Nginx, contrairement à Apache, ne gère pas PHP en interne et a besoin d'un gestionnaire de processus externe).</li>
+<li><em>nginx</em> (>=1.10.x)comme serveur web</li>
+<li><em>mariadb</em> (>=5.5.35) comme SGBD</li>
+<li><em>php</em> (>=7.4) comme interpréteur de script</li>
+<li>les modules php <em>mbstring</em> et <em>mysql</em></li>
+<li><em>php-fpm</em> (car Nginx, contrairement à Apache, ne gère pas PHP en interne et a besoin d'un gestionnaire de processus externe).</li>
 </ul>
 <p>De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !</p>
 <p>Quoi c'est trop vieux jeu pour vous une recherche web ? </p>
 <p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
-<p>"_Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
+<p>"<em>Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire <strong>en me donnant la source, et les liens vers la documentation officielle</strong></em>"</p>
 <p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
 </div>
 </details>
@@ -46,9 +46,9 @@ Un bonne recherche sur Internet devrait vous aider !
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Pour installer Nginx : `apt install nginx`</li>
-<li>Pour installer MariaDB : `apt install mariadb-server`</li>
-<li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql php-fpm`</li>
+<li>Pour installer Nginx : <code>apt install nginx</code></li>
+<li>Pour installer MariaDB : <code>apt install mariadb-server</code></li>
+<li>Pour installer PHP et ses modules : <code>apt install php php-mbstring php-mysql php-fpm</code></li>
 </ul>
 </div>
 </details>
@@ -62,7 +62,7 @@ Un bonne recherche sur Internet devrait vous aider !
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Dans un premier temps, on vérifie que les démons sont fonctionnels : `systemctl status nginx.service`, `systemctl status mariadb.service`, `systemctl status php-fpm` (ou version correspondante).</li>
+<li>Dans un premier temps, on vérifie que les démons sont fonctionnels : <code>systemctl status nginx.service</code>, <code>systemctl status mariadb.service</code>, <code>systemctl status php-fpm</code> (ou version correspondante).</li>
 <li>Ensuite, pour tester l'interprétation PHP avec Nginx, créez une page `/var/www/html/index.php` avec `<?php phpinfo(); ?>` (attention, sous Nginx il vous faudra configurer le bloc `location ~ \.php$` pointant vers le socket PHP-FPM pour l'afficher correctement).</li>
 </ul>
 </div>

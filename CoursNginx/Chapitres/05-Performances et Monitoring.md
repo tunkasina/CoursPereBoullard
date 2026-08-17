@@ -17,12 +17,12 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Dans `/etc/nginx/nginx.conf` (`http { }`) :</p>
+<p>Dans <code>/etc/nginx/nginx.conf</code> (<code>http { }</code>) :</p>
 <p>```nginx</p>
 <p>gzip on;</p>
 <p>gzip_types text/plain text/css application/json application/javascript image/svg+xml;</p>
 <p>```</p>
-<p>Vérification : `curl -H "Accept-Encoding: gzip" -I http://[IP_VM]/`</p>
+<p>Vérification : <code>curl -H "Accept-Encoding: gzip" -I http://[IP_VM]/</code></p>
 </div>
 </details>
 
@@ -32,7 +32,7 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Dans un bloc `server` interne (ex: sur le port 8080 local) :</p>
+<p>Dans un bloc <code>server</code> interne (ex: sur le port 8080 local) :</p>
 <p>```nginx</p>
 <p>server {</p>
 <p>    listen 127.0.0.1:8080;</p>
@@ -43,7 +43,7 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
 <p>    }</p>
 <p>}</p>
 <p>```</p>
-<p>Test : `curl http://127.0.0.1:8080/nginx_status`</p>
+<p>Test : <code>curl http://127.0.0.1:8080/nginx_status</code></p>
 </div>
 </details>
 

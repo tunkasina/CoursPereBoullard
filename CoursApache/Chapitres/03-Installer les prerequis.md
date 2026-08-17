@@ -21,19 +21,19 @@ Un bonne recherche sur Internet devrait vous aider !
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
-<p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
+<p>Cherchez sur le web <code>insite:mantisbt.org mantis server requisite</code>. </p>
+<p>Et sur la page des prérequis logiciel, cherchez la <code>Versions compatibility table</code></p>
 <p>Cela nous permet de savoir que l'on doit installer :</p>
 <ul>
-<li> _apache2_ (>=2.4.13) comme serveur web</li>
-<li>_mariadb_ (>=5.5.35) comme SGBD</li>
-<li>_php_ (>=7.4) comme interpréteur de script</li>
-<li>les modules php _mbstring_ et _mysql_</li>
+<li> <em>apache2</em> (>=2.4.13) comme serveur web</li>
+<li><em>mariadb</em> (>=5.5.35) comme SGBD</li>
+<li><em>php</em> (>=7.4) comme interpréteur de script</li>
+<li>les modules php <em>mbstring</em> et <em>mysql</em></li>
 </ul>
 <p>De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !</p>
 <p>Quoi c'est trop vieux jeu pour vous une recherche web ? </p>
 <p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
-<p>"_Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
+<p>"<em>Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire <strong>en me donnant la source, et les liens vers la documentation officielle</strong></em>"</p>
 <p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
 </div>
 </details>
@@ -45,11 +45,11 @@ Un bonne recherche sur Internet devrait vous aider !
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Pour installer apache : `apt install apache2`</li>
-<li>Pour installer mariadb : `apt install mariadb-server`</li>
-<li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql`</li>
+<li>Pour installer apache : <code>apt install apache2</code></li>
+<li>Pour installer mariadb : <code>apt install mariadb-server</code></li>
+<li>Pour installer PHP et ses modules : <code>apt install php php-mbstring php-mysql</code></li>
 </ul>
-<p>(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)</p>
+<p>(<em>oui on est d'accord, pas de quoi se taper la tête contre les murs</em>)</p>
 </div>
 </details>
 
@@ -62,8 +62,8 @@ Un bonne recherche sur Internet devrait vous aider !
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Dans un premier temps, on vérifie que les différents démons sont fonctionnels : `systemctl status apache2.service`, `systemctl status mariadb.service` - qui affiche le statut et un extrait des logs.</li>
-<li>Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que _apache_ vous rend bien une page web</li>
+<li>Dans un premier temps, on vérifie que les différents démons sont fonctionnels : <code>systemctl status apache2.service</code>, <code>systemctl status mariadb.service</code> - qui affiche le statut et un extrait des logs.</li>
+<li>Ensuite, une petite visite sur <code>http://[ip de votre serveur]</code> vous permet de voir que <em>apache</em> vous rend bien une page web</li>
 <li>Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.</li>
 </ul>
 </div>

@@ -15,11 +15,11 @@ Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux at
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Dans `/etc/nginx/nginx.conf`, dans le bloc `http { }` :</p>
+<p>Dans <code>/etc/nginx/nginx.conf</code>, dans le bloc <code>http { }</code> :</p>
 <p>```nginx</p>
 <p>server_tokens off;</p>
 <p>```</p>
-<p>Puis testez avec `curl -skI https://[IP_VM]/`. Le header `Server` ne doit plus afficher la version exacte de Nginx.</p>
+<p>Puis testez avec <code>curl -skI https://[IP_VM]/</code>. Le header <code>Server</code> ne doit plus afficher la version exacte de Nginx.</p>
 </div>
 </details>
 
@@ -32,8 +32,8 @@ Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux at
 <div class="spoiler-content">
 <p>Identique au parcours Apache :</p>
 <ul>
-<li>Script `backup_mariadb.sh` avec `mysqldump`</li>
-<li>`apt install fail2ban` et configuration de la jail `sshd`.</li>
+<li>Script <code>backup_mariadb.sh</code> avec <code>mysqldump</code></li>
+<li><code>apt install fail2ban</code> et configuration de la jail <code>sshd</code>.</li>
 </ul>
 </div>
 </details>

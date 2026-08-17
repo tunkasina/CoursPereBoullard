@@ -17,8 +17,8 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01 mysql_secure_installation.md).</li>
-<li>On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.</li>
+<li>Le script <strong>mysql_secure_installation</strong> mérite sa propre page, pour en comprendre le contenu et cela se trouve via <a href="../Appendices/App.01%20mysql_secure_installation.html\">ce lien</a>.</li>
+<li>On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte <strong>root</strong> de <em>mariadb</em> au moment critique.</li>
 </ul>
 </div>
 </details>
@@ -35,36 +35,36 @@ Cela se trouve via [ce lien](../Appendices/App.03 Apache.md), et une fois lu, vo
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>`a2enmod ssl` → active le support SSL (pour le _https_)</li>
+<li><code>a2enmod ssl</code> → active le support SSL (pour le <em>https</em>)</li>
 </ul>
-<p>Aller dans `/etc/apache2/sites-available` et faites :</p>
+<p>Aller dans <code>/etc/apache2/sites-available</code> et faites :</p>
 <ul>
-<li>`cp default-ssl.conf mantis-ssl.conf`</li>
-<li>`cp 000-default.conf mantis-http.conf`</li>
+<li><code>cp default-ssl.conf mantis-ssl.conf</code></li>
+<li><code>cp 000-default.conf mantis-http.conf</code></li>
 </ul>
-<p>Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : </p>
+<p>Ensuite on modifie le fichier <code>mantis-http.conf</code> pour qu'il renvoie sur le <em>https</em> : </p>
 <p>	`<VirtualHost *:80>`</p>
-<p>	`ServerName METTEZ_ICI_VOTRE_IP`</p>
-<p>	`Redirect permanent / https://METTEZ_ICI_VOTRE_IP/`</p>
+<p>	<code>ServerName METTEZ_ICI_VOTRE_IP</code></p>
+<p>	<code>Redirect permanent / https://METTEZ_ICI_VOTRE_IP/</code></p>
 <p>	`</VirtualHost>`</p>
-<p>Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :</p>
+<p>Après cela, on configure le <code>mantis-ssl.conf</code> pour qu'il serve le bon dossier :</p>
 <ul>
-<li>Définissez `DocumentRoot` à `/var/www/mantis`</li>
+<li>Définissez <code>DocumentRoot</code> à <code>/var/www/mantis</code></li>
 <li>Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :</li>
 </ul>
-<p>	`SSLEngine on`</p>
-<p>	`SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem`</p>
-<p>	`SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key`</p>
-<p>On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.</p>
+<p>	<code>SSLEngine on</code></p>
+<p>	<code>SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem</code></p>
+<p>	<code>SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key</code></p>
+<p>On <strong>voit</strong> que dans le fichier de configuration d'origine de <em>apache2</em> il est précisé qu'il <strong>faut</strong> installer un package pour avoir des certificats auto-signé, <strong>ssl-cert</strong>.</p>
 <ul>
-<li>`apt install ssl-cert`</li>
+<li><code>apt install ssl-cert</code></li>
 </ul>
-<p>Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route... toujours depuis `/etc/apache2/sites-available`:</p>
+<p>Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route... toujours depuis <code>/etc/apache2/sites-available</code>:</p>
 <ul>
-<li>`a2dissite *`</li>
-<li>`a2ensite mantis*`</li>
+<li><code>a2dissite *</code></li>
+<li><code>a2ensite mantis*</code></li>
 </ul>
-<p>Et bien sûr ... `systemctl reload apache2`</p>
+<p>Et bien sûr ... <code>systemctl reload apache2</code></p>
 </div>
 </details>
 

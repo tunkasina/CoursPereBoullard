@@ -23,19 +23,19 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>A plusieurs endroits **Mantis** nous indique des choses à faire :</p>
+<p>A plusieurs endroits <strong>Mantis</strong> nous indique des choses à faire :</p>
 <ul>
-<li>_**Attention :** vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe._</li>
-<li>_**Attention :** le répertoire « admin » par défaut devrait être supprimé ou son accès devrait être restreint._</li>
+<li><em><strong>Attention :</strong> vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe.</em></li>
+<li><em><strong>Attention :</strong> le répertoire « admin » par défaut devrait être supprimé ou son accès devrait être restreint.</em></li>
 </ul>
-<p>Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez dans votre _shell_ pensez à modifier les droits que l'on avait un peu trop ouvert dans `/var/www/mantis/config`, vous vous souvenez ? Allez dans `mantis`</p>
+<p>Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez dans votre <em>shell</em> pensez à modifier les droits que l'on avait un peu trop ouvert dans <code>/var/www/mantis/config</code>, vous vous souvenez ? Allez dans <code>mantis</code></p>
 <ul>
-<li>`chmod -R 750 config`</li>
-<li>`find . -type f -print0 | xargs -0 chmod 640`</li>
+<li><code>chmod -R 750 config</code></li>
+<li><code>find . -type f -print0 | xargs -0 chmod 640</code></li>
 </ul>
 <p>Et comme on ne supprime rien sans avoir la possibilité de le restaurer :</p>
 <ul>
-<li>`mv admin ~/admin.old`</li>
+<li><code>mv admin ~/admin.old</code></li>
 </ul>
 </div>
 </details>
@@ -49,11 +49,11 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_</li>
-<li>Faites **F12** pour avoir vos outils de dev', et cherchez dans **Réseau**. Prenez la première requête **GET** et regardez les **en-têtes**. Vous devriez trouvez quelque chose comme _Server: Apache/2.4.65 (Debian) OpenSSL/3.0.17_</li>
+<li>Essayer <code>http://[VOTRE_IP]/test</code> : vous obtenez des choses comme <em>Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443</em></li>
+<li>Faites <strong>F12</strong> pour avoir vos outils de dev', et cherchez dans <strong>Réseau</strong>. Prenez la première requête <strong>GET</strong> et regardez les <strong>en-têtes</strong>. Vous devriez trouvez quelque chose comme <em>Server: Apache/2.4.65 (Debian) OpenSSL/3.0.17</em></li>
 </ul>
-<p>Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.</p>
-<p>Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez méfiant, si vous voyez un numéro de version apparaître lors de vos session de code, c'est qu'il y a une option quelque part à désactiver !</p>
+<p>Ce genre d'info, c'est le exactement ce que vous ne <em>voulez pas</em> montrer. Pour empêcher ce comportement, éditez <code>/etc/apache2/conf-available/security.conf</code>, et passez les paramètres <code>ServerTokens</code> à <code>Prod</code> et <code>ServerSignature</code> à <code>Off</code>.</p>
+<p>Dans le temps, <strong>PHP</strong> affichait ses infos de version à chaque plantage. Soyez méfiant, si vous voyez un numéro de version apparaître lors de vos session de code, c'est qu'il y a une option quelque part à désactiver !</p>
 </div>
 </details>
 
@@ -65,9 +65,9 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 <div class="spoiler-content">
 <p>Heureusement vous n'avez rien d'ouvert ! Voici comment le vérifier:</p>
 <ul>
-<li>`ss -tul`</li>
+<li><code>ss -tul</code></li>
 </ul>
-<p>Vous verrez toutes les écoutes (`l`) tcp (`t`) et udp (`u`). Et dedans on constate que **SSH** écoute sur toutes les interface IPv4 (`0.0.0.0`), **mariadb** seulement la boucle locale (`127.0.0.1`), et **Apache** écoute toutes les interfaces possibles (`*:http`, `*:https`) (_oui Apache est très à l'écoute_ ).</p>
+<p>Vous verrez toutes les écoutes (<code>l</code>) tcp (<code>t</code>) et udp (<code>u</code>). Et dedans on constate que <strong>SSH</strong> écoute sur toutes les interface IPv4 (<code>0.0.0.0</code>), <strong>mariadb</strong> seulement la boucle locale (<code>127.0.0.1</code>), et <strong>Apache</strong> écoute toutes les interfaces possibles (<code>*:http</code>, <code>*:https</code>) (<em>oui Apache est très à l'écoute</em> ).</p>
 </div>
 </details>
 
@@ -81,28 +81,28 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <p>Un simple script de sauvegarde sera déjà un bon début ! Les admins prévoyants en mettent souvent quelques-un à divers étages ... </p>
-<p>Directement dans le home de root, créez un script **shell** :</p>
+<p>Directement dans le home de root, créez un script <strong>shell</strong> :</p>
 <ul>
-<li>`nano backup_mariadb.sh`</li>
+<li><code>nano backup_mariadb.sh</code></li>
 </ul>
 <p>Et mettre dedans (avec explications ligne à ligne !):</p>
-<p>`#!/bin/bash`</p>
-<p>_signifie que notre script sera interprété par **bash**_</p>
-<p>`DATE=$(date +%F_%H-%M)`</p>
-<p>_Notez la date et l'heure_</p>
-<p>`mysqldump -u mantis_user -p'MotDePasse!' bugtracker > /var/backups/mantisbt_$DATE.sql`</p>
-<p>_dumper le contenu de notre BDD dans un fichier _</p>
+<p><code>#!/bin/bash</code></p>
+<p><em>signifie que notre script sera interprété par <strong>bash</strong></em></p>
+<p><code>DATE=$(date +%F_%H-%M)</code></p>
+<p><em>Notez la date et l'heure</em></p>
+<p><code>mysqldump -u mantis_user -p'MotDePasse!' bugtracker > /var/backups/mantisbt_$DATE.sql</code></p>
+<p><em>dumper le contenu de notre BDD dans un fichier </em></p>
 <ul>
-<li>`chmod +x backup_mariadb.sh` : mettre les droit d’exécution</li>
-<li>`./backup_mariadb.sh` : testez votre script !</li>
-<li>`crontab -e` : éditez le gestionnaire de tâche planifiées de Debian</li>
-<li>`0 2 * * * /root/backup_mariadb.sh` : tout les jours à 2h</li>
+<li><code>chmod +x backup_mariadb.sh</code> : mettre les droit d’exécution</li>
+<li><code>./backup_mariadb.sh</code> : testez votre script !</li>
+<li><code>crontab -e</code> : éditez le gestionnaire de tâche planifiées de Debian</li>
+<li><code>0 2 * * * /root/backup_mariadb.sh</code> : tout les jours à 2h</li>
 </ul>
-<p>Enfin, pour avoir un rappel des mise à jour à chaque login sur le serveur, éditez votre fichier `/root/.bashrc`, et mettez simplement dedans :</p>
+<p>Enfin, pour avoir un rappel des mise à jour à chaque login sur le serveur, éditez votre fichier <code>/root/.bashrc</code>, et mettez simplement dedans :</p>
 <ul>
-<li>`apt update -qq && apt list --upgradable`</li>
+<li><code>apt update -qq && apt list --upgradable</code></li>
 </ul>
-<p>Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, par exemple avec **scp**.</p>
+<p>Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, par exemple avec <strong>scp</strong>.</p>
 </div>
 </details>
 
@@ -115,36 +115,36 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 <details class="spoiler">
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
-<p>Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whitelist_":</p>
+<p>Installer <strong>fail2ban</strong>, <strong>iptables</strong> et définissez vous une <strong>IP</strong> en "<em>whitelist</em>":</p>
 <ul>
-<li>`apt install fail2ban`</li>
-<li>Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.conf`. Cherchez le paramètre `ignoreip =` et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.</li>
-<li>Enfin, petit bug récent de fail2ban sur Debian, modifier le fichier `/etc/fail2ban/jail.d/defaults-debian.conf` et ajoutez ces lignes derrière `enabled=true` de la catégorie `[sshd]`:</li>
+<li><code>apt install fail2ban</code></li>
+<li>Ensuite, vous éditez dans la foulée le fichier <code>/etc/fail2ban/jail.conf</code>. Cherchez le paramètre <code>ignoreip =</code> et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.</li>
+<li>Enfin, petit bug récent de fail2ban sur Debian, modifier le fichier <code>/etc/fail2ban/jail.d/defaults-debian.conf</code> et ajoutez ces lignes derrière <code>enabled=true</code> de la catégorie <code>[sshd]</code>:</li>
 </ul>
-<p>`port     = ssh`</p>
-<p>`backend  = systemd`</p>
-<p>`maxretry = 3`</p>
-<p>`bantime  = 1h`</p>
+<p><code>port     = ssh</code></p>
+<p><code>backend  = systemd</code></p>
+<p><code>maxretry = 3</code></p>
+<p><code>bantime  = 1h</code></p>
 <ul>
-<li>et un ptit `systemctl restart fail2ban` pour la route</li>
+<li>et un ptit <code>systemctl restart fail2ban</code> pour la route</li>
 </ul>
-<p>Ensuite, sortez le **banhammer** pour les abus sur **SSH** ! Enfin ... il le fera tout seul. Testez en regardant les logs :</p>
+<p>Ensuite, sortez le <strong>banhammer</strong> pour les abus sur <strong>SSH</strong> ! Enfin ... il le fera tout seul. Testez en regardant les logs :</p>
 <ul>
-<li>`tail -f /var/log/fail2ban.log`</li>
-<li>Tentez plusieurs connexion foireuse à SSH, vous devriez voir apparaître quelque chose comme : `[sshd] Ignore VOTRE_IP_DE_CLIENT by ip`</li>
+<li><code>tail -f /var/log/fail2ban.log</code></li>
+<li>Tentez plusieurs connexion foireuse à SSH, vous devriez voir apparaître quelque chose comme : <code>[sshd] Ignore VOTRE_IP_DE_CLIENT by ip</code></li>
 </ul>
 <p>Si vous vous êtes enfermée dehors, aller sur le serveur via la console proxmox, et faites :</p>
 <ul>
-<li>`fail2ban-client status sshd` : voir les bannis</li>
-<li>`fail2ban-client set sshd unbanip 172.29.18.249` dé-bannissez vous.</li>
+<li><code>fail2ban-client status sshd</code> : voir les bannis</li>
+<li><code>fail2ban-client set sshd unbanip 172.29.18.249</code> dé-bannissez vous.</li>
 </ul>
-<p>Vous avez sans doute remarqué qu'il précise à chaque fois la _jail_ utilisée, ici `[sshd]`. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...</p>
+<p>Vous avez sans doute remarqué qu'il précise à chaque fois la <em>jail</em> utilisée, ici <code>[sshd]</code>. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...</p>
 <p>Aller, Bonus : </p>
-<p>	[Fonctionnement de fail2ban](../Appendices/App.05 fail2ban.md)</p>
-<p>Ah oui et pour le petit bricolage sur `/root/.bashrc` :</p>
+<p>	<a href="../Appendices/App.05%20fail2ban.html\">Fonctionnement de fail2ban</a></p>
+<p>Ah oui et pour le petit bricolage sur <code>/root/.bashrc</code> :</p>
 <ul>
-<li>`echo "Dernières connexions root :"`</li>
-<li>`last -n 3 root`</li>
+<li><code>echo "Dernières connexions root :"</code></li>
+<li><code>last -n 3 root</code></li>
 </ul>
 </div>
 </details>
