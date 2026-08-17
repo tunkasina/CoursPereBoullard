@@ -49,4 +49,4 @@ location / {
 }
 ```
 
-Retour aux [chapitres](../Sommaire%20Nginx.md).
+Retour aux [chapitres](../Sommaire Nginx.md).

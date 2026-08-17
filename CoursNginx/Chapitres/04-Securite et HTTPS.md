@@ -68,4 +68,4 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
 ## Final
 Vos services sont configurés. Passons au déploiement des sources de Mantis !
 
-[05-Deployer les sources](./05-Deployer%20les%20sources.md)
+[05-Deployer les sources](../../CoursApache/Chapitres/05-Deployer les sources.md)

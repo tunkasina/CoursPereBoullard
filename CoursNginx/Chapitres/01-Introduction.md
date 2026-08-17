@@ -25,4 +25,4 @@ Passez par une VM (VirtualBox, VMware, QEMU/KVM...).
 ### Important
 Vous **documenterez** tout. Mots de passe, doc sur Internet, commandes, chemins de fichiers... À la fin du TP, vos notes doivent permettre à un tiers de se débrouiller avec votre serveur.
 
-[02 - Prise en main du serveur](./02-Prise%20en%20main%20du%20serveur.md)
+[02 - Prise en main du serveur](../../CoursApache/Chapitres/02-Prise en main du serveur.md)

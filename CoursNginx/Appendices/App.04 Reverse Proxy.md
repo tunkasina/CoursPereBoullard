@@ -45,4 +45,4 @@ upstream mon_app {
 
 Algorithmes : `least_conn` (moins de connexions), `ip_hash` (sticky session), `random`, ou par defaut round-robin.
 
-Retour aux [chapitres](../Sommaire%20Nginx.md).
+Retour aux [chapitres](../Sommaire Nginx.md).

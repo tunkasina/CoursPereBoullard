@@ -37,7 +37,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Trouvez l'IP de votre serveur
  - Installer SSH
  - Vérifiez que le démon fonctionne
- - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal) )
+ - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](../Appendices/App.06 Windows Terminal.md))
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 <details class="spoiler">

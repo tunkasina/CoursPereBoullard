@@ -63,6 +63,6 @@ Un bonne recherche sur Internet devrait vous aider !
 </details>
 
 ## Final
-Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./04-Configurer%20les%20prerequis.md) !
+Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](../../CoursApache/Chapitres/04-Configurer les prerequis.md) !
 
 Comme la dernière fois, si vos notes ne vous permettent pas de refaire cette partie... **restaurez votre snapshot et recommencez** !

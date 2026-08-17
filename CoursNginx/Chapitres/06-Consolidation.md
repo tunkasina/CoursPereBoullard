@@ -37,4 +37,4 @@ Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux at
 ## Final
 Félicitations ! Vous avez mené à bien la mise en production de Mantis sous **Nginx**. Vous maîtrisez à la fois l'approche Apache et l'approche Nginx / PHP-FPM pour 30 étudiants sereins et un support unifié !
 
-[Retour au sommaire](../Sommaire%20Nginx.md)
+[Retour au sommaire](../Sommaire Nginx.md)

@@ -23,4 +23,4 @@ find /var/www/grafana-project -type f -exec chmod 640 {} \;
 ### Pourquoi pas 755/644 ?
 En **750**, les autres utilisateurs du systeme (qui ne sont pas `www-data`) ne peuvent pas lire vos fichiers. C'est un peu plus restrictif, mais plus secure. On est pas la pour faire de l'hebergement mutualiste avec 50 clients.
 
-Retour aux [chapitres](../Sommaire%20Nginx.md).
+Retour aux [chapitres](../Sommaire Nginx.md).

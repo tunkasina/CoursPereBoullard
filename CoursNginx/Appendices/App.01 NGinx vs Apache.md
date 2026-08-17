@@ -37,4 +37,4 @@ Les affirmations du tableau ci-dessus (modele, memoire, C10K, module...) s'appui
 
 Pour approfondir la notion de **worker_connections** et la tenue en charge, la doc NGinx recommande de dimensionner `worker_rlimit_nofile` et `worker_connections` ensemble, voir [ce guide](https://www.nginx.com/blog/tuning-nginx/).
 
-Retour aux [chapitres](../Sommaire%20Nginx.md).
+Retour aux [chapitres](../Sommaire Nginx.md).

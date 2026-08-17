@@ -46,4 +46,4 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
 ## Final
 Votre cours Nginx est complet, aligné avec la philosophie du cours Apache et prêt pour vos étudiants !
 
-[Retour au sommaire](../Sommaire%20Nginx.md)
+[Retour au sommaire](../Sommaire Nginx.md)

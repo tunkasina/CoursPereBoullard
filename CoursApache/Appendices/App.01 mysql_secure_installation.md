@@ -15,6 +15,6 @@ Voici toutes les interrogations du script et les réponses _adaptées à notre c
  - `Reload privilege tables now? [Y/n]` : ne remet pas à demain ce que tu peux faire aujourd'hui. Donc oui.
  - `Thanks for using MariaDB!` : de rien, c'est un plaisir, bisous.
 
-Bon voilà, c'était un peu bourré de piège. Allez, retournez sur [04-Configurer les prerequis](./CoursApache/Chapitres/04-Configurer%20les%20prerequis.md).
+Bon voilà, c'était un peu bourré de piège. Allez, retournez sur [04-Configurer les prerequis](../Chapitres/04-Configurer%20les%20prerequis.md).
 
 `

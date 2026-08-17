@@ -37,7 +37,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Trouvez l'IP de votre serveur
  - Installer SSH
  - Vérifiez que le démon fonctionne
- - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal) )
+ - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](../../CoursApache/Appendices/App.06 Windows Terminal.md))
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 <details class="spoiler">
@@ -96,4 +96,4 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veut
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.
 Si vos notes ne vous permettent pas de refaire cette partie... restaurez et recommencez !
 
-[03-Installer les prerequis](99-GitHubPages/CoursNginx/Chapitres/03-Installer%20les%20prerequis.md)
+[03-Installer les prérequis](../../CoursApache/Chapitres/03-Installer les prerequis.md)
