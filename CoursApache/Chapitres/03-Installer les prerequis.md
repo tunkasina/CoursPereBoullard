@@ -20,6 +20,7 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
 <p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
 <p>Cela nous permet de savoir que l'on doit installer :</p>
@@ -34,6 +35,7 @@ Un bonne recherche sur Internet devrait vous aider !
 <p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
 <p>"_Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
 <p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
+</div>
 </details>
 
 ### Installer les prérequis
@@ -41,12 +43,14 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Pour installer apache : `apt install apache2`</li>
 <li>Pour installer mariadb : `apt install mariadb-server`</li>
 <li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql`</li>
 </ul>
 <p>(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)</p>
+</div>
 </details>
 
 ### Vérifier les prérequis
@@ -56,11 +60,13 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Dans un premier temps, on vérifie que les différents démons sont fonctionnels : `systemctl status apache2.service`, `systemctl status mariadb.service` - qui affiche le statut et un extrait des logs.</li>
 <li>Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que _apache_ vous rend bien une page web</li>
 <li>Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.</li>
 </ul>
+</div>
 </details>
 
 ## Final

@@ -20,6 +20,7 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
 <p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
 <p>Cela nous permet de savoir que l'on doit installer :</p>
@@ -35,6 +36,7 @@ Un bonne recherche sur Internet devrait vous aider !
 <p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
 <p>"_Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
 <p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
+</div>
 </details>
 
 ### Installer les prérequis
@@ -42,11 +44,13 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Pour installer Nginx : `apt install nginx`</li>
 <li>Pour installer MariaDB : `apt install mariadb-server`</li>
 <li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql php-fpm`</li>
 </ul>
+</div>
 </details>
 
 ### Vérifier les prérequis
@@ -56,10 +60,12 @@ Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Dans un premier temps, on vérifie que les démons sont fonctionnels : `systemctl status nginx.service`, `systemctl status mariadb.service`, `systemctl status php-fpm` (ou version correspondante).</li>
 <li>Ensuite, pour tester l'interprétation PHP avec Nginx, créez une page `/var/www/html/index.php` avec `<?php phpinfo(); ?>` (attention, sous Nginx il vous faudra configurer le bloc `location ~ \.php$` pointant vers le socket PHP-FPM pour l'afficher correctement).</li>
 </ul>
+</div>
 </details>
 
 ## Final

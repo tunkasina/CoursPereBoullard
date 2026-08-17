@@ -15,10 +15,12 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01 mysql_secure_installation.md).</li>
 <li>On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.</li>
 </ul>
+</div>
 </details>
 
 ### Configurer apache2
@@ -31,6 +33,7 @@ Cela se trouve via [ce lien](../Appendices/App.03 Apache.md), et une fois lu, vo
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>`a2enmod ssl` → active le support SSL (pour le _https_)</li>
 </ul>
@@ -62,6 +65,7 @@ Cela se trouve via [ce lien](../Appendices/App.03 Apache.md), et une fois lu, vo
 <li>`a2ensite mantis*`</li>
 </ul>
 <p>Et bien sûr ... `systemctl reload apache2`</p>
+</div>
 </details>
 
 ## Final

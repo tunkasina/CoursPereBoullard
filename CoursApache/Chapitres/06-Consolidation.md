@@ -22,6 +22,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>A plusieurs endroits **Mantis** nous indique des choses à faire :</p>
 <ul>
 <li>_**Attention :** vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe._</li>
@@ -36,6 +37,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 <ul>
 <li>`mv admin ~/admin.old`</li>
 </ul>
+</div>
 </details>
 
 #### Discrétion
@@ -45,12 +47,14 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_</li>
 <li>Faites **F12** pour avoir vos outils de dev', et cherchez dans **Réseau**. Prenez la première requête **GET** et regardez les **en-têtes**. Vous devriez trouvez quelque chose comme _Server: Apache/2.4.65 (Debian) OpenSSL/3.0.17_</li>
 </ul>
 <p>Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour empêcher ce comportement, éditez `/etc/apache2/conf-available/security.conf`, et passez les paramètres `ServerTokens` à `Prod` et `ServerSignature` à `Off`.</p>
 <p>Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez méfiant, si vous voyez un numéro de version apparaître lors de vos session de code, c'est qu'il y a une option quelque part à désactiver !</p>
+</div>
 </details>
 
 #### Seulement l'utile et le nécessaire
@@ -58,11 +62,13 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Heureusement vous n'avez rien d'ouvert ! Voici comment le vérifier:</p>
 <ul>
 <li>`ss -tul`</li>
 </ul>
 <p>Vous verrez toutes les écoutes (`l`) tcp (`t`) et udp (`u`). Et dedans on constate que **SSH** écoute sur toutes les interface IPv4 (`0.0.0.0`), **mariadb** seulement la boucle locale (`127.0.0.1`), et **Apache** écoute toutes les interfaces possibles (`*:http`, `*:https`) (_oui Apache est très à l'écoute_ ).</p>
+</div>
 </details>
 
 Si vous avez été attentif, vous comprendrez qu'en étant soucieux de rester discret, et de n'exposer que l'utile et le nécessaire, nous agissons sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
@@ -73,6 +79,7 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Un simple script de sauvegarde sera déjà un bon début ! Les admins prévoyants en mettent souvent quelques-un à divers étages ... </p>
 <p>Directement dans le home de root, créez un script **shell** :</p>
 <ul>
@@ -96,6 +103,7 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
 <li>`apt update -qq && apt list --upgradable`</li>
 </ul>
 <p>Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, par exemple avec **scp**.</p>
+</div>
 </details>
 
 Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
@@ -106,6 +114,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whitelist_":</p>
 <ul>
 <li>`apt install fail2ban`</li>
@@ -137,6 +146,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 <li>`echo "Dernières connexions root :"`</li>
 <li>`last -n 3 root`</li>
 </ul>
+</div>
 </details>
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.

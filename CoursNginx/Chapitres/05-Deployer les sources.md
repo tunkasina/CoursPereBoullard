@@ -16,6 +16,7 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>```bash</p>
 <p>wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz</p>
 <p>tar -xvf mantisbt-2.27.1.tar.gz</p>
@@ -24,6 +25,7 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
 <p>find /var/www/mantis -type d -exec chmod 750 {} \;</p>
 <p>find /var/www/mantis -type f -exec chmod 640 {} \;</p>
 <p>```</p>
+</div>
 </details>
 
 ### Lancer l'installation dans le navigateur
@@ -33,10 +35,12 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Même logique que sous Apache : l'installateur crée la base et les tables. Si la base refuse l'accès, accordez les privilèges via le CLI MariaDB :</p>
 <p>```sql</p>
 <p>GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MDP]';</p>
 <p>```</p>
+</div>
 </details>
 
 ## Final

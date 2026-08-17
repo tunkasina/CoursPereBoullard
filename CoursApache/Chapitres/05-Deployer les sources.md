@@ -15,6 +15,7 @@ Let's fire this up ! 🚀🚀🚀
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de l'IUT c'est pas mon choix, mais c'est ainsi il faut faire avec, IRL ce sera plus facile. Aller configurez moi ce truc :</p>
 <ul>
 <li>`export http_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`</li>
@@ -24,6 +25,7 @@ Let's fire this up ! 🚀🚀🚀
 <ul>
 <li>`wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz`</li>
 </ul>
+</div>
 </details>
 
 ### Déployer les sources
@@ -32,6 +34,7 @@ Let's fire this up ! 🚀🚀🚀
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>La partie facile :</p>
 <ul>
 <li>`tar -xvf mantisbt-2.27.1.tar.gz`</li>
@@ -44,6 +47,7 @@ Let's fire this up ! 🚀🚀🚀
 <li>`find . -type f -print0 | xargs -0 chmod 640`</li>
 </ul>
 <p>Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors _temporairement_ ces répertoires à **770**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.</p>
+</div>
 </details>
 
 ### Lancer l'installation
@@ -56,6 +60,7 @@ Let's fire this up ! 🚀🚀🚀
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Remplissez les paramètres d'installation... il vous demande :</p>
 <ul>
 <li>_Username (for Database)_ : inventez un nouvel utilisateur qui servira à se connecter à la BDD (et **pas** root !)</li>
@@ -75,6 +80,7 @@ Let's fire this up ! 🚀🚀🚀
 <li>Reprenez le snapshot précédent où tout allait bien</li>
 <li>Aidez vous des logs d'apache : `tail -f /var/log/apache2/error.log`</li>
 </ul>
+</div>
 </details>
 
 ## Final

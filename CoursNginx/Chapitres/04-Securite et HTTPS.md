@@ -14,9 +14,11 @@ Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour acc
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>`mysql_secure_installation` (référez-vous à l'appendice du cours si besoin).</li>
 </ul>
+</div>
 </details>
 
 ### Configurer Nginx pour Mantis et HTTPS
@@ -32,6 +34,7 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Exemple de vhost Nginx complet (HTTP -> HTTPS + PHP-FPM) :</p>
 <p>```nginx</p>
 <p>server {</p>
@@ -63,6 +66,7 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
 <p>nginx -t</p>
 <p>systemctl reload nginx</p>
 <p>```</p>
+</div>
 </details>
 
 ## Final

@@ -20,6 +20,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>`lsb_release -a` + A la connexion, vous avez les infos de la version du noyau affichées.</li>
 <li>`apt update && apt upgrade` …mise à jour</li>
@@ -30,6 +31,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 <li>Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.</li>
 </ul>
 <p>Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre **_mal_** le fait de ne pas savoir, et vouloir corriger cela par vous même.</p>
+</div>
 </details>
 
 ### Installer SSH
@@ -42,6 +44,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <ul>
 <li>`ip a` si vraiment ...</li>
 <li>`apt install openssh-server` (et pas forcément le bundle `ssh`)</li>
@@ -50,6 +53,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
 <li>`ssh webadmin@[VOTRE_IP]`, pour finalement se connecter à votre VM</li>
 <li>`su -` pour _élever vos privilèges_ et passer root.</li>
 </ul>
+</div>
 </details>
 
 ### Configurer la connexion par clé
@@ -64,6 +68,7 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veut
 
 <details class="spoiler">
 <summary>Solution / Indice</summary>
+<div class="spoiler-content">
 <p>Côté serveur, basculez sur un prompt en tant que _webadmin_, et :</p>
 <ul>
 <li>`ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"` + donner un nom explicite</li>
@@ -90,6 +95,7 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veut
 <li>`systemctl reload sshd.service`</li>
 </ul>
 <p>Testez une dernière fois. Respirez.</p>
+</div>
 </details>
 
 ## Final

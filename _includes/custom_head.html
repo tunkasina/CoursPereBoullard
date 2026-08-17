@@ -21,17 +21,35 @@ details.spoiler[open] summary {
   border-bottom: 1px solid #fde68a;
   padding-bottom: 0.5em;
 }
-details.spoiler p {
+details.spoiler .spoiler-content {
+  background: #fffdf5;
+  border: 1px solid #eadfc4;
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  margin-top: 0.85em;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+}
+details.spoiler .spoiler-content p {
   margin: 0.6em 0;
   line-height: 1.65;
   color: #1f2937;
 }
-details.spoiler ul, details.spoiler ol {
+details.spoiler .spoiler-content p:first-child,
+details.spoiler .spoiler-content ul:first-child,
+details.spoiler .spoiler-content ol:first-child {
+  margin-top: 0;
+}
+details.spoiler .spoiler-content p:last-child,
+details.spoiler .spoiler-content ul:last-child,
+details.spoiler .spoiler-content ol:last-child {
+  margin-bottom: 0;
+}
+details.spoiler .spoiler-content ul, details.spoiler .spoiler-content ol {
   margin: 0.6em 0 0.6em 1.5em;
   line-height: 1.65;
   color: #1f2937;
 }
-details.spoiler li {
+details.spoiler .spoiler-content li {
   margin-bottom: 0.35em;
 }
 
