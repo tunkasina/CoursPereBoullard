@@ -12,9 +12,9 @@ Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour acc
 ### Configurer MariaDB
  - Sécurisez votre installation MariaDB via le script dédié.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - `mysql_secure_installation` (référez-vous à l'appendice du cours si besoin).
-[/spoiler]
+</details>
 
 ### Configurer Nginx pour Mantis et HTTPS
 Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite une configuration explicite du bloc SSL et du passage à PHP-FPM.
@@ -27,7 +27,7 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
  - Activez votre site via un lien symbolique et désactivez le site par défaut.
  - Testez la syntaxe (`nginx -t`) et rechargez (`systemctl reload nginx`).
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Exemple de vhost Nginx complet (HTTP -> HTTPS + PHP-FPM) :
 ```nginx
 server {
@@ -64,7 +64,7 @@ rm /etc/nginx/sites-enabled/default
 nginx -t
 systemctl reload nginx
 ```
-[/spoiler]
+</details>
 
 ## Final
 Vos services sont configurés. Passons au déploiement des sources de Mantis !

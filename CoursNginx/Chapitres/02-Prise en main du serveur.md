@@ -18,7 +18,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Trouvez tout les utilisateurs autorisés à ouvrir une session sur le serveur
  - Modifiez les mots de passe de ces utilisateurs
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - `lsb_release -a` + A la connexion, vous avez les infos de la version du noyau affichées.
  - `apt update && apt upgrade` …mise à jour
  - Si vous avez une erreur du genre `[...] n'est pas encore valable (invalide pendant encore 2h 58min 17s)`, vous avez un soucis de date ou d'heure. Mettez à l'heure manuellement `date -s "2025-10-12 15:07:00"`.
@@ -28,7 +28,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Eventuellement, faites `su -` pour passer _root_ depuis _webadmin_.
 
 Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez ! Vous devez prendre **_mal_** le fait de ne pas savoir, et vouloir corriger cela par vous même.
-[/spoiler]
+</details>
 
 ### Installer SSH
 \[...] cherchez, _cherchez_, **cherchez** !
@@ -38,14 +38,14 @@ Vous ne comprenez pas une de ces commandes ou un de ces paramètres ? Cherchez !
  - Utilisez un client **SSH** pour tenter une connexion avec chaque utilisateurs de votre système (Comme **PuTTY** ou [Windows Terminal](CoursApache/Appendices/App.06%20Windows%20Terminal) )
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - `ip a` si vraiment ...
  - `apt install openssh-server` (et pas forcément le bundle `ssh`)
  - `systemctl status sshd.service` pour vérifier que le service fonctionne
  - `ssh root@[VOTRE_IP]`, depuis votre _desktop_ pour accéder à votre VM - et constater que _root_ n'a pas le droit de se connecter en ssh par défaut.
  - `ssh webadmin@[VOTRE_IP]`, pour finalement se connecter à votre VM
  - `su -` pour _élever vos privilèges_ et passer root.
-[/spoiler]
+</details>
 
 ### Configurer la connexion par clé
 Attention ici c'est le moment où typiquement, on s'enferme dehors. Heureusement vous, vous avez la main directement dans l'interface web de Proxmox, mais dans la vraie vie, c'est rarement le cas... Donc il faut être **ri-gou-reux**.
@@ -57,7 +57,7 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veut
  - Mettez en œuvre votre clé publique sur le serveur et votre clé privée sur votre client **SSH**.
  - Validez votre capacité à prendre la main
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Côté serveur, basculez sur un prompt en tant que _webadmin_, et :
  - `ssh-keygen -t ed25519 -C "[UN_COMMENTAIRE_PERTINENT]"` + donner un nom explicite
  - vous devez mettre la clé publique dans `.ssh/authorized_keys`, si le répertoire n'existe pas, créez-le avec les droits **700**.
@@ -79,7 +79,7 @@ Modifiez une dernière fois le fichier de conf :
  - `systemctl reload sshd.service`
 
 Testez une dernière fois. Respirez.
-[/spoiler]
+</details>
 
 ## Final
 Prenez vos notes. **Restaurez votre snapshot**, et recommencez sans aucune aide.

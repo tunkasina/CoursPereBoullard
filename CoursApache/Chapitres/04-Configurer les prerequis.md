@@ -13,10 +13,10 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01 mysql_secure_installation.md).
  - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
-[/spoiler]
+</details>
 
 ### Configurer apache2
 Plus tard, nous mettrons nos sources sous `/var/www/mantis/`. Vous aller configurer dès à présent votre serveur pour le servir en _https_ ! Les explication de configuration d'Apache méritent leur propre page. 
@@ -26,7 +26,7 @@ Cela se trouve via [ce lien](CoursApache/Appendices/App.03%20Apache.md), et une 
  - Définir le fichier de configuration nécessaire en copiant `default-ssl.conf` sous `mantis-ssl.conf`
  - Ajouter une redirection de _http_ vers _https_.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - `a2enmod ssl` → active le support SSL (pour le _https_)
 
 Aller dans `/etc/apache2/sites-available` et faites :
@@ -55,7 +55,7 @@ Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désac
  - `a2ensite mantis*`
 
 Et bien sûr ... `systemctl reload apache2`
-[/spoiler]
+</details>
 
 ## Final
 Pas mal ! Un gros steak, pas vrai ? Courage, on est désormais à deux doigts de la fin… Dans la suite, nous allons déployer nos source.

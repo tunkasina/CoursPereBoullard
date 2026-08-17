@@ -18,7 +18,7 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires, 
  - Les modules PHP nécessaires
 Un bonne recherche sur Internet devrait vous aider !
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Cherchez sur le web `insite:mantisbt.org mantis server requisite`. 
 Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`
 Cela nous permet de savoir que l'on doit installer :
@@ -35,26 +35,26 @@ Bon bah demandez à Gemini ou ChatGPT ou Mistra :
 "_Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"
 
 En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !
-[/spoiler]
+</details>
 
 ### Installer les prérequis
  - Installez les prérequis que vous avez précédemment trouvés.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - Pour installer Nginx : `apt install nginx`
  - Pour installer MariaDB : `apt install mariadb-server`
  - Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql php-fpm`
-[/spoiler]
+</details>
 
 ### Vérifier les prérequis
  - Vérifiez que Nginx fonctionne.
  - Vérifiez que MariaDB fonctionne.
  - Vérifiez que PHP et PHP-FPM fonctionnent.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - Dans un premier temps, on vérifie que les démons sont fonctionnels : `systemctl status nginx.service`, `systemctl status mariadb.service`, `systemctl status php-fpm` (ou version correspondante).
  - Ensuite, pour tester l'interprétation PHP avec Nginx, créez une page `/var/www/html/index.php` avec `<?php phpinfo(); ?>` (attention, sous Nginx il vous faudra configurer le bloc `location ~ \.php$` pointant vers le socket PHP-FPM pour l'afficher correctement).
-[/spoiler]
+</details>
 
 ## Final
 Et maintenant ... ? **STOP** ! On configurera à [04-Configurer les prerequis](./04-Configurer%20les%20prerequis.md) !

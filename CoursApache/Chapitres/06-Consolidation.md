@@ -20,7 +20,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
  - Appliquez les instructions post-installation de **Mantis** 
  - Contrôler les droits utiles et nécessaire sur `/var/www/mantis`
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 A plusieurs endroits **Mantis** nous indique des choses à faire :
  - _**Attention :** vous devriez désactiver le compte « administrator » par défaut ou changer son mot de passe._
  - _**Attention :** le répertoire « admin » par défaut devrait être supprimé ou son accès devrait être restreint._
@@ -32,14 +32,14 @@ Puise que c'est le logiciel qui le dit, faites ! Et tant que vous avez le nez da
 Et comme on ne supprime rien sans avoir la possibilité de le restaurer :
  - `mv admin ~/admin.old`
 
-[/spoiler]
+</details>
 
 #### Discrétion
  - Obtenez un 404 et trouvez les infos en trop
  - Interrogez votre serveur pour obtenir les **HEADERS** renvoyés
  - Diminuez la signature d'**Apache**
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
  - Essayer `http://[VOTRE_IP]/test` : vous obtenez des choses comme _Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443_
  - Faites **F12** pour avoir vos outils de dev', et cherchez dans **Réseau**. Prenez la première requête **GET** et regardez les **en-têtes**. Vous devriez trouvez quelque chose comme _Server: Apache/2.4.65 (Debian) OpenSSL/3.0.17_
 
@@ -47,18 +47,18 @@ Ce genre d'info, c'est le exactement ce que vous ne _voulez pas_ montrer. Pour e
 
 Dans le temps, **PHP** affichait ses infos de version à chaque plantage. Soyez méfiant, si vous voyez un numéro de version apparaître lors de vos session de code, c'est qu'il y a une option quelque part à désactiver !
 
-[/spoiler]
+</details>
 
 #### Seulement l'utile et le nécessaire
  - Vérifier vos port ouverts vers l’extérieur
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Heureusement vous n'avez rien d'ouvert ! Voici comment le vérifier:
  - `ss -tul`
 
 Vous verrez toutes les écoutes (`l`) tcp (`t`) et udp (`u`). Et dedans on constate que **SSH** écoute sur toutes les interface IPv4 (`0.0.0.0`), **mariadb** seulement la boucle locale (`127.0.0.1`), et **Apache** écoute toutes les interfaces possibles (`*:http`, `*:https`) (_oui Apache est très à l'écoute_ ).
 
-[/spoiler]
+</details>
 
 Si vous avez été attentif, vous comprendrez qu'en étant soucieux de rester discret, et de n'exposer que l'utile et le nécessaire, nous agissons sur l'étape de **reconnaissance** et l'**exploitation** d'un adversaire.
 ### Actif
@@ -66,7 +66,7 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
  - Mettre en place un script de sauvegarde de la base de donnée
  - Mettre en place un script de vérification de mise à jours dans le `.bashrc` (qui s'affichera donc dès que vous vous connectez sur le serveur)
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Un simple script de sauvegarde sera déjà un bon début ! Les admins prévoyants en mettent souvent quelques-un à divers étages ... 
 Directement dans le home de root, créez un script **shell** :
  - `nano backup_mariadb.sh`
@@ -88,7 +88,7 @@ Enfin, pour avoir un rappel des mise à jour à chaque login sur le serveur, éd
 
 Alors évidemment, il faudrait mettre en place un export de votre sauvegarde, par exemple avec **scp**.
 
-[/spoiler]
+</details>
 
 Si vous avez été attentif, vous comprenez qu'ici nous avons agit plutôt sur l'**analyse de vulnérabilités** et la **post-exploitation** d'un adversaire.
 ### Proactif
@@ -96,7 +96,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
  - mettre en place un **fail2ban** (qui repose sur **iptables**, le pare-feu par défaut de Debian), et le configurer pour laisser passer une ip de votre choix, et bannir toutes les autres IP qui échouerai leur connexion **SSH** trois fois
  - Ajouter dans le `bashrc` de root les 3 dernières connexions en tant que root qui sont advenues sur le système.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Installer **fail2ban**, **iptables** et définissez vous une **IP** en "_whitelist_":
  - `apt install fail2ban`
  - Ensuite, vous éditez dans la foulée le fichier `/etc/fail2ban/jail.conf`. Cherchez le paramètre `ignoreip =` et mettez à cet endroit l'IP de votre client avec le quel vous accédez à votre serveur.
@@ -125,7 +125,7 @@ Ah oui et pour le petit bricolage sur `/root/.bashrc` :
  - `echo "Dernières connexions root :"`
  - `last -n 3 root`
 
-[/spoiler]
+</details>
 
 Et enfin, vous comprenez qu'ici on agit plutôt sur l'**analyse de vulnérabilités** et l'**exploitation** potentielle d'un adversaire.
 ## Final

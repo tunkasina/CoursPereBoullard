@@ -14,19 +14,19 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
 ### Activer la compression
  - Activez `gzip` dans la configuration générale de Nginx pour compresser les fichiers textes (CSS, JS, JSON).
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Dans `/etc/nginx/nginx.conf` (`http { }`) :
 ```nginx
 gzip on;
 gzip_types text/plain text/css application/json application/javascript image/svg+xml;
 ```
 Vérification : `curl -H "Accept-Encoding: gzip" -I http://[IP_VM]/`
-[/spoiler]
+</details>
 
 ### Configurer `stub_status`
  - Activez le module de statistiques de Nginx pour surveiller l'état des connexions en temps réel.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Dans un bloc `server` interne (ex: sur le port 8080 local) :
 ```nginx
 server {
@@ -39,7 +39,7 @@ server {
 }
 ```
 Test : `curl http://127.0.0.1:8080/nginx_status`
-[/spoiler]
+</details>
 
 ## Final
 Votre cours Nginx est complet, aligné avec la philosophie du cours Apache et prêt pour vos étudiants !

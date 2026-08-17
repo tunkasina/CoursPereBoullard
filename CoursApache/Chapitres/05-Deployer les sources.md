@@ -13,7 +13,7 @@ Let's fire this up ! 🚀🚀🚀
 ### Télécharger les sources
  - Trouver et téléchargez les sources sur votre serveur.
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de l'IUT c'est pas mon choix, mais c'est ainsi il faut faire avec, IRL ce sera plus facile. Aller configurez moi ce truc :
  - `export http_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
  - `export https_proxy='http://proxy.iutbourg.univ-lyon1.fr:3128'`
@@ -21,13 +21,13 @@ Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de 
 Et maintenant, téléchargez l'archive (je vous conseille de le faire dans votre `~` en tant que **root**):
  - `wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz`
 
-[/spoiler]
+</details>
 
 ### Déployer les sources
  - Décompressez les et **rangez votre chambre**: on _veux_ un répertoire `/var/www/mantis/` qui contient les sources et pas un sous répertoire supplémentaire !
  - Mettre les bon droits ?! S'appuyer sur l'appendice : [droits et Apache](CoursApache/Appendices/App.02%20droits%20et%20Apache.md).
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 La partie facile :
  - `tar -xvf mantisbt-2.27.1.tar.gz`
  - `mv mantisbt-2.27.1 /var/www/mantis`
@@ -39,7 +39,7 @@ La partie plus touchy (en tant que **root** !). Pour faire simple, on va donner 
 
 Comme on ne connait pas encore l'application, peut être que plus tard on aura à mettre des droits d'écriture sur certain répertoires. On passera alors _temporairement_ ces répertoires à **770**, et nous nous féliciterons d'avoir conservé `www-data` en utilisateur.
 
-[/spoiler]
+</details>
 
 ### Lancer l'installation
 
@@ -49,7 +49,7 @@ Comme on ne connait pas encore l'application, peut être que plus tard on aura �
  - Lancer l'installation de **Mantis** en complétant les paramètres avec vos notes.
 
 
-[spoiler]
+<details class="spoiler"><summary>Solution / Indice</summary>
 Remplissez les paramètres d'installation... il vous demande :
  - _Username (for Database)_ : inventez un nouvel utilisateur qui servira à se connecter à la BDD (et **pas** root !)
  - _Password (for Database)_ : donner lui un mot de passe
@@ -68,7 +68,7 @@ Enfin, cliquez sur _Continuez_ et authentifiez vous, comme dans la doc, avec com
  - Reprenez le snapshot précédent où tout allait bien
  - Aidez vous des logs d'apache : `tail -f /var/log/apache2/error.log`
 
-[/spoiler]
+</details>
 
 ## Final
 Bon sang ! Déjà fini ? Mais comment diantre ?! Super, vous avez le temps de **restaurer votre snapshot et recommencer** !

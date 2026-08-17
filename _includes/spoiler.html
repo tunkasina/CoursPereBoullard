@@ -1,0 +1,11 @@
+{% if include.title %}
+<details class="spoiler">
+<summary>{{ include.title }}</summary>
+{{ include.content }}
+</details>
+{% else %}
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+{{ include.content }}
+</details>
+{% endif %}
