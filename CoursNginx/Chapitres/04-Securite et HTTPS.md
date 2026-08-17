@@ -13,7 +13,7 @@ Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour acc
  - Sécurisez votre installation MariaDB via le script dédié.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li><code>mysql_secure_installation</code> (référez-vous à l'appendice du cours si besoin).</li>
@@ -33,7 +33,7 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
  - Testez la syntaxe (`nginx -t`) et rechargez (`systemctl reload nginx`).
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Exemple de vhost Nginx complet (HTTP -> HTTPS + PHP-FPM) :</p>
 <p>```nginx</p>

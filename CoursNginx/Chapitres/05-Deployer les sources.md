@@ -15,7 +15,7 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
  - Appliquez les bons droits et propriétaires (`root:www-data`, permissions `750` / `640`).
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>```bash</p>
 <p>wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz</p>
@@ -34,7 +34,7 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
  - Résolvez les éventuels problèmes de droits d'écriture sur le dossier `config` (`chmod -R 770 config`).
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Même logique que sous Apache : l'installateur crée la base et les tables. Si la base refuse l'accès, accordez les privilèges via le CLI MariaDB :</p>
 <p>```sql</p>

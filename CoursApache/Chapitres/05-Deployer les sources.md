@@ -14,7 +14,7 @@ Let's fire this up ! 🚀🚀🚀
  - Trouver et téléchargez les sources sur votre serveur.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Sincèrement, je suis désolé que vous ayez eu autant à souffrir. Le proxy de l'IUT c'est pas mon choix, mais c'est ainsi il faut faire avec, IRL ce sera plus facile. Aller configurez moi ce truc :</p>
 <ul>
@@ -33,7 +33,7 @@ Let's fire this up ! 🚀🚀🚀
  - Mettre les bon droits ?! S'appuyer sur l'appendice : [droits et Apache](../Appendices/App.02 droits et Apache.md).
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>La partie facile :</p>
 <ul>
@@ -59,7 +59,7 @@ Let's fire this up ! 🚀🚀🚀
 
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Remplissez les paramètres d'installation... il vous demande :</p>
 <ul>

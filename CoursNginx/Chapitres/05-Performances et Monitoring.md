@@ -15,7 +15,7 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
  - Activez `gzip` dans la configuration générale de Nginx pour compresser les fichiers textes (CSS, JS, JSON).
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Dans <code>/etc/nginx/nginx.conf</code> (<code>http { }</code>) :</p>
 <p>```nginx</p>
@@ -30,7 +30,7 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires..
  - Activez le module de statistiques de Nginx pour surveiller l'état des connexions en temps réel.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Dans un bloc <code>server</code> interne (ex: sur le port 8080 local) :</p>
 <p>```nginx</p>

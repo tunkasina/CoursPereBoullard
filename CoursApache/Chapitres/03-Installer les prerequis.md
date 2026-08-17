@@ -19,7 +19,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
 Un bonne recherche sur Internet devrait vous aider !
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Cherchez sur le web <code>insite:mantisbt.org mantis server requisite</code>. </p>
 <p>Et sur la page des prérequis logiciel, cherchez la <code>Versions compatibility table</code></p>
@@ -42,7 +42,7 @@ Un bonne recherche sur Internet devrait vous aider !
  - Installer les prérequis que vous avez précédemment trouvés
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li>Pour installer apache : <code>apt install apache2</code></li>
@@ -59,7 +59,7 @@ Un bonne recherche sur Internet devrait vous aider !
  - Vérifier que _PHP_ fonctionne
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li>Dans un premier temps, on vérifie que les différents démons sont fonctionnels : <code>systemctl status apache2.service</code>, <code>systemctl status mariadb.service</code> - qui affiche le statut et un extrait des logs.</li>

@@ -13,7 +13,7 @@ Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux at
  - Masquez la version de Nginx dans les réponses HTTP.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Dans <code>/etc/nginx/nginx.conf</code>, dans le bloc <code>http { }</code> :</p>
 <p>```nginx</p>
@@ -28,7 +28,7 @@ Comme pour la voie Apache, nous allons renforcer notre serveur Nginx face aux at
  - Installez et configurez `fail2ban` pour protéger l'accès SSH.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Identique au parcours Apache :</p>
 <ul>

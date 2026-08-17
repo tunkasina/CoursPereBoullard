@@ -14,7 +14,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li>Le script <strong>mysql_secure_installation</strong> mérite sa propre page, pour en comprendre le contenu et cela se trouve via <a href="../Appendices/App.01%20mysql_secure_installation.html">ce lien</a>.</li>
@@ -32,7 +32,7 @@ Cela se trouve via [ce lien](../Appendices/App.03 Apache.md), et une fois lu, vo
  - Ajouter une redirection de _http_ vers _https_.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li><code>a2enmod ssl</code> → active le support SSL (pour le <em>https</em>)</li>

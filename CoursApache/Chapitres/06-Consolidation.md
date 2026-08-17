@@ -21,7 +21,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
  - Contrôler les droits utiles et nécessaire sur `/var/www/mantis`
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>A plusieurs endroits <strong>Mantis</strong> nous indique des choses à faire :</p>
 <ul>
@@ -46,7 +46,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
  - Diminuez la signature d'**Apache**
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li>Essayer <code>http://[VOTRE_IP]/test</code> : vous obtenez des choses comme <em>Apache/2.4.65 (Debian) OpenSSL/3.0.17 Server at 172.22.69.238 Port 443</em></li>
@@ -61,7 +61,7 @@ Cela consiste à limiter ce que l'on offre de manière passive, aux potentiels a
  - Vérifier vos port ouverts vers l’extérieur
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Heureusement vous n'avez rien d'ouvert ! Voici comment le vérifier:</p>
 <ul>
@@ -78,7 +78,7 @@ Cela consiste à mener des actions de protection, afin d'augmenter la résilienc
  - Mettre en place un script de vérification de mise à jours dans le `.bashrc` (qui s'affichera donc dès que vous vous connectez sur le serveur)
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Un simple script de sauvegarde sera déjà un bon début ! Les admins prévoyants en mettent souvent quelques-un à divers étages ... </p>
 <p>Directement dans le home de root, créez un script <strong>shell</strong> :</p>
@@ -113,7 +113,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
  - Ajouter dans le `bashrc` de root les 3 dernières connexions en tant que root qui sont advenues sur le système.
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Installer <strong>fail2ban</strong>, <strong>iptables</strong> et définissez vous une <strong>IP</strong> en "<em>whitelist</em>":</p>
 <ul>

@@ -19,7 +19,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Modifiez les mots de passe de ces utilisateurs
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li><code>lsb_release -a</code>+A la connexion, vous avez les infos de la version du noyau affichées.</li>
@@ -43,7 +43,7 @@ Vous ne savez pas comment faire? C'est normal, mais le rester sans rien faire, n
  - Trouvez comment élever vos privilèges et être root sur le système via SSH
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <ul>
 <li><code>ip a</code> si vraiment ...</li>
@@ -67,7 +67,7 @@ Bonne question Jean-michel-à-peu-près. Rigoureux dans notre contexte, ça veux
  - Validez votre capacité à prendre la main
 
 <details class="spoiler">
-<summary>Solution / Indice</summary>
+<summary>Solution</summary>
 <div class="spoiler-content">
 <p>Côté serveur, basculez sur un prompt en tant que <em>webadmin</em>, et :</p>
 <ul>
