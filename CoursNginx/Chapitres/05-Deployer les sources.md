@@ -14,16 +14,16 @@ Vous arrivez à la dernière étape avant de voir fonctionner votre bug tracker 
  - Décompressez-la et rangez les sources dans `/var/www/mantis`.
  - Appliquez les bons droits et propriétaires (`root:www-data`, permissions `750` / `640`).
 
-<details class="spoiler"><summary>Solution / Indice</summary>
-```bash
-wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz
-tar -xvf mantisbt-2.27.1.tar.gz
-mv mantisbt-2.27.1 /var/www/mantis
-
-chown -R root:www-data /var/www/mantis
-find /var/www/mantis -type d -exec chmod 750 {} \;
-find /var/www/mantis -type f -exec chmod 640 {} \;
-```
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<p>```bash</p>
+<p>wget https://netcologne.dl.sourceforge.net/project/mantisbt/mantis-stable/2.27.1/mantisbt-2.27.1.tar.gz</p>
+<p>tar -xvf mantisbt-2.27.1.tar.gz</p>
+<p>mv mantisbt-2.27.1 /var/www/mantis</p>
+<p>chown -R root:www-data /var/www/mantis</p>
+<p>find /var/www/mantis -type d -exec chmod 750 {} \;</p>
+<p>find /var/www/mantis -type f -exec chmod 640 {} \;</p>
+<p>```</p>
 </details>
 
 ### Lancer l'installation dans le navigateur
@@ -31,11 +31,12 @@ find /var/www/mantis -type f -exec chmod 640 {} \;
  - Remplissez les informations de base de données (créez un utilisateur dédié `mantis_user`, connectez-vous avec `root` de MariaDB pour initialiser la base).
  - Résolvez les éventuels problèmes de droits d'écriture sur le dossier `config` (`chmod -R 770 config`).
 
-<details class="spoiler"><summary>Solution / Indice</summary>
-Même logique que sous Apache : l'installateur crée la base et les tables. Si la base refuse l'accès, accordez les privilèges via le CLI MariaDB :
-```sql
-GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MDP]';
-```
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<p>Même logique que sous Apache : l'installateur crée la base et les tables. Si la base refuse l'accès, accordez les privilèges via le CLI MariaDB :</p>
+<p>```sql</p>
+<p>GRANT ALL PRIVILEGES ON bugtracker.* TO 'mantis_user'@'localhost' IDENTIFIED BY '[VOTRE_MDP]';</p>
+<p>```</p>
 </details>
 
 ## Final

@@ -18,32 +18,35 @@ Evidemment, vous chercherez par vous même et par tous les moyens nécessaires, 
  - Les modules PHP nécessaires
 Un bonne recherche sur Internet devrait vous aider !
 
-<details class="spoiler"><summary>Solution / Indice</summary>
-Cherchez sur le web `insite:mantisbt.org mantis server requisite`. 
-Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`
-Cela nous permet de savoir que l'on doit installer :
- + *nginx* (>=1.10.x)comme serveur web
- + *mariadb* (>=5.5.35) comme SGBD
- + *php* (>=7.4) comme interpréteur de script
- + les modules php *mbstring* et *mysql*
- + *php-fpm* (car Nginx, contrairement à Apache, ne gère pas PHP en interne et a besoin d'un gestionnaire de processus externe).
-
-De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !
-
-Quoi c'est trop vieux jeu pour vous une recherche web ? 
-Bon bah demandez à Gemini ou ChatGPT ou Mistra : 
-"_Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"
-
-En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
+<p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
+<p>Cela nous permet de savoir que l'on doit installer :</p>
+<ul>
+<li>*nginx* (>=1.10.x)comme serveur web</li>
+<li>*mariadb* (>=5.5.35) comme SGBD</li>
+<li>*php* (>=7.4) comme interpréteur de script</li>
+<li>les modules php *mbstring* et *mysql*</li>
+<li>*php-fpm* (car Nginx, contrairement à Apache, ne gère pas PHP en interne et a besoin d'un gestionnaire de processus externe).</li>
+</ul>
+<p>De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !</p>
+<p>Quoi c'est trop vieux jeu pour vous une recherche web ? </p>
+<p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
+<p>"_Je veux installer Mantis sur NGinx, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
+<p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
 </details>
 
 ### Installer les prérequis
  - Installez les prérequis que vous avez précédemment trouvés.
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - Pour installer Nginx : `apt install nginx`
- - Pour installer MariaDB : `apt install mariadb-server`
- - Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql php-fpm`
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>Pour installer Nginx : `apt install nginx`</li>
+<li>Pour installer MariaDB : `apt install mariadb-server`</li>
+<li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql php-fpm`</li>
+</ul>
 </details>
 
 ### Vérifier les prérequis
@@ -51,9 +54,12 @@ En formulant ainsi, vous le forcez à vous donner les informations qu'il a utili
  - Vérifiez que MariaDB fonctionne.
  - Vérifiez que PHP et PHP-FPM fonctionnent.
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - Dans un premier temps, on vérifie que les démons sont fonctionnels : `systemctl status nginx.service`, `systemctl status mariadb.service`, `systemctl status php-fpm` (ou version correspondante).
- - Ensuite, pour tester l'interprétation PHP avec Nginx, créez une page `/var/www/html/index.php` avec `<?php phpinfo(); ?>` (attention, sous Nginx il vous faudra configurer le bloc `location ~ \.php$` pointant vers le socket PHP-FPM pour l'afficher correctement).
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>Dans un premier temps, on vérifie que les démons sont fonctionnels : `systemctl status nginx.service`, `systemctl status mariadb.service`, `systemctl status php-fpm` (ou version correspondante).</li>
+<li>Ensuite, pour tester l'interprétation PHP avec Nginx, créez une page `/var/www/html/index.php` avec `<?php phpinfo(); ?>` (attention, sous Nginx il vous faudra configurer le bloc `location ~ \.php$` pointant vers le socket PHP-FPM pour l'afficher correctement).</li>
+</ul>
 </details>
 
 ## Final

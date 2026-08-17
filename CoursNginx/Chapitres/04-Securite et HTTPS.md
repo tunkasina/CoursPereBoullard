@@ -12,8 +12,11 @@ Nous allons configurer MariaDB et préparer notre serveur virtuel Nginx pour acc
 ### Configurer MariaDB
  - Sécurisez votre installation MariaDB via le script dédié.
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - `mysql_secure_installation` (référez-vous à l'appendice du cours si besoin).
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>`mysql_secure_installation` (référez-vous à l'appendice du cours si besoin).</li>
+</ul>
 </details>
 
 ### Configurer Nginx pour Mantis et HTTPS
@@ -27,43 +30,39 @@ Contrairement à Apache qui gère les certificats par défaut, Nginx nécessite 
  - Activez votre site via un lien symbolique et désactivez le site par défaut.
  - Testez la syntaxe (`nginx -t`) et rechargez (`systemctl reload nginx`).
 
-<details class="spoiler"><summary>Solution / Indice</summary>
-Exemple de vhost Nginx complet (HTTP -> HTTPS + PHP-FPM) :
-```nginx
-server {
-    listen 80;
-    server_name _;
-    return 301 https://$host$request_uri;
-}
-
-server {
-    listen 443 ssl;
-    server_name _;
-
-    root /var/www/mantis;
-    index index.php index.html;
-
-    ssl_certificate     /etc/ssl/certs/ssl-cert-snakeoil.pem;
-    ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php-fpm.sock;
-    }
-}
-```
-Commandes :
-```bash
-apt install ssl-cert
-ln -s /etc/nginx/sites-available/mantis /etc/nginx/sites-enabled/
-rm /etc/nginx/sites-enabled/default
-nginx -t
-systemctl reload nginx
-```
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<p>Exemple de vhost Nginx complet (HTTP -> HTTPS + PHP-FPM) :</p>
+<p>```nginx</p>
+<p>server {</p>
+<p>    listen 80;</p>
+<p>    server_name _;</p>
+<p>    return 301 https://$host$request_uri;</p>
+<p>}</p>
+<p>server {</p>
+<p>    listen 443 ssl;</p>
+<p>    server_name _;</p>
+<p>    root /var/www/mantis;</p>
+<p>    index index.php index.html;</p>
+<p>    ssl_certificate     /etc/ssl/certs/ssl-cert-snakeoil.pem;</p>
+<p>    ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;</p>
+<p>    location / {</p>
+<p>        try_files $uri $uri/ =404;</p>
+<p>    }</p>
+<p>    location ~ \.php$ {</p>
+<p>        include snippets/fastcgi-php.conf;</p>
+<p>        fastcgi_pass unix:/run/php/php-fpm.sock;</p>
+<p>    }</p>
+<p>}</p>
+<p>```</p>
+<p>Commandes :</p>
+<p>```bash</p>
+<p>apt install ssl-cert</p>
+<p>ln -s /etc/nginx/sites-available/mantis /etc/nginx/sites-enabled/</p>
+<p>rm /etc/nginx/sites-enabled/default</p>
+<p>nginx -t</p>
+<p>systemctl reload nginx</p>
+<p>```</p>
 </details>
 
 ## Final

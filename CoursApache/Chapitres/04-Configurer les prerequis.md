@@ -13,9 +13,12 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 ### Configurer mariadb
  - Configurer _mariadb_ avec le script _mysql_secure_installation_ (attention cherchez à comprendre ce que vous faites)
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01%20mysql_secure_installation.html).
- - On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>Le script **mysql_secure_installation** mérite sa propre page, pour en comprendre le contenu et cela se trouve via [ce lien](../Appendices/App.01%20mysql_secure_installation.html).</li>
+<li>On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte **root** de _mariadb_ au moment critique.</li>
+</ul>
 </details>
 
 ### Configurer apache2
@@ -26,35 +29,39 @@ Cela se trouve via [ce lien](../Appendices/App.03%20Apache.html), et une fois lu
  - Définir le fichier de configuration nécessaire en copiant `default-ssl.conf` sous `mantis-ssl.conf`
  - Ajouter une redirection de _http_ vers _https_.
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - `a2enmod ssl` → active le support SSL (pour le _https_)
-
-Aller dans `/etc/apache2/sites-available` et faites :
- - `cp default-ssl.conf mantis-ssl.conf`
- - `cp 000-default.conf mantis-http.conf`
-
-Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : 
-	`<VirtualHost *:80>`
-	`ServerName METTEZ_ICI_VOTRE_IP`
-	`Redirect permanent / https://METTEZ_ICI_VOTRE_IP/`
-	`</VirtualHost>`
-
-Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :
- - Définissez `DocumentRoot` à `/var/www/mantis`
- - Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :
-
-	`SSLEngine on`
-	`SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem`
-	`SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key`
-
-On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.
- - `apt install ssl-cert`
-
-Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route... toujours depuis `/etc/apache2/sites-available`:
- - `a2dissite *`
- - `a2ensite mantis*`
-
-Et bien sûr ... `systemctl reload apache2`
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>`a2enmod ssl` → active le support SSL (pour le _https_)</li>
+</ul>
+<p>Aller dans `/etc/apache2/sites-available` et faites :</p>
+<ul>
+<li>`cp default-ssl.conf mantis-ssl.conf`</li>
+<li>`cp 000-default.conf mantis-http.conf`</li>
+</ul>
+<p>Ensuite on modifie le fichier `mantis-http.conf` pour qu'il renvoie sur le _https_ : </p>
+<p>	`<VirtualHost *:80>`</p>
+<p>	`ServerName METTEZ_ICI_VOTRE_IP`</p>
+<p>	`Redirect permanent / https://METTEZ_ICI_VOTRE_IP/`</p>
+<p>	`</VirtualHost>`</p>
+<p>Après cela, on configure le `mantis-ssl.conf` pour qu'il serve le bon dossier :</p>
+<ul>
+<li>Définissez `DocumentRoot` à `/var/www/mantis`</li>
+<li>Vérifiez que les lignes suivantes pointent vers les certificats auto-signés :</li>
+</ul>
+<p>	`SSLEngine on`</p>
+<p>	`SSLCertificateFile    /etc/ssl/certs/ssl-cert-snakeoil.pem`</p>
+<p>	`SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key`</p>
+<p>On **voit** que dans le fichier de configuration d'origine de _apache2_ il est précisé qu'il **faut** installer un package pour avoir des certificats auto-signé, **ssl-cert**.</p>
+<ul>
+<li>`apt install ssl-cert`</li>
+</ul>
+<p>Nos fichier de configuration sont désormais prêt. Il ne reste plus qu'a désactiver les sites inutiles et mettre les utiles en route... toujours depuis `/etc/apache2/sites-available`:</p>
+<ul>
+<li>`a2dissite *`</li>
+<li>`a2ensite mantis*`</li>
+</ul>
+<p>Et bien sûr ... `systemctl reload apache2`</p>
 </details>
 
 ## Final

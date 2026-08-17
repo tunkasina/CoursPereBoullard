@@ -18,33 +18,35 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires, 
  - les modules et leurs versions
 Un bonne recherche sur Internet devrait vous aider !
 
-<details class="spoiler"><summary>Solution / Indice</summary>
-Cherchez sur le web `insite:mantisbt.org mantis server requisite`. 
-Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`
-Cela nous permet de savoir que l'on doit installer :
- +  _apache2_ (>=2.4.13) comme serveur web
- + _mariadb_ (>=5.5.35) comme SGBD
- + _php_ (>=7.4) comme interpréteur de script
- + les modules php _mbstring_ et _mysql_ 
-
-De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !
-
-Quoi c'est trop vieux jeu pour vous une recherche web ? 
-Bon bah demandez à Gemini ou ChatGPT ou Mistra : 
-"_Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"
-
-En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<p>Cherchez sur le web `insite:mantisbt.org mantis server requisite`. </p>
+<p>Et sur la page des prérequis logiciel, cherchez la `Versions compatibility table`</p>
+<p>Cela nous permet de savoir que l'on doit installer :</p>
+<ul>
+<li> _apache2_ (>=2.4.13) comme serveur web</li>
+<li>_mariadb_ (>=5.5.35) comme SGBD</li>
+<li>_php_ (>=7.4) comme interpréteur de script</li>
+<li>les modules php _mbstring_ et _mysql_</li>
+</ul>
+<p>De plus il est clairement dit dans la documentation que l'OS importe peu tant qu'il peut faire tourner les prérequis listés !</p>
+<p>Quoi c'est trop vieux jeu pour vous une recherche web ? </p>
+<p>Bon bah demandez à Gemini ou ChatGPT ou Mistra : </p>
+<p>"_Je veux installer Mantis sur Apache, donne moi les versions exacte des logiciel et modules PHP nécessaire **en me donnant la source, et les liens vers la documentation officielle**_"</p>
+<p>En formulant ainsi, vous le forcez à vous donner les informations qu'il a utilisé pour vous régurgiter l'information, et pouvez vérifier que c'est à jour... ou pas !</p>
 </details>
 
 ### Installer les prérequis
  - Installer les prérequis que vous avez précédemment trouvés
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - Pour installer apache : `apt install apache2`
- - Pour installer mariadb : `apt install mariadb-server`
- - Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql`
-
-(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>Pour installer apache : `apt install apache2`</li>
+<li>Pour installer mariadb : `apt install mariadb-server`</li>
+<li>Pour installer PHP et ses modules : `apt install php php-mbstring php-mysql`</li>
+</ul>
+<p>(_oui on est d'accord, pas de quoi se taper la tête contre les murs_)</p>
 </details>
 
 ### Vérifier les prérequis
@@ -52,10 +54,13 @@ En formulant ainsi, vous le forcez à vous donner les informations qu'il a utili
  - Vérifier que _mariadb_ fonctionne
  - Vérifier que _PHP_ fonctionne
 
-<details class="spoiler"><summary>Solution / Indice</summary>
- - Dans un premier temps, on vérifie que les différents démons sont fonctionnels : `systemctl status apache2.service`, `systemctl status mariadb.service` - qui affiche le statut et un extrait des logs.
- - Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que _apache_ vous rend bien une page web
- - Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.
+<details class="spoiler">
+<summary>Solution / Indice</summary>
+<ul>
+<li>Dans un premier temps, on vérifie que les différents démons sont fonctionnels : `systemctl status apache2.service`, `systemctl status mariadb.service` - qui affiche le statut et un extrait des logs.</li>
+<li>Ensuite, une petite visite sur `http://[ip de votre serveur]` vous permet de voir que _apache_ vous rend bien une page web</li>
+<li>Pour vérifier que _PHP_ fonctionne, il faut simplement se créer une page **/var/www/html/index.php** avec comme contenu `<?php  phpinfo();`. Y accéder via `http://[ip de votre serveur]/index.php` devrait vous renvoyer une bien belle page d'info sur votre interpréteur PHP et ses modules.</li>
+</ul>
 </details>
 
 ## Final
