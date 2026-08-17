@@ -17,7 +17,7 @@ Evidemment, vous chercherez par vous même et par tout les moyens nécessaires b
 <summary>Solution / Indice</summary>
 <div class="spoiler-content">
 <ul>
-<li>Le script <strong>mysql_secure_installation</strong> mérite sa propre page, pour en comprendre le contenu et cela se trouve via <a href="../Appendices/App.01%20mysql_secure_installation.html\">ce lien</a>.</li>
+<li>Le script <strong>mysql_secure_installation</strong> mérite sa propre page, pour en comprendre le contenu et cela se trouve via <a href="../Appendices/App.01%20mysql_secure_installation.html">ce lien</a>.</li>
 <li>On ne créé pas de base de donnée ou de compte particulier, on va utiliser notre compte <strong>root</strong> de <em>mariadb</em> au moment critique.</li>
 </ul>
 </div>

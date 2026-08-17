@@ -140,7 +140,7 @@ Ce sont des réactions à mettre en oeuvre face à certains événements. Typiqu
 </ul>
 <p>Vous avez sans doute remarqué qu'il précise à chaque fois la <em>jail</em> utilisée, ici <code>[sshd]</code>. En fait vous pouvez en définir d'autres et les baser sur les logs de votre système ou de votre application...</p>
 <p>Aller, Bonus : </p>
-<p>	<a href="../Appendices/App.05%20fail2ban.html\">Fonctionnement de fail2ban</a></p>
+<p>	<a href="../Appendices/App.05%20fail2ban.html">Fonctionnement de fail2ban</a></p>
 <p>Ah oui et pour le petit bricolage sur <code>/root/.bashrc</code> :</p>
 <ul>
 <li><code>echo "Dernières connexions root :"</code></li>
