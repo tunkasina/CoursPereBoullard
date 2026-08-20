@@ -1,9 +1,9 @@
 ---
-title: Appendices
+title: Appendices Nginx
 parent: TP Nginx
 nav_order: 20
 has_children: true
 ---
 
-# Appendices
+# Appendices Nginx
 Retrouvez l'ensemble des appendices du TP Nginx.

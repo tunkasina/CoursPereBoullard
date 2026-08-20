@@ -1,6 +1,6 @@
 ---
 title: "Appendice 2: droits Apache"
-parent: "Appendices"
+parent: "Appendices Apache"
 nav_order: 22
 ---
 # Appendice 2: droits Apache
