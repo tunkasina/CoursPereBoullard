@@ -1,6 +1,6 @@
 ---
 title: "Appendice 1 : NGinx vs Apache"
-parent: "TP Nginx"
+parent: "Appendices"
 nav_order: 21
 ---
 # Appendice 1 : NGinx vs Apache

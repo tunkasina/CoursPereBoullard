@@ -1,6 +1,6 @@
 ---
 title: "Appendice 1: mysql_secure_installation"
-parent: "TP Apache"
+parent: "Appendices"
 nav_order: 21
 ---
 # Appendice 1: mysql_secure_installation

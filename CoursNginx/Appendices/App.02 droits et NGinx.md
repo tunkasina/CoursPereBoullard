@@ -1,6 +1,6 @@
 ---
 title: "Appendice 2 : Droits et NGinx"
-parent: "TP Nginx"
+parent: "Appendices"
 nav_order: 22
 ---
 # Appendice 2 : Droits et NGinx

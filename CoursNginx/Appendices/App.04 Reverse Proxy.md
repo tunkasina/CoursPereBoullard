@@ -1,6 +1,6 @@
 ---
 title: "Appendice 4 : Reverse proxy, mode d'emploi"
-parent: "TP Nginx"
+parent: "Appendices"
 nav_order: 24
 ---
 # Appendice 4 : Reverse proxy, mode d'emploi

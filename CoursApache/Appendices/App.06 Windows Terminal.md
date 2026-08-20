@@ -1,6 +1,6 @@
 ---
 title: "Appendice 6: Windows Terminal"
-parent: "TP Apache"
+parent: "Appendices"
 nav_order: 26
 ---
 # Appendice 6: Windows Terminal

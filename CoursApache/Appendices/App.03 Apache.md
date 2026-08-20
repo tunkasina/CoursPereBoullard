@@ -1,6 +1,6 @@
 ---
 title: "Appendice 3: fonctionnement d'apache"
-parent: "TP Apache"
+parent: "Appendices"
 nav_order: 23
 ---
 # Appendice 3: fonctionnement d'apache

@@ -1,6 +1,6 @@
 ---
 title: "Appendice 3 : Les location blocks"
-parent: "TP Nginx"
+parent: "Appendices"
 nav_order: 23
 ---
 # Appendice 3 : Les location blocks

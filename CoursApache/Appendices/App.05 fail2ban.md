@@ -1,6 +1,6 @@
 ---
 title: "Appendice 5: fail2ban"
-parent: "TP Apache"
+parent: "Appendices"
 nav_order: 25
 ---
 # Appendice 5: fail2ban
